@@ -1,0 +1,133 @@
+package wom.view.screen.windows.alliance.coa.mobile
+{
+   import starling.display.DisplayObject;
+   import starling.display.Image;
+   import starling.display.Sprite;
+   import wom.model.game.alliance.coa.CoatOfArmsInfo;
+   import wom.model.resource.MobileWomAssetRepository;
+   
+   public class MobileCoatOfArmsView extends Sprite
+   {
+      
+      protected var assetRepository:MobileWomAssetRepository;
+      
+      protected var _patternB:Image;
+      
+      protected var _patternA:Image;
+      
+      protected var border:DisplayObject;
+      
+      protected var scale:Number;
+      
+      private var patternAColorCode:uint = 0;
+      
+      private var patternBColorCode:uint = 0;
+      
+      public function MobileCoatOfArmsView(param1:MobileWomAssetRepository)
+      {
+         super();
+         this.assetRepository = param1;
+         init();
+      }
+      
+      public function init() : void
+      {
+         initLayout();
+      }
+      
+      private function initLayout() : void
+      {
+         scale = 1;
+      }
+      
+      public function updateWithCoatOfArmsInfo(param1:CoatOfArmsInfo) : void
+      {
+         if(border != null && contains(border))
+         {
+            removeChild(border);
+         }
+         patternB = param1.patternId;
+         patternA = param1.patternId;
+         patternBColor = param1.patternColorB.color;
+         patternAColor = param1.patternColorA.color;
+         border = assetRepository.getDisplayObject(getBorderAsset());
+         addChild(border);
+      }
+      
+      protected function getBorderAsset() : String
+      {
+         return "DefaultArm";
+      }
+      
+      public function set patternAColor(param1:uint) : void
+      {
+         patternAColorCode = param1;
+         if(_patternA)
+         {
+            _patternA.color = param1;
+         }
+      }
+      
+      public function set patternBColor(param1:uint) : void
+      {
+         patternBColorCode = param1;
+         if(_patternB)
+         {
+            _patternB.color = param1;
+         }
+      }
+      
+      public function set patternA(param1:int) : void
+      {
+         if(_patternA != null && contains(_patternA))
+         {
+            removeChild(_patternA);
+         }
+         _patternA = assetRepository.getDisplayObject(getPatternAssetA(param1)) as Image;
+         if(_patternA)
+         {
+            patternAColor = patternAColorCode;
+            addChildAt(_patternA,1);
+            drawPatternALayout();
+         }
+      }
+      
+      protected function drawPatternALayout() : void
+      {
+         _patternA.x = 20 * scale;
+         _patternA.y = 20 * scale;
+      }
+      
+      protected function getPatternAssetA(param1:int) : String
+      {
+         return "ArmPattern" + param1;
+      }
+      
+      public function set patternB(param1:int) : void
+      {
+         if(_patternB != null && contains(_patternB))
+         {
+            removeChild(_patternB);
+         }
+         _patternB = assetRepository.getDisplayObject(getPatternAssetB(param1)) as Image;
+         if(_patternB)
+         {
+            patternBColor = patternBColorCode;
+            addChildAt(_patternB,0);
+            drawPatternBLayout();
+         }
+      }
+      
+      protected function drawPatternBLayout() : void
+      {
+         _patternB.x = 20 * scale;
+         _patternB.y = 20 * scale;
+      }
+      
+      protected function getPatternAssetB(param1:int) : String
+      {
+         return "ArmPatternBase";
+      }
+   }
+}
+

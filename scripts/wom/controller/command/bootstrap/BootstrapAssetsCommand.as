@@ -1,0 +1,231 @@
+package wom.controller.command.bootstrap
+{
+   import peak.resource.asset.core.BitmapAsset;
+   import peak.resource.asset.display.PreservingAssetPainter;
+   import peak.resource.asset.display.Scale9AssetPainter;
+   import peak.resource.asset.extended.FlippedBitmapAsset;
+   import peak.resource.asset.extended.MirroredBitmapAsset;
+   import peak.resource.asset.extended.ResizedBitmapAsset;
+   import peak.resource.asset.extended.SandwichBitmapAsset;
+   import peak.resource.asset.extended.Scale3BitmapAsset;
+   import peak.resource.asset.extended.TransparentAsset;
+   import wom.controller.PCommand;
+   import wom.model.resource.WomAssetRepository;
+   import wom.model.resource.asset.EndAttackButtonHoverSkin;
+   import wom.model.resource.asset.EndAttackButtonSkin;
+   import wom.model.resource.asset.MainframeCityWarButtonHoverSkin;
+   import wom.model.resource.asset.MainframeCityWarButtonSkin;
+   import wom.model.resource.asset.MainframeScoutWarButtonHoverSkin;
+   import wom.model.resource.asset.MainframeScoutWarButtonSkin;
+   import wom.model.resource.asset.MainframeVisitHomeButtonHoverSkin;
+   import wom.model.resource.asset.MainframeVisitHomeButtonSkin;
+   import wom.model.resource.asset.MainframeVisitWarDisabledSkin;
+   import wom.model.resource.asset.MapFilterArrowUnsorted;
+   import wom.model.resource.asset.QuickAttackButtonHoverSkin;
+   import wom.model.resource.asset.QuickAttackButtonSkin;
+   import wom.model.resource.asset.ResourceAddButtonHoverSkin;
+   import wom.model.resource.asset.ResourceAddButtonSkin;
+   import wom.model.resource.asset.SearchTextInputSkin;
+   
+   public class BootstrapAssetsCommand extends PCommand
+   {
+      
+      [Inject]
+      public var assetRepository:WomAssetRepository;
+      
+      public function BootstrapAssetsCommand()
+      {
+         super();
+      }
+      
+      override public function execute() : void
+      {
+         assetRepository.registerBitmapAsset("TransparentAsset",new TransparentAsset());
+         assetRepository.registerBitmapAsset("PanelTop",new MirroredBitmapAsset("PanelTopSide","Y",new Scale9AssetPainter(10,7,1,2)));
+         assetRepository.registerBitmapAsset("PanelBottom",new MirroredBitmapAsset("PanelBottomSide","Y",new Scale9AssetPainter(7,11,1,1)));
+         assetRepository.registerBitmapAsset("ExperienceProgressBarSkin",new SandwichBitmapAsset("ExperienceProgressBar"));
+         assetRepository.registerBitmapAsset("ChatBackgroundTopSide",new SandwichBitmapAsset("ChatBackgroundTopCorner"));
+         assetRepository.registerBitmapAsset("ChatBackground",new SandwichBitmapAsset("ChatBackgroundTopSide","X"));
+         assetRepository.registerBitmapAsset("ChatInputSkin",new SandwichBitmapAsset("ChatInput"));
+         assetRepository.registerBitmapAsset("ChatArrowDown",new FlippedBitmapAsset("ChatArrowUp","X"));
+         assetRepository.registerBitmapAsset("ChatArrowDownOver",new FlippedBitmapAsset("ChatArrowUpOver","X"));
+         assetRepository.registerBitmapAsset("Next",new FlippedBitmapAsset("Back"));
+         assetRepository.registerBitmapAsset("NextHover",new FlippedBitmapAsset("BackHover"));
+         assetRepository.registerBitmapAsset("Last",new FlippedBitmapAsset("First"));
+         assetRepository.registerBitmapAsset("LastHover",new FlippedBitmapAsset("FirstHover"));
+         assetRepository.registerBitmapAsset("SettingsBackgroundSide",new SandwichBitmapAsset("SettingsBackgroundCorner"));
+         assetRepository.registerBitmapAsset("SettingsBackground",new SandwichBitmapAsset("SettingsBackgroundSide","X"));
+         assetRepository.registerBitmapAsset("GoldBackground",new SandwichBitmapAsset("GoldBackgroundSide"));
+         assetRepository.registerBitmapAsset("WorkerBarBackground",new SandwichBitmapAsset("WorkerBarSide"));
+         assetRepository.registerBitmapAsset("UnderProtectionBackgroundScaled",new Scale3BitmapAsset("UnderProtectionBackgroundSide",10,"X"));
+         assetRepository.registerBitmapAsset("UnderProtectionBackground",new SandwichBitmapAsset("UnderProtectionBackgroundScaled"));
+         assetRepository.registerBitmapAsset("TimerBackground",new SandwichBitmapAsset("TimerBackgroundSide"));
+         assetRepository.registerBitmapAsset("VictoryMeterYellowBackgroundSide",new Scale3BitmapAsset("VictoryMeterYellowBackgroundCorner",1,"X"));
+         assetRepository.registerBitmapAsset("VictoryMeterYellowBackground",new Scale3BitmapAsset("VictoryMeterYellowBackgroundSide",7));
+         assetRepository.registerBitmapAsset("VictoryMeterYellowBackgroundCornerFlipped",new FlippedBitmapAsset("VictoryMeterYellowBackgroundCorner"));
+         assetRepository.registerBitmapAsset("VictoryMeterYellowBackgroundSideFlipped",new Scale3BitmapAsset("VictoryMeterYellowBackgroundCornerFlipped",1,"X"));
+         assetRepository.registerBitmapAsset("VictoryMeterYellowBackgroundFlipped",new Scale3BitmapAsset("VictoryMeterYellowBackgroundSideFlipped",1));
+         assetRepository.registerBitmapAsset("ChatTabItemLeftScale3",new Scale3BitmapAsset("ChatTabButtonSide",19,"X"));
+         assetRepository.registerBitmapAsset("ChatTabItem",new SandwichBitmapAsset("ChatTabItemLeftScale3"));
+         assetRepository.registerBitmapAsset("ChatTabItemSelectedLeftScale3",new Scale3BitmapAsset("ChatTabButtonSelectedSide",19,"X"));
+         assetRepository.registerBitmapAsset("ChatTabItemSelected",new SandwichBitmapAsset("ChatTabItemSelectedLeftScale3"));
+         assetRepository.registerBitmapAsset("MainframeVisitHomeButtonSkin",new MainframeVisitHomeButtonSkin());
+         assetRepository.registerBitmapAsset("MainframeVisitHomeButtonHoverSkin",new MainframeVisitHomeButtonHoverSkin());
+         assetRepository.registerBitmapAsset("MainframeCityWarButtonSkin",new MainframeCityWarButtonSkin());
+         assetRepository.registerBitmapAsset("MainframeCityWarButtonHoverSkin",new MainframeCityWarButtonHoverSkin());
+         assetRepository.registerBitmapAsset("MainframeScoutWarButtonSkin",new MainframeScoutWarButtonSkin());
+         assetRepository.registerBitmapAsset("MainframeScoutWarButtonHoverSkin",new MainframeScoutWarButtonHoverSkin());
+         assetRepository.registerBitmapAsset("MainframeVisitWarDisabledSkin",new MainframeVisitWarDisabledSkin());
+         assetRepository.registerBitmapAsset("EndAttackButtonSkin",new EndAttackButtonSkin());
+         assetRepository.registerBitmapAsset("EndAttackButtonHoverSkin",new EndAttackButtonHoverSkin());
+         assetRepository.registerBitmapAsset("ResourceAddButtonSkin",new ResourceAddButtonSkin());
+         assetRepository.registerBitmapAsset("ResourceAddButtonHoverSkin",new ResourceAddButtonHoverSkin());
+         assetRepository.registerBitmapAsset("GreenSquareButtonScaled",new Scale3BitmapAsset("GreenSquareButton",12));
+         assetRepository.registerBitmapAsset("MainFrameSide",new SandwichBitmapAsset("MainFrame"));
+         assetRepository.registerBitmapAsset("MapFilter",new SandwichBitmapAsset("MapFilterNoArrow"));
+         assetRepository.registerBitmapAsset("MapFilterArrowUnsorted",new MapFilterArrowUnsorted());
+         assetRepository.registerBitmapAsset("MapFilterSorted",new SandwichBitmapAsset("MapFilterDropdown"));
+         assetRepository.registerBitmapAsset("MainFrameBackground",new SandwichBitmapAsset("MainFrameSide","X"));
+         assetRepository.registerBitmapAsset("TabBox",new SandwichBitmapAsset("TabBoxSide"));
+         assetRepository.registerBitmapAsset("TabButtonSkin",new SandwichBitmapAsset("TabButton"));
+         assetRepository.registerBitmapAsset("TabButtonHoverSkin",new SandwichBitmapAsset("TabButtonHover"));
+         assetRepository.registerBitmapAsset("TabBackgroundSide",new SandwichBitmapAsset("TabBoxCorner"));
+         assetRepository.registerBitmapAsset("TabBackground",new SandwichBitmapAsset("TabBackgroundSide","X"));
+         assetRepository.registerBitmapAsset("TabBackground1Side",new SandwichBitmapAsset("TabBoxCorner1"));
+         assetRepository.registerBitmapAsset("TabBackground1",new SandwichBitmapAsset("TabBackground1Side","X"));
+         assetRepository.registerBitmapAsset("TextAreaSide",new SandwichBitmapAsset("TextArea"));
+         assetRepository.registerBitmapAsset("TextAreaSkin",new SandwichBitmapAsset("TextAreaSide","X"));
+         assetRepository.registerBitmapAsset("BackgroundBoxLightSide",new SandwichBitmapAsset("BackgroundBoxLight"));
+         assetRepository.registerBitmapAsset("BackgroundLight",new SandwichBitmapAsset("BackgroundBoxLightSide","X"));
+         assetRepository.registerBitmapAsset("BackgroundBoxDarkSide",new SandwichBitmapAsset("BackgroundBoxDark"));
+         assetRepository.registerBitmapAsset("BackgroundDark",new SandwichBitmapAsset("BackgroundBoxDarkSide","X"));
+         assetRepository.registerBitmapAsset("BackgroundBoxGreenSide",new SandwichBitmapAsset("BackgroundBoxGreen"));
+         assetRepository.registerBitmapAsset("BackgroundGreen",new SandwichBitmapAsset("BackgroundBoxGreenSide","X"));
+         assetRepository.registerBitmapAsset("AvatarBackgroundSkin",new BitmapAsset(assetRepository.getBitmapData("AvatarBackground"),new Scale9AssetPainter(11,11,2,2)));
+         assetRepository.registerBitmapAsset("AvatarBackgroundHoverSkin",new BitmapAsset(assetRepository.getBitmapData("AvatarBackgroundHover"),new Scale9AssetPainter(11,11,2,2)));
+         assetRepository.registerBitmapAsset("AvatarBackgroundSelectedSkin",new BitmapAsset(assetRepository.getBitmapData("AvatarBackgroundSelected"),new Scale9AssetPainter(11,11,2,2)));
+         assetRepository.registerBitmapAsset("TooltipBackgroundSkin",new BitmapAsset(assetRepository.getBitmapData("TooltipsBackground"),new Scale9AssetPainter(8,9,2,2)));
+         assetRepository.registerBitmapAsset("TooltipInnerBackgroundSide",new SandwichBitmapAsset("TooltipsInner"));
+         assetRepository.registerBitmapAsset("TooltipInnerBackground",new SandwichBitmapAsset("TooltipInnerBackgroundSide","X"));
+         assetRepository.registerBitmapAsset("IronProgressBarSkin",new Scale3BitmapAsset("IronProgressBar",2));
+         assetRepository.registerBitmapAsset("MightProgressBarSkin",new Scale3BitmapAsset("MightProgressBar",2));
+         assetRepository.registerBitmapAsset("LumberProgressBarSkin",new Scale3BitmapAsset("LumberProgressBar",2));
+         assetRepository.registerBitmapAsset("StoneProgressBarSkin",new Scale3BitmapAsset("StoneProgressBar",2));
+         assetRepository.registerBitmapAsset("ProgressBarFullSkin",new Scale3BitmapAsset("ProgressBarFull",2));
+         assetRepository.registerBitmapAsset("ChatPanelOpen",new Scale3BitmapAsset("ChatPanel",12,"X"));
+         registerColoredButtonAssets("Blue","Mini");
+         registerColoredButtonAssets("Blue","Small");
+         registerColoredButtonAssets("Blue","Medium");
+         registerColoredButtonAssets("Blue","Large");
+         registerColoredButtonAssets("Brown","Mini");
+         registerColoredButtonAssets("Brown","Small");
+         registerColoredButtonAssets("Brown","Medium");
+         registerColoredButtonAssets("Brown","Large");
+         registerColoredButtonAssets("Green","Mini");
+         registerColoredButtonAssets("Green","Small");
+         registerColoredButtonAssets("Green","Medium");
+         registerColoredButtonAssets("Green","Large");
+         registerColoredButtonAssets("Orange","Mini");
+         registerColoredButtonAssets("Orange","Small");
+         registerColoredButtonAssets("Orange","Medium");
+         registerColoredButtonAssets("Orange","Large");
+         registerColoredButtonAssets("Red","Mini");
+         registerColoredButtonAssets("Red","Small");
+         registerColoredButtonAssets("Red","Medium");
+         registerColoredButtonAssets("Red","Large");
+         assetRepository.registerBitmapAsset("HiringQuarterArrowRight",new FlippedBitmapAsset("HiringQuarterArrow","Y"));
+         assetRepository.registerBitmapAsset("SlideArrowLeft",new FlippedBitmapAsset("SlideArrow","Y"));
+         assetRepository.registerBitmapAsset("SlideArrowLeftOver",new FlippedBitmapAsset("SlideArrowOver","Y"));
+         assetRepository.registerBitmapAsset("ArrowChangeCharacterLeft",new FlippedBitmapAsset("ArrowChangeCharacter","Y"));
+         assetRepository.registerBitmapAsset("ArrowChangeCharacterLeftOver",new FlippedBitmapAsset("ArrowChangeCharacterOver","Y"));
+         assetRepository.registerBitmapAsset("RecruitmentChamberProgressBarSkin",new SandwichBitmapAsset("RecruitmentChambe2ProgressBarInside"));
+         assetRepository.registerBitmapAsset("RecruitmentChamberProgressBarTrackSkin",new SandwichBitmapAsset("RecruitmentChamber2ProgressBar"));
+         assetRepository.registerBitmapAsset("RecruitmentChamberLockBarBackground",new SandwichBitmapAsset("RecruitmentChamber1LockBar"));
+         assetRepository.registerBitmapAsset("RecruitmentChamberLockBarOverBackground",new SandwichBitmapAsset("RecruitmentChamber1LockBarOver"));
+         assetRepository.registerBitmapAsset("RecruitmentChamberSelectedBackground",new SandwichBitmapAsset("RecruitmentChamberSelected"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1LockedHoverBackground",new SandwichBitmapAsset("RecruitmentChamber1LockedHover"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1LockedNormalBackground",new SandwichBitmapAsset("RecruitmentChamber1LockedNormal"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1LockedSelectedBackground",new SandwichBitmapAsset("RecruitmentChamber1LockedSelected"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockedHoverBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockedHover"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockedNormalBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockedNormal"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockedSelectedBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockedSelected"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockingHoverBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockingHover"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockingNormalBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockingNormal"));
+         assetRepository.registerBitmapAsset("RecruitmentChamber1UnLockingSelectedBackground",new SandwichBitmapAsset("RecruitmentChamber1UnLockingSelected"));
+         assetRepository.registerBitmapAsset("CentralHiringBigProgressBarSkin",new SandwichBitmapAsset("CentralHiringBigProgressBarInside"));
+         assetRepository.registerBitmapAsset("CentralHiringBigProgressBarTrackSkin",new SandwichBitmapAsset("CentralHiringBigProgressBar"));
+         assetRepository.registerBitmapAsset("ProgressBar15Skin",new SandwichBitmapAsset("ProgressBar15Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar15TrackSkin",new SandwichBitmapAsset("ProgressBar15"));
+         assetRepository.registerBitmapAsset("ProgressBar19Skin",new SandwichBitmapAsset("ProgressBar19Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar19TrackSkin",new SandwichBitmapAsset("ProgressBar19"));
+         assetRepository.registerBitmapAsset("ProgressBar26Skin",new SandwichBitmapAsset("ProgressBar26Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar26TrackSkin",new SandwichBitmapAsset("ProgressBar26"));
+         assetRepository.registerBitmapAsset("ProgressBar30Skin",new SandwichBitmapAsset("ProgressBar30Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar30TrackSkin",new SandwichBitmapAsset("ProgressBar30"));
+         assetRepository.registerBitmapAsset("ProgressBar36Skin",new SandwichBitmapAsset("ProgressBar36Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar36TrackSkin",new SandwichBitmapAsset("ProgressBar36"));
+         assetRepository.registerBitmapAsset("ProgressBar65Skin",new SandwichBitmapAsset("ProgressBar65Inside"));
+         assetRepository.registerBitmapAsset("ProgressBar65TrackSkin",new SandwichBitmapAsset("ProgressBar65"));
+         assetRepository.registerBitmapAsset("QuestPreviewYellowBackground",new BitmapAsset(assetRepository.getBitmapData("MainQuestPreviewYellow"),new PreservingAssetPainter(24,18,29,10,1,1,10,1)));
+         assetRepository.registerBitmapAsset("QuestPanelProgressLine",new Scale3BitmapAsset("QuestPanelLine",5));
+         assetRepository.registerBitmapAsset("QuestTooltipYellowBackground",new Scale3BitmapAsset("QuestTooltipYellow",28));
+         assetRepository.registerBitmapAsset("NumberBackground",new BitmapAsset(assetRepository.getBitmapData("NumberBackground"),new Scale9AssetPainter(11,11,4,4)));
+         assetRepository.registerBitmapAsset("GoldSmall",new ResizedBitmapAsset("Gold",24,25));
+         assetRepository.registerBitmapAsset("SettingsSmall",new ResizedBitmapAsset("Settings",30,31));
+         assetRepository.registerBitmapAsset("SpeechBubble",new BitmapAsset(assetRepository.getBitmapData("SpeechBubble"),new Scale9AssetPainter(40,48,1,1)));
+         assetRepository.registerBitmapAsset("SpeechBubbleFlipped",new FlippedBitmapAsset("SpeechBubble","Y"));
+         assetRepository.registerBitmapAsset("SpeechBubbleFlippedScaled",new BitmapAsset(assetRepository.getBitmapData("SpeechBubbleFlipped"),new Scale9AssetPainter(22,8,1,1)));
+         assetRepository.registerBitmapAsset("ScrollBarThumb",new Scale3BitmapAsset("ScrollInside",6,"X"));
+         assetRepository.registerBitmapAsset("ScrollUpButtonOver",new FlippedBitmapAsset("ScrollButtonOver","X"));
+         assetRepository.registerBitmapAsset("ScrollUpButtonNormal",new FlippedBitmapAsset("ScrollButtonNormal","X"));
+         assetRepository.registerBitmapAsset("ScrollBarTrack",new Scale3BitmapAsset("ScrollSkeleton",8,"X"));
+         assetRepository.registerBitmapAsset("CloseSmallNormalAvatarScaled",new ResizedBitmapAsset("CloseSmallNormalAvatar",20,20));
+         assetRepository.registerBitmapAsset("CloseSmallOverAvatarScaled",new ResizedBitmapAsset("CloseSmallOverAvatar",20,20));
+         assetRepository.registerBitmapAsset("InviteFriendsAPIVisualWhiteBackroundSide",new SandwichBitmapAsset("InviteFriendsAPIVisualWhiteBackround"));
+         assetRepository.registerBitmapAsset("BackgroundWhite",new SandwichBitmapAsset("InviteFriendsAPIVisualWhiteBackroundSide","X"));
+         assetRepository.registerBitmapAsset("BackgroundQuickAttackScaled",new Scale3BitmapAsset("BackgroundQuickAttack",10));
+         assetRepository.registerBitmapAsset("Map1VisualMenu2Scaled",new BitmapAsset(assetRepository.getBitmapData("Map1VisualMenu2"),new Scale9AssetPainter(30,42,1,1)));
+         assetRepository.registerBitmapAsset("Map1VisualMenu3Scaled",new BitmapAsset(assetRepository.getBitmapData("Map1VisualMenu3"),new Scale9AssetPainter(30,42,1,1)));
+         assetRepository.registerBitmapAsset("Map1VisualMenu4Scaled",new BitmapAsset(assetRepository.getBitmapData("Map1VisualMenu4"),new Scale9AssetPainter(30,42,1,1)));
+         assetRepository.registerBitmapAsset("QuestLeftBackgroundSmall",new ResizedBitmapAsset("QuestLeftBackground",23,35));
+         assetRepository.registerBitmapAsset("QuestRightBackgroundSmall",new MirroredBitmapAsset("QuestLeftBackgroundSmall","Y"));
+         assetRepository.registerBitmapAsset("SearchTextInputSkin",new SearchTextInputSkin());
+         assetRepository.registerBitmapAsset("SearchTextInputSkinNoIcon",new SearchTextInputSkin(false));
+         assetRepository.registerBitmapAsset("DefenceViewBarSkin",new SandwichBitmapAsset("DefenceViewBar"));
+         assetRepository.registerBitmapAsset("DefenceViewLineSkin",new SandwichBitmapAsset("DefenceViewLine"));
+         assetRepository.registerBitmapAsset("WarIconScaled",new ResizedBitmapAsset("WarIcon",58,58));
+         assetRepository.registerBitmapAsset("WarIconHoverScaled",new ResizedBitmapAsset("WarIconHover",61,61));
+         assetRepository.registerBitmapAsset("EventPointIconSmall",new ResizedBitmapAsset("EventPointIcon",31,25));
+         assetRepository.registerBitmapAsset("EventBigProgressBarBase",new SandwichBitmapAsset("EventBigProgressBarBaseLeft"));
+         assetRepository.registerBitmapAsset("EventBigProgressBarLine",new SandwichBitmapAsset("EventBigProgressBarLineLeft"));
+         assetRepository.registerBitmapAsset("EventItemBackground1Side",new SandwichBitmapAsset("EventItemBackground1Corner"));
+         assetRepository.registerBitmapAsset("EventItemBackground1",new SandwichBitmapAsset("EventItemBackground1Side","X"));
+         assetRepository.registerBitmapAsset("EventItemBackground2Side",new SandwichBitmapAsset("EventItemBackground2Corner"));
+         assetRepository.registerBitmapAsset("EventItemBackground2",new SandwichBitmapAsset("EventItemBackground2Side","X"));
+         assetRepository.registerBitmapAsset("EventItemBackground3Side",new SandwichBitmapAsset("EventItemBackground3Corner"));
+         assetRepository.registerBitmapAsset("EventItemBackground3",new SandwichBitmapAsset("EventItemBackground3Side","X"));
+         assetRepository.registerBitmapAsset("CityPlannerBuildingNameBackground",new SandwichBitmapAsset("CityPlannerBuildingNameBackgroundSide"));
+         assetRepository.registerBitmapAsset("QuickAttackButtonSkin",new QuickAttackButtonSkin());
+         assetRepository.registerBitmapAsset("QuickAttackButtonHoverSkin",new QuickAttackButtonHoverSkin());
+         assetRepository.registerBitmapAsset("TutorialPose1Flipped",new FlippedBitmapAsset("TutorialPose1","Y"));
+         assetRepository.registerBitmapAsset("TutorialPose2Flipped",new FlippedBitmapAsset("TutorialPose2","Y"));
+         assetRepository.registerBitmapAsset("TutorialPose3Flipped",new FlippedBitmapAsset("TutorialPose3","Y"));
+         assetRepository.registerBitmapAsset("TutorialPose6Flipped",new FlippedBitmapAsset("TutorialPose6","Y"));
+         assetRepository.registerBitmapAsset("TutorialPose7Flipped",new FlippedBitmapAsset("TutorialPose7","Y"));
+         assetRepository.registerBitmapAsset("TutorialPose8Flipped",new FlippedBitmapAsset("TutorialPose8","Y"));
+         assetRepository.registerBitmapAsset("ScoreBackground",new SandwichBitmapAsset("ScoreBack"));
+         assetRepository.registerBitmapAsset("ColorMenuFrame",new SandwichBitmapAsset("ColorMenuFrameLeft"));
+         assetRepository.registerBitmapAsset("ComboBoxSkin",new Scale3BitmapAsset("Combobox",17));
+         assetRepository.registerBitmapAsset("ReinforceProgressBarSkin",new Scale3BitmapAsset("ExperienceBar",20));
+         assetRepository.registerBitmapAsset("ReinforceProgressBarTrackSkin",new Scale3BitmapAsset("ReinforceButtonProgressBar",4));
+      }
+      
+      private function registerColoredButtonAssets(param1:String, param2:String) : void
+      {
+         assetRepository.registerBitmapAsset("Wom" + param1 + param2 + "ButtonSkin",new SandwichBitmapAsset(param1 + "Button" + param2));
+         assetRepository.registerBitmapAsset("Wom" + param1 + param2 + "ButtonOverSkin",new SandwichBitmapAsset(param1 + "Button" + param2 + "Over"));
+         assetRepository.registerBitmapAsset("Wom" + param1 + param2 + "ButtonSelectedSkin",new SandwichBitmapAsset(param1 + "Button" + param2 + "Selected"));
+      }
+   }
+}
+

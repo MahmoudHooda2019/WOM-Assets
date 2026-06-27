@@ -1,0 +1,5713 @@
+{
+    "resources":[
+        {
+            "id":1,
+            "name":"Lumber"
+        },
+        {
+            "id":2,
+            "name":"Stone"
+        },
+        {
+            "id":3,
+            "name":"Might"
+        },
+        {
+            "id":4,
+            "name":"Iron"
+        }
+    ],
+    "decorations":[
+        {
+            "id":100,
+            "name":"AbandonedWagon",
+            "kind":"decoration",
+            "buying_gold_price":30,
+            "selling_rp_price":12,
+            "base_size":8
+        },
+        {
+            "id":101,
+            "name":"AxeAndBlock",
+            "kind":"decoration",
+            "buying_gold_price":10,
+            "selling_rp_price":4,
+            "base_size":4
+        },
+        {
+            "id":102,
+            "name":"Barrel",
+            "kind":"decoration",
+            "buying_gold_price":10,
+            "selling_rp_price":4,
+            "base_size":4
+        },
+        {
+            "id":103,
+            "name":"BlueFlowers",
+            "kind":"decoration",
+            "buying_rp_price":50,
+            "selling_rp_price":5,
+            "base_size":4
+        },
+        {
+            "id":104,
+            "name":"Coffin",
+            "kind":"decoration",
+            "buying_gold_price":35,
+            "selling_rp_price":15,
+            "base_size":8
+        },
+        {
+            "id":105,
+            "name":"DeadCrow",
+            "kind":"decoration",
+            "buying_gold_price":25,
+            "selling_rp_price":10,
+            "base_size":4
+        },
+        {
+            "id":106,
+            "name":"FarmersFork",
+            "kind":"decoration",
+            "buying_rp_price":50,
+            "selling_rp_price":5,
+            "base_size":4
+        },
+        {
+            "id":107,
+            "name":"Haybale",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":4
+        },
+        {
+            "id":108,
+            "name":"RedFlowers",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":4,
+            "base_size":4
+        },
+        {
+            "id":109,
+            "name":"Thorns",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":4
+        },
+        {
+            "id":110,
+            "name":"Tombstone",
+            "kind":"decoration",
+            "buying_gold_price":35,
+            "selling_rp_price":15,
+            "base_size":4
+        },
+        {
+            "id":111,
+            "name":"Woodencart",
+            "kind":"decoration",
+            "buying_gold_price":20,
+            "selling_rp_price":8,
+            "base_size":4
+        },
+        {
+            "id":112,
+            "name":"Woodenpile",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":4
+        },
+        {
+            "id":113,
+            "name":"Letter",
+            "kind":"decoration",
+            "buying_gold_price":20,
+            "selling_rp_price":8,
+            "base_size":4,
+            "sub_types":["A", "B", "C", "CS", "D", "E", "F", "G", "GS", "H", "I", "IS", "J", "K", "L", "M", "N", "O", "OS", "P", "Q", "R", "S", "SS", "T", "U", "US", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        },
+        {
+            "id":114,
+            "name":"Flag",
+            "kind":"decoration",
+            "buying_gold_price":150,
+            "selling_rp_price":60,
+            "base_size":4,
+            "sub_types":["Algeria", "ARG", "AUS", "Bahrain", "BEL", "BRA", "CAN", "DEN", "EGY", "Emirates", "ENG", "ESP", "FIN", "FRA", "GAL", "GER", "HKG", "INA", "IND", "Iraq", "IRL", "ITA", "Jordan", "KSA", "Kuwait", "Libya", "MAS", "MEX", "Morocco", "NED", "NOR", "Qatar", "Palestine", "PHI", "PIRATE", "POL", "POR", "RUS", "SCO", "SIN", "SRB", "SWE", "Tunis", "TUR", "WOM", "USA"]
+        },
+        {
+            "id":115,
+            "name":"FlagAlliance",
+            "kind":"decoration",
+            "buying_gold_price":150,
+            "selling_rp_price":60,
+            "base_size":4
+        },
+        {
+            "id":116,
+            "name":"Lantern",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":4
+        },
+        {
+            "id":117,
+            "name":"RamadanCannon",
+            "kind":"decoration",
+            "buying_gold_price":50,
+            "selling_rp_price":20,
+            "base_size":6
+        },
+        {
+            "id":118,
+            "name":"RamadanDrum",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":6
+        },
+        {
+            "id":119,
+            "name":"Lamb",
+            "kind":"decoration",
+            "buying_gold_price":50,
+            "selling_rp_price":20,
+            "base_size":8
+        },
+        {
+            "id":120,
+            "name":"Pumpkin",
+            "kind":"decoration",
+            "buying_gold_price":50,
+            "selling_rp_price":20,
+            "base_size":8
+        },
+        {
+            "id":121,
+            "name":"Scarecrow",
+            "kind":"decoration",
+            "buying_gold_price":15,
+            "selling_rp_price":6,
+            "base_size":4
+        },
+        {
+            "id":122,
+            "name":"Golden Statue",
+            "kind":"decoration",
+            "buying_gold_price":0,
+            "selling_rp_price":0,
+            "base_size":8,
+            "recyclable":false
+        },
+        {
+            "id":123,
+            "name":"Silver Statue",
+            "kind":"decoration",
+            "buying_gold_price":0,
+            "selling_rp_price":0,
+            "base_size":8,
+            "recyclable":false
+        },
+        {
+            "id":124,
+            "name":"Bronze Statue",
+            "kind":"decoration",
+            "buying_gold_price":0,
+            "selling_rp_price":0,
+            "base_size":8,
+            "recyclable":false
+        }
+    ],
+    "parts":[
+        {
+            "id":10,
+            "name":"Wooden Plank",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":20
+        },
+        {
+            "id":11,
+            "name":"Iron Bar",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":20
+        },
+        {
+            "id":12,
+            "name":"Toothed Wheel",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":20
+        },
+        {
+            "id":13,
+            "name":"Nail",
+            "selling_resource_type":"Might",
+            "buying_gold_price":20,
+            "buying_rp_price":80
+        },
+        {
+            "id":14,
+            "name":"Grinding Stone",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":20
+        },
+        {
+            "id":15,
+            "name":"Screw",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":20
+        },
+        {
+            "id":16,
+            "name":"Tube",
+            "selling_resource_type":"Might",
+            "buying_gold_price":20
+        },
+        {
+            "id":17,
+            "name":"Shaft Gear",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":20,
+            "buying_rp_price":80
+        },
+        {
+            "id":18,
+            "name":"Magnet",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":20
+        },
+        {
+            "id":19,
+            "name":"Lightning Rod",
+            "selling_resource_type":"Might",
+            "buying_gold_price":20
+        },
+        {
+            "id":20,
+            "name":"Bronze Coils",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":20
+        },
+        {
+            "id":21,
+            "name":"Wire",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":20,
+            "buying_rp_price":80
+        },
+        {
+            "id":22,
+            "name":"Brick Tile",
+            "selling_resource_type":"Might",
+            "buying_gold_price":20
+        },
+        {
+            "id":23,
+            "name":"Cloth",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":20
+        },
+        {
+            "id":24,
+            "name":"Paint",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":20
+        },
+        {
+            "id":25,
+            "name":"Hammer",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":20,
+            "buying_rp_price":80
+        },
+        {
+            "id":26,
+            "name":"Clay Tile",
+            "selling_resource_type":"Might",
+            "buying_gold_price":20
+        },
+        {
+            "id":27,
+            "name":"Stone Block",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":20
+        },
+        {
+            "id":28,
+            "name":"Pin",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":20
+        },
+        {
+            "id":29,
+            "name":"Spud",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":20,
+            "buying_rp_price":80
+        },
+        {
+            "id":30,
+            "name":"Safety Hat",
+            "selling_resource_type":"Iron",
+            "buying_gold_price":30
+        },
+        {
+            "id":31,
+            "name":"Shovel",
+            "selling_resource_type":"Stone",
+            "buying_gold_price":30
+        },
+        {
+            "id":32,
+            "name":"Rope",
+            "selling_resource_type":"Might",
+            "buying_gold_price":30
+        },
+        {
+            "id":33,
+            "name":"Tools",
+            "selling_resource_type":"Lumber",
+            "buying_gold_price":30,
+            "buying_rp_price":120
+        }
+    ],
+    "staffs":[
+        {
+            "id":1,
+            "name":"Tools Keeper"
+        },
+        {
+            "id":2,
+            "name":"Engineer"
+        },
+        {
+            "id":3,
+            "name":"Architect"
+        },
+        {
+            "id":4,
+            "name":"Overseer"
+        }
+    ],
+    "building_kinds":[
+        {
+            "id":10,
+            "name":"main_building"
+        },
+        {
+            "id":11,
+            "name":"resource_producer"
+        },
+        {
+            "id":12,
+            "name":"resource_storage"
+        },
+        {
+            "id":13,
+            "name":"unit_recruiter"
+        },
+        {
+            "id":14,
+            "name":"unit_barracks"
+        },
+        {
+            "id":15,
+            "name":"hiring_building"
+        },
+        {
+            "id":16,
+            "name":"training_building"
+        },
+        {
+            "id":17,
+            "name":"central_hiring_building"
+        },
+        {
+            "id":18,
+            "name":"beast_cave"
+        },
+        {
+            "id":19,
+            "name":"beast_keeper"
+        },
+        {
+            "id":20,
+            "name":"executional_guillotine"
+        },
+        {
+            "id":21,
+            "name":"watch_post"
+        },
+        {
+            "id":24,
+            "name":"catapult"
+        },
+        {
+            "id":25,
+            "name":"tusk_horn"
+        },
+        {
+            "id":26,
+            "name":"wall"
+        },
+        {
+            "id":27,
+            "name":"pigeon_post"
+        },
+        {
+            "id":28,
+            "name":"defensive_building"
+        },
+        {
+            "id":29,
+            "name":"city_planner"
+        },
+        {
+            "id":30,
+            "name":"house_of_brotherhood"
+        },
+        {
+            "id":31,
+            "name":"decoration"
+        },
+        {
+            "id":32,
+            "name":"alliance_barracks"
+        },
+        {
+            "id":33,
+            "name":"blacksmith"
+        },
+        {
+            "id":34,
+            "name":"friend_watch_post"
+        }
+    ],
+    "buildings":[
+        {
+            "id":10,
+            "name":"City Center",
+            "kind":"main_building",
+            "base_size":32,
+            "max_levels":10,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[0, 7000, 40000, 240000, 1400000, 7560000, 11340000, 14420000, 18000000, 22500000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[0, 7000, 40000, 240000, 1400000, 7560000, 11340000, 14420000, 18000000, 22500000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[10, 480, 21600, 82814, 259200, 516600, 777600, 1035000, 1380600, 1552000],
+            "health_points_per_level":[4000, 8800, 20000, 100000, 150000, 200000, 350000, 400000, 500000, 525000],
+            "repair_durations_per_level_in_secs":[118, 258, 558, 2941, 3600, 3600, 3600, 3600, 3600, 3600],
+            "max_instances":1,
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[500000, 1000000, 5000000, 10000000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[100000, 1000000, 5000000, 10000000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[50000, 500000, 2000000, 5000000]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[14400, 57600, 172800, 345600],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "path_margin":1,
+            "recyclable":false,
+            "resource_storage_capacity":10000,
+            "staff_prerequisites_per_level":[
+                [],
+                [],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"],
+                ["Tools Keeper", "Engineer", "Architect", "Overseer"]
+            ],
+            "staff_time_reductions_per_level":[
+                [],
+                [],
+                [720, 1440, 2160, 2880],
+                [3600, 5400, 9000, 10800],
+                [9000, 18000, 25200, 34200],
+                [18000, 34200, 50400, 68400],
+                [25200, 50400, 79200, 104400],
+                [34200, 68400, 104400, 136800],
+                [34200, 68400, 104400, 136800],
+                [34200, 68400, 104400, 136800]
+            ],
+            "gold_cost_per_staff":10,
+            "gold_production_amount":1,
+            "gold_production_periods_in_hours":[3, 2.9, 2.8, 2.7, 2.6, 2.5, 2.3, 2.1, 2.0, 1.8],
+            "gold_capacity":4,
+            "small_resource_gift_amounts_per_level":[110, 370, 1410, 6150, 13440, 18900, 21900, 24320, 27000, 27000],
+            "large_resource_gift_amounts_per_level":[330, 1110, 4230, 18450, 40320, 56700, 65700, 72960, 81000, 81000],
+            "huge_resource_gift_amounts_per_level":[440, 1480, 5640, 24600, 53760, 75600, 87600, 97280, 108000, 108000]
+        },
+        {
+            "id":11,
+            "name":"Lumber Blade",
+            "kind":"resource_producer",
+            "base_size":14,
+            "max_levels":13,
+            "resource_costs":[
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[750, 1575, 3300, 6950, 14500, 30600, 64300, 135000, 283600, 600000, 1200000, 2400000, 3600000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[15, 300, 1200, 3600, 7200, 18000, 43200, 86400, 172800, 259200, 302400, 345600, 388800],
+            "health_points_per_level":[500, 950, 1800, 3400, 6500, 12000, 24000, 45000, 85000, 165000, 167500, 170000, 175000],
+            "repair_durations_per_level_in_secs":[30, 60, 120, 240, 480, 960, 1920, 3600, 3600, 3600, 3600, 3600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Wooden Plank",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Iron Bar",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Toothed Wheel",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Nail",
+                    "amounts_per_instance":[0, 0, 1, 1, 2, 3]
+                }
+            ],
+            "produced_resource":"Lumber",
+            "production_amounts_per_hour_per_level":[720, 1440, 2520, 3960, 5760, 7920, 10440, 13320, 16560, 20160, 30240, 45360, 60480],
+            "storage_capacities_per_level":[720, 2160, 5670, 13365, 29160, 60142, 118918, 227584, 424414, 775018, 775018, 775018, 775018]
+        },
+        {
+            "id":12,
+            "name":"Stone Grinder",
+            "kind":"resource_producer",
+            "base_size":14,
+            "max_levels":13,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[750, 1575, 3300, 6950, 14500, 30600, 64300, 135000, 283600, 600000, 1200000, 2400000, 3600000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[15, 300, 1200, 3600, 7200, 18000, 43200, 86400, 172800, 259200, 302400, 345600, 388800],
+            "health_points_per_level":[500, 950, 1800, 3400, 6500, 12000, 24000, 45000, 85000, 165000, 167500, 170000, 175000],
+            "repair_durations_per_level_in_secs":[30, 60, 120, 240, 480, 960, 1920, 3600, 3600, 3600, 3600, 3600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Grinding Stone",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Screw",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Tube",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Shaft Gear",
+                    "amounts_per_instance":[0, 0, 1, 1, 2, 3]
+                }
+            ],
+            "produced_resource":"Stone",
+            "production_amounts_per_hour_per_level":[720, 1440, 2520, 3960, 5760, 7920, 10440, 13320, 16560, 20160, 30240, 45360, 60480],
+            "storage_capacities_per_level":[720, 2160, 5670, 13365, 29160, 60142, 118918, 227584, 424414, 775018, 775018, 775018, 775018]
+        },
+        {
+            "id":13,
+            "name":"Statue of Might",
+            "kind":"resource_producer",
+            "base_size":14,
+            "max_levels":13,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[525, 1102, 2315, 4862, 10210, 21441, 45027, 94557, 198570, 416997, 875693, 1838955, 3861806]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[224, 470, 992, 2086, 4375, 9160, 19298, 40525, 85102, 178716, 375303, 788136, 1655086]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[15, 300, 1200, 3600, 7200, 18000, 43200, 86400, 172800, 259200, 302400, 345600, 388800],
+            "health_points_per_level":[500, 950, 1800, 3400, 6500, 12000, 24000, 45000, 85000, 165000, 167500, 170000, 175000],
+            "repair_durations_per_level_in_secs":[30, 60, 120, 240, 480, 960, 1920, 3600, 3600, 3600, 3600, 3600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Magnet",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Lightning Rod",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Bronze Coils",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Wire",
+                    "amounts_per_instance":[0, 0, 1, 1, 2, 3]
+                }
+            ],
+            "produced_resource":"Might",
+            "production_amounts_per_hour_per_level":[720, 1440, 2520, 3960, 5760, 7920, 10440, 13320, 16560, 20160, 30240, 45360, 60480],
+            "storage_capacities_per_level":[720, 2160, 5670, 13365, 29160, 60142, 118918, 227584, 424414, 775018, 775018, 775018, 775018]
+        },
+        {
+            "id":14,
+            "name":"Iron Smelter",
+            "kind":"resource_producer",
+            "base_size":14,
+            "max_levels":13,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[247, 520, 1090, 2290, 4810, 10107, 21227, 44580, 93600, 196584, 412826, 866935, 1820564]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[577, 1212, 2546, 5348, 11231, 23584, 49529, 104012, 218427, 458696, 963261, 2022849, 4247983]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[15, 300, 1200, 3600, 7200, 18000, 43200, 86400, 172800, 259200, 302400, 345600, 388800],
+            "health_points_per_level":[500, 950, 1800, 3400, 6500, 12000, 24000, 45000, 85000, 165000, 167500, 170000, 175000],
+            "repair_durations_per_level_in_secs":[30, 60, 120, 240, 480, 960, 1920, 3600, 3600, 3600, 3600, 3600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Brick Tile",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Cloth",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Paint",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Hammer",
+                    "amounts_per_instance":[0, 0, 1, 1, 2, 3]
+                }
+            ],
+            "produced_resource":"Iron",
+            "production_amounts_per_hour_per_level":[720, 1440, 2520, 3960, 5760, 7920, 10440, 13320, 16560, 20160, 30240, 45360, 60480],
+            "storage_capacities_per_level":[720, 2160, 5670, 13365, 29160, 60142, 118918, 227584, 424414, 775018, 775018, 775018, 775018]
+        },
+        {
+            "id":15,
+            "name":"Stock Pile",
+            "kind":"resource_storage",
+            "base_size":16,
+            "max_levels":10,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2000, 7421, 14843, 29687, 59375, 118750, 237500, 475000, 950000, 1900000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[1855, 3710, 7421, 14843, 29687, 59375, 118750, 237500, 475000, 950000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[600, 1800, 2700, 4080, 6480, 9060, 13620, 20460, 30720, 46080],
+            "health_points_per_level":[750, 1400, 2550, 4750, 8800, 16250, 30000, 55600, 105000, 190000],
+            "repair_durations_per_level_in_secs":[45, 90, 180, 360, 720, 1440, 2880, 3600, 3600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    },
+                    {
+                        "building":"Lumber Blade",
+                        "level":1
+                    },
+                    {
+                        "building":"Stone Grinder",
+                        "level":1
+                    },
+                    {
+                        "building":"Statue of Might",
+                        "level":1
+                    },
+                    {
+                        "building":"Iron Smelter",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Clay Tile",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Stone Block",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Pin",
+                    "amounts_per_instance":[0, 0, 1, 2, 3, 4]
+                },
+                {
+                    "part":"Spud",
+                    "amounts_per_instance":[0, 0, 1, 1, 2, 3]
+                }
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[59375, 118750, 637500, 1475000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[29687, 59375, 518750, 1237500]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[60720, 91080, 134280, 205020],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "storage_capacities_per_level":[7500, 15000, 30000, 60000, 120000, 240000, 480000, 960000, 1920000, 3840000]
+        },
+        {
+            "id":17,
+            "name":"Recruitment Chamber",
+            "kind":"unit_recruiter",
+            "base_size":20,
+            "max_levels":4,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[1800, 28800, 115200, 460800]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2300, 18400, 147200, 588800]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[300, 18000, 72000, 129600],
+            "health_points_per_level":[4000, 16000, 32000, 64000],
+            "repair_durations_per_level_in_secs":[480, 1920, 3600, 7330],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "path_margin":4
+        },
+        {
+            "id":18,
+            "name":"Training Chamber",
+            "kind":"training_building",
+            "base_size":20,
+            "max_levels":5,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[100000, 250000, 400000, 600000, 900000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[100000, 250000, 400000, 600000, 900000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[10800, 21600, 43200, 86400, 86400],
+            "health_points_per_level":[6000, 10000, 14000, 20000, 30000],
+            "repair_durations_per_level_in_secs":[1800, 3600, 3600, 3600, 3600 ],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ]
+            ],
+            "max_instances":2,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ]
+        },
+        {
+            "id":19,
+            "name":"Mercenary Barracks",
+            "kind":"unit_barracks",
+            "base_size":26,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2160, 8640, 34560, 138240, 552960, 2211840]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2160, 8640, 34560, 138240, 552960, 2211840]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[300, 4500, 10800, 28800, 72000, 144000],
+            "health_points_per_level":[4000, 14000, 25000, 43000, 75000, 130000],
+            "repair_durations_per_level_in_secs":[100, 200, 300, 400, 500, 600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ]
+            ],
+            "max_instances":4,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ]
+            ],
+            "combine_building":true,
+            "coordinates":{
+                "edge_space":3,
+                "garden_space":20,
+                "building_space":6,
+                "gate_coord":{
+                    "x":9,
+                    "y":6
+                }
+            },
+            "path_margin":2,
+            "mercenary_capacities_per_level":[200, 260, 320, 380, 450, 540]
+        },
+        {
+            "id":20,
+            "name":"Hiring Quarters",
+            "kind":"hiring_building",
+            "base_size":20,
+            "max_levels":3,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2000, 21227, 93600]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2000, 49529, 218427]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[900, 3600, 43200],
+            "health_points_per_level":[4000, 16000, 32000],
+            "repair_durations_per_level_in_secs":[60, 150, 300],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ]
+            ],
+            "max_instances":5,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "queue_slot":[2, 3, 4]
+        },
+        {
+            "id":21,
+            "name":"Central Hiring",
+            "kind":"central_hiring_building",
+            "base_size":20,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[4000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[4000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[4000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[12800],
+            "health_points_per_level":[90000],
+            "repair_durations_per_level_in_secs":[300],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    },
+                    {
+                        "building":"Hiring Quarters",
+                        "level":2,
+                        "count":3
+                    }
+                ]
+            ],
+            "max_instances":1
+        },
+        {
+            "id":23,
+            "name":"Catapult",
+            "kind":"catapult",
+            "base_size":18,
+            "max_levels":3,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[75000, 128600, 257200]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[75000, 128600, 257200]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[75000, 128600, 257200]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[5400, 10800, 21600, 43200],
+            "health_points_per_level":[4000, 8000, 16000, 32000],
+            "repair_durations_per_level_in_secs":[117, 235, 470, 940],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "max_instances":1
+        },
+        {
+            "id":25,
+            "name":"Tusk Horn",
+            "kind":"tusk_horn",
+            "base_size":16,
+            "max_levels":7,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[25000, 1000000, 2000000, 4000000, 6000000, 10000000, 16000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[25000, 1000000, 2000000, 4000000, 6000000, 10000000, 16000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[15000, 500000, 1000000, 2000000, 4000000, 6000000, 10000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[18000, 36000, 72000, 144000, 288000, 576000, 1152000],
+            "health_points_per_level":[1000, 1500, 2250, 3375, 5000, 7500, 12000],
+            "repair_durations_per_level_in_secs":[120, 240, 450, 960, 1665, 2468, 3960],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    },
+                    {
+                        "building":"Recruitment Chamber",
+                        "level":4
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "musk_capacities_per_level":[450, 600, 750, 900, 1200, 1500, 1800],
+            "musk_prices_per_level":[10000, 25000, 50000, 100000, 200000, 350000, 500000]
+        },
+        {
+            "id":26,
+            "name":"City Planner",
+            "kind":"city_planner",
+            "base_size":20,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[250000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[250000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[43200],
+            "health_points_per_level":[16000],
+            "repair_durations_per_level_in_secs":[3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "gold_costs_per_slot":[ 0, 0, 30, 35, 40, 45, 50, 55, 60, 65 ],
+            "rp_costs_per_slot":[ 0, 0, 120, 140, 160, 180, 200, 220, 240, 260 ]
+        },
+        {
+            "id":27,
+            "name":"Executional Guillotine",
+            "kind":"executional_guillotine",
+            "base_size":16,
+            "max_levels":3,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[50000, 25000, 25000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[50000, 25000, 25000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[50000, 0, 0]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[3600, 21600, 43200],
+            "health_points_per_level":[16000, 32000, 64000],
+            "repair_durations_per_level_in_secs":[480, 1920, 7680],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":1
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "conversion_percents_per_level":[60, 80, 100]
+        },
+        {
+            "id":28,
+            "name":"Pigeon Post",
+            "kind":"pigeon_post",
+            "base_size":16,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[500]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[500]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[300],
+            "health_points_per_level":[3400],
+            "repair_durations_per_level_in_secs":[5],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ]
+            ],
+            "max_instances":1
+        },
+        {
+            "id":29,
+            "name":"Beast Cave",
+            "kind":"beast_cave",
+            "base_size":28,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[500000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[500000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[250000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[86400],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "combine_building":true,
+            "coordinates":{
+                "edge_space":5,
+                "garden_space":17,
+                "building_space":7,
+                "gate_coord":{
+                    "x":14,
+                    "y":26
+                }
+            },
+            "ranges_per_level_in_px":[600],
+            "attacks_air":false,
+            "attacks_ground":true
+        },
+        {
+            "id":30,
+            "name":"Beast Keeper",
+            "kind":"beast_keeper",
+            "base_size":20,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[500000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[500000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[250000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[86400],
+            "health_points_per_level":[16000],
+            "repair_durations_per_level_in_secs":[3200],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Beast Cave",
+                        "level":1
+                    }
+                ]
+            ],
+            "max_instances":1
+        },
+        {
+            "id":31,
+            "name":"Archer's Tower",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":11,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[1500, 7500, 37500, 187500, 937500, 4687500, 7031250, 10547000, 15820000, 32730000, 45000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2000, 10000, 50000, 250000, 1250000, 6250000, 9375000, 14062000, 21095000, 31650000, 45000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[500, 2500, 12500, 62500, 312500, 1562500, 2343750, 3515000, 5275000, 7900000, 13000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[30, 900, 2700, 18000, 43200, 86400, 172800, 259200, 345600, 475200, 950400],
+            "health_points_per_level":[6000, 9000, 12600, 17640, 26460, 34400, 45500, 58000, 75500, 98200, 110000],
+            "repair_durations_per_level_in_secs":[300, 600, 1405, 2100, 3300, 4200, 10800, 12600, 14400, 21600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":7,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[37500, 187500, 937500, 4687500]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[50000, 250000, 1250000, 6250000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[12500, 62500, 312500, 1562500]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[18000, 43200, 86400, 172800],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[300, 308, 316, 324, 332, 340, 348, 356, 364, 372, 380],
+            "damages_per_shot_per_level":[100, 210, 320, 430, 540, 650, 760, 870, 980, 1100, 1200],
+            "damages_per_second_per_level":[100, 210, 320, 430, 540, 650, 760, 870, 980, 1100, 1200],
+            "damage_per_second_as_target_per_level":[140, 294, 448, 602, 756, 910, 1064, 1218, 1372, 1540, 1540],
+            "reload_time_in_secs":2.5,
+            "attacks_air":true,
+            "attacks_ground":true
+        },
+        {
+            "id":32,
+            "name":"Bombard Tower",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":10,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2000, 10000, 50000, 250000, 1250000, 6250000, 9375000, 14000000, 21000000, 31600000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[1500, 7500, 37500, 187500, 937500, 4687500, 7000000, 10500000, 15800000, 23700000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[500, 2500, 12500, 62500, 312500, 1562500, 1562500, 1562500, 1562500, 1562500]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[30, 900, 2700, 18000, 43200, 86400, 172800, 259200, 345600, 475200],
+            "health_points_per_level":[6000, 9000, 12600, 17640, 26460, 34400, 45500, 58000, 75500, 98200],
+            "repair_durations_per_level_in_secs":[300, 600, 1405, 2100, 3300, 4200, 10800, 12600, 14400, 21600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ]
+            ],
+            "max_instances":6,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":1
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[50000, 250000, 1250000, 6250000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[37500, 187500, 937500, 4687500]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[12500, 62500, 312500, 1562500]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[18000, 43200, 86400, 172800],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[160, 170, 180, 190, 200, 210, 220, 230, 240, 250],
+            "damages_per_shot_per_level":[20, 40, 60, 80, 100, 120, 140, 160, 180, 200],
+            "explosion_ranges_per_level_in_px":[30, 35, 40, 45, 50, 55, 60, 65, 70, 75],
+            "damage_per_second_as_target_per_level":[64, 128, 192, 256, 320, 384, 448, 512, 576, 640],
+            "reload_time_in_secs":1.3,
+            "attacks_air":false,
+            "attacks_ground":true
+        },
+        {
+            "id":33,
+            "name":"Flamer Tower",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[500000, 1000000, 2000000, 4000000, 8000000, 16000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[250000, 500000, 1000000, 2000000, 4000000, 8000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[100000, 200000, 400000, 800000, 1600000, 3200000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[18000, 86400, 172800, 259200, 388800, 777600],
+            "health_points_per_level":[9000, 12600, 17640, 26460, 34400, 42200],
+            "repair_durations_per_level_in_secs":[2520, 3600, 4200, 4800, 5400, 6000],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "max_instances":3,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[500000, 1000000, 2000000, 4000000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[250000, 500000, 1000000, 2000000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[100500, 200500, 400000, 800000]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[43200, 86400, 172800, 345600],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[160, 162, 164, 168, 170, 175],
+            "damages_per_shot_per_level":[67, 83, 100, 111, 122, 133],
+            "shots_per_burst":45,
+            "explosion_ranges_per_level_in_px":[20, 20, 20, 20, 20, 20],
+            "attacks_air":false,
+            "attacks_ground":true,
+            "damage_per_second_as_target_per_level":[844, 1046, 1260, 1399, 1537, 1676]
+        },
+        {
+            "id":34,
+            "name":"Gatling Arrow Tower",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[187500, 750000, 2250000, 5250000, 12000000, 18000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[250000, 1000000, 3000000, 5000000, 10000000, 15000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[62500, 250000, 750000, 1250000, 2000000, 5000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[18000, 86400, 172800, 345600, 518400, 691200],
+            "health_points_per_level":[15000, 22000, 30000, 48000, 60000, 72000],
+            "repair_durations_per_level_in_secs":[2520, 3600, 4200, 4800, 5400, 6000],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "max_instances":3,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[187000, 750000, 2250000, 5250000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[750000, 1000000, 3000000, 5000000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[62500, 250500, 750000, 1250000]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[18000, 86400, 172800, 345600],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[250, 270, 300, 320, 340, 360],
+            "damages_per_shot_per_level":[100, 120, 140, 160, 180, 200],
+            "shots_fired_per_charge_per_level":[10, 15, 20, 25, 25, 30],
+            "reload_time_in_secs":2,
+            "attacks_air":true,
+            "attacks_ground":true,
+            "damage_per_second_as_target_per_level":[833, 1288, 1750, 2220, 2500, 3000]
+        },
+        {
+            "id":35,
+            "name":"Sky Tower",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":7,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[215000, 850000, 2750000, 5750000, 13500000, 16000000, 32000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[280000, 1200000, 3400000, 5200000, 11000000, 14000000, 28000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[62500, 250000, 750000, 1250000, 2000000, 4000000, 8000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[18000, 86400, 172800, 345600, 518400, 691200, 864000],
+            "health_points_per_level":[15000, 22000, 30000, 48000, 60000, 72000, 84000],
+            "repair_durations_per_level_in_secs":[2520, 3600, 4200, 4800, 5400, 6000, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":3,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[215000, 850000, 2750000, 5750000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[280500, 1200000, 3400000, 5200000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[62500, 250500, 750000, 1250000]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[18000, 86400, 172800, 345600],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[300, 320, 340, 360, 380, 400, 420],
+            "damage_per_second_as_target_per_level":[1596, 1998, 3000, 3996, 6000, 8400, 8400],
+            "damages_per_shot_per_level":[200, 250, 250, 250, 300, 350, 370],
+            "shots_fired_per_charge_per_level":[4, 4, 6, 8, 10, 12, 12],
+            "explosion_ranges_per_level_in_px":[10, 10, 10, 10, 10, 10, 10],
+            "reload_time_in_secs":3,
+            "attacks_air":true,
+            "attacks_ground":false
+        },
+        {
+            "id":36,
+            "name":"Burning Mirrors",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2000000, 3600000, 6480000, 11664000, 16995200, 20220000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2400000, 4320000, 7776000, 13996800, 18194240, 24202000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[1600000, 2880000, 5184000, 9331200, 16796160, 19000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[18000, 86400, 172800, 345600, 518400, 691200],
+            "health_points_per_level":[15000, 22000, 30000, 48000, 60000, 72000],
+            "repair_durations_per_level_in_secs":[2520, 3600, 4200, 4800, 5400, 6000],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "max_instances":3,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[2000000, 2600000, 4480000, 9664000]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[2400500, 3320000, 4776000, 9996800]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[1600000, 1880000, 2184000, 4331200]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[86400, 172800, 345600, 691200],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[300, 315, 330, 345, 360, 380],
+            "damages_per_shot_per_level":[400, 600, 900, 1200, 1600, 2000],
+            "damage_per_second_per_level":[100, 150, 225, 300, 400, 500],
+            "damage_per_second_as_target_per_level":[675, 1017, 1521, 2034, 2709, 3393],
+            "reload_time_in_secs":5.3,
+            "attacks_air":false,
+            "attacks_ground":true
+        },
+        {
+            "id":37,
+            "name":"Watch Post",
+            "kind":"watch_post",
+            "base_size":18,
+            "max_levels":4,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[250000, 1000000, 2000000, 4000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[187500, 1000000, 2000000, 4000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[62500, 500000, 1000000, 2000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[21600, 43200, 86400, 172800],
+            "health_points_per_level":[10000, 24500, 52000, 75000],
+            "repair_durations_per_level_in_secs":[300, 420, 480, 900],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    },
+                    {
+                        "building":"Mercenary Barracks",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "max_instances":4,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ]
+            ],
+            "mercenary_capacities_per_level":[380, 450, 540, 660],
+            "ranges_per_level_in_px":[300, 350, 400, 450],
+            "attacks_air":false,
+            "attacks_ground":true
+        },
+        {
+            "id":38,
+            "name":"Friend Watch Post",
+            "kind":"friend_watch_post",
+            "base_size":18,
+            "max_levels":4,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[250000, 1000000, 2000000, 4000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[187500, 1000000, 2000000, 4000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[62500, 500000, 1000000, 2000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[21600, 43200, 86400, 172800],
+            "health_points_per_level":[10000, 24500, 52000, 75000],
+            "repair_durations_per_level_in_secs":[300, 420, 480, 480],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "mercenary_capacities_per_level":[380, 450, 540, 660],
+            "ranges_per_level_in_px":[300, 350, 400, 450],
+            "attacks_air":false,
+            "attacks_ground":true
+        },
+        {
+            "id":39,
+            "name":"Buried Spikes",
+            "kind":"defensive_building",
+            "base_size":4,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[1000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[1000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[1000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[0],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ]
+            ],
+            "multiple_instance_prerequisites":[
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":1
+                        }
+                    ],
+                    "max_instances":0
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":2
+                        }
+                    ],
+                    "max_instances":10
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":3
+                        }
+                    ],
+                    "max_instances":15
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":4
+                        }
+                    ],
+                    "max_instances":20
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    "max_instances":28
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    "max_instances":35
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    "max_instances":42
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ],
+                    "max_instances":50
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":9
+                        }
+                    ],
+                    "max_instances":60
+                }
+            ],
+            "damage":1000
+        },
+        {
+            "id":40,
+            "name":"Fire Trap",
+            "kind":"defensive_building",
+            "base_size":4,
+            "max_levels":1,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[50000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[50000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[50000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[0],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ]
+            ],
+            "multiple_instance_prerequisites":[
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":4
+                        }
+                    ],
+                    "max_instances":4
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    "max_instances":6
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    "max_instances":8
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    "max_instances":10
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ],
+                    "max_instances":12
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":9
+                        }
+                    ],
+                    "max_instances":15
+                }
+            ],
+            "damage":10000
+        },
+        {
+            "id":41,
+            "name":"Wall",
+            "kind":"wall",
+            "base_size":4,
+            "max_levels":5,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[1000, 0, 100000, 200000, 400000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[0, 10000, 100000, 200000, 400000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[0, 0, 0, 0, 0],
+            "health_points_per_level":[1000, 2300, 5750, 18000, 27000],
+            "repair_durations_per_level_in_secs":[5, 5, 5, 5, 5],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":2
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ]
+            ],
+            "multiple_instance_prerequisites":[
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":2
+                        }
+                    ],
+                    "max_instances":30
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":3
+                        }
+                    ],
+                    "max_instances":60
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":4
+                        }
+                    ],
+                    "max_instances":120
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    "max_instances":200
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    "max_instances":220
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    "max_instances":280
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ],
+                    "max_instances":300
+                },
+                {
+                    "prerequisites":[
+                        {
+                            "building":"City Center",
+                            "level":9
+                        }
+                    ],
+                    "max_instances":340
+                }
+            ],
+            "path_margin":-1
+        },
+        {
+            "id":42,
+            "name":"House of Brotherhood",
+            "kind":"house_of_brotherhood",
+            "base_size":16,
+            "max_levels":3,
+            "recyclable":false,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[2000, 50000, 1000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[2000, 50000, 1000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 0, 500000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[300, 7200, 86400],
+            "health_points_per_level":[1000, 3000, 6000],
+            "repair_durations_per_level_in_secs":[300, 600, 1200],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ]
+            ],
+            "part_requirements":[
+                {
+                    "part":"Wooden Plank",
+                    "amounts_per_instance":[4]
+                },
+                {
+                    "part":"Screw",
+                    "amounts_per_instance":[4]
+                },
+                {
+                    "part":"Bronze Coils",
+                    "amounts_per_instance":[4]
+                },
+                {
+                    "part":"Hammer",
+                    "amounts_per_instance":[4]
+                }
+            ],
+            "max_instances":1
+        },
+        {
+            "id":43,
+            "name":"Alliance Barracks",
+            "kind":"alliance_barracks",
+            "base_size":26,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[138240, 552960, 2211840, 4423680, 8847360, 17694720]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[138240, 552960, 2211840, 4423680, 8847360, 17694720]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[138240, 552960, 2211840, 4423680, 8847360, 17694720]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[4500, 10800, 28800, 72000, 144000, 288000],
+            "health_points_per_level":[4000, 14000, 25000, 43000, 75000, 130000],
+            "repair_durations_per_level_in_secs":[100, 200, 300, 400, 500, 600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    },
+                    {
+                        "building":"House of Brotherhood",
+                        "level":3
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "combine_building":true,
+            "coordinates":{
+                "edge_space":3,
+                "garden_space":20,
+                "building_space":6,
+                "gate_coord":{
+                    "x":9,
+                    "y":6
+                }
+            },
+            "path_margin":2,
+            "mercenary_capacities_per_level":[200, 260, 320, 380, 450, 540]
+        },
+        {
+            "id":44,
+            "name":"Blacksmith",
+            "kind":"blacksmith",
+            "base_size":20,
+            "max_levels":7,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[100000, 187500, 937500, 4687500, 7031250, 10547000, 15820000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[100000, 250000, 1250000, 6250000, 9375000, 14062000, 21095000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[100000, 100000, 312500, 1562500, 2343750, 3515000, 5275000]
+                },
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[150000, 200000, 500000, 2000000, 3000000, 4000000, 5000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[10800, 21600, 43200, 86400, 172800, 259200, 345600],
+            "health_points_per_level":[9000, 15000, 20000, 30000, 40000, 50000, 60000],
+            "repair_durations_per_level_in_secs":[1800, 1800, 1800, 1800, 1800, 1800, 1800],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":4
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":5
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":6
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":3
+                    }
+                ]
+            ],
+            "queue_slot":[6, 7, 8, 9, 10, 11, 12]
+        },
+        {
+            "id":45,
+            "name":"Beast Cannon",
+            "kind":"defensive_building",
+            "base_size":14,
+            "max_levels":6,
+            "resource_costs":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[5000000, 10000000, 20000000, 25000000, 35000000, 40000000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[5000000, 10000000, 20000000, 25000000, 35000000, 40000000]
+                },
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[3000000, 7500000, 15000000, 20000000, 30000000, 35000000]
+                }
+            ],
+            "upgrade_durations_per_level_in_secs":[86400, 172800, 259200, 345600, 432000, 518400],
+            "health_points_per_level":[35000, 45000, 60000, 80000, 100000, 110000],
+            "repair_durations_per_level_in_secs":[300, 600, 1405, 2100, 3300, 4200, 10800, 12600, 14400, 21600, 3600],
+            "building_prerequisites_per_level":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":8
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":9
+                    }
+                ],
+                [
+                    {
+                        "building":"City Center",
+                        "level":10
+                    }
+                ]
+            ],
+            "max_instances":1,
+            "building_prerequisites_per_instance":[
+                [
+                    {
+                        "building":"City Center",
+                        "level":7
+                    }
+                ]
+            ],
+            "fortification_info":{
+                "max_levels":4,
+                "resource_costs":[
+                    {
+                        "resource":"Lumber",
+                        "amounts_per_level":[37500, 187500, 937500, 4687500]
+                    },
+                    {
+                        "resource":"Stone",
+                        "amounts_per_level":[50000, 250000, 1250000, 6250000]
+                    },
+                    {
+                        "resource":"Might",
+                        "amounts_per_level":[12500, 62500, 312500, 1562500]
+                    }
+                ],
+                "fortify_durations_per_level_in_secs":[18000, 43200, 86400, 172800],
+                "building_prerequisites_per_level":[
+                    [
+                        {
+                            "building":"City Center",
+                            "level":5
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":6
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":7
+                        }
+                    ],
+                    [
+                        {
+                            "building":"City Center",
+                            "level":8
+                        }
+                    ]
+                ],
+                "protection_bonuses_per_level_as_percent":[20, 30, 40, 50]
+            },
+            "ranges_per_level_in_px":[350, 375, 400, 425, 450, 450],
+            "damages_per_shot_per_level":[2.5, 3, 3.5, 4, 4.5, 5],
+            "damages_per_second_per_level":[0, 0, 0, 0, 0, 0],
+            "damage_per_second_as_target_per_level":[0, 0, 0, 0, 0, 0],
+            "reload_time_in_secs":2,
+            "attacks_air":true,
+            "attacks_ground":true,
+            "max_ammunition":20,
+            "recharge_time_per_ammunition_in_seconds":1800
+        }
+    ],
+    "units":[
+        {
+            "id":10,
+            "name":"Bedouin Brute",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":1
+            },
+            "max_levels":6,
+            "speeds_per_level":[1.2, 1.2, 1.2, 1.2, 1.2, 1.2],
+            "health_points_per_level":[200, 220, 240, 260, 280, 300],
+            "damage_points_per_level":[60, 65, 70, 75, 80, 85],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[250, 450, 650, 800, 1000, 1250]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[15, 10, 8, 7, 6, 5],
+            "spaces_per_level":[10, 10, 10, 9, 8, 7],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4000, 8000, 12000, 16000, 22000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 7200, 10800, 18000, 28800, 43200],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[1, 1, 1, 1, 1, 1],
+            "watch_post_gold_costs_per_level":[1, 1, 1, 1, 1, 1]
+        },
+        {
+            "id":11,
+            "name":"Janissary",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":1
+            },
+            "unlock_duration_in_secs":360,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":8000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1.4, 1.4, 1.4, 1.4, 1.4, 1.4],
+            "health_points_per_level":[1000, 1100, 1300, 1450, 1600, 1800],
+            "damage_points_per_level":[15, 15, 20, 25, 30, 35],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[500, 525, 825, 1200, 1500, 2000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[15, 16, 16, 16, 16, 16],
+            "spaces_per_level":[10, 10, 10, 10, 10, 10],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 8000, 16000, 24000, 48000, 64000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 14400, 21600, 36000, 57600, 86400],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[1, 1, 1, 1, 1, 2],
+            "watch_post_gold_costs_per_level":[1, 1, 1, 1, 1, 1]
+        },
+        {
+            "id":12,
+            "name":"Knight Rider",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["resource_producer", "resource_storage", "main_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":1
+            },
+            "unlock_duration_in_secs":7200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":16000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[2.5, 2.55, 2.6, 2.8, 3.0, 3.2],
+            "health_points_per_level":[150, 150, 150, 150, 150, 200],
+            "damage_points_per_level":[15, 20, 25, 35, 45, 55],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[350, 475, 600, 900, 1250, 2200]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[23, 23, 23, 23, 23, 23],
+            "spaces_per_level":[15, 15, 15, 15, 15, 15],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 16000, 32000, 48000, 96000, 14400]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 14400, 21600, 28800, 43200, 57600],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[2, 2, 2, 2, 2, 2],
+            "watch_post_gold_costs_per_level":[1, 1, 1, 1, 1, 1]
+        },
+        {
+            "id":13,
+            "name":"Persian Hashishin",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":1
+            },
+            "unlock_duration_in_secs":14400,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":32000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1.3, 1.3, 1.3, 1.3, 1.3, 1.3],
+            "health_points_per_level":[200, 200, 200, 200, 220, 240],
+            "damage_points_per_level":[300, 330, 380, 430, 470, 520],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[1500, 1700, 2000, 2500, 3000, 3500]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[100, 100, 100, 100, 90, 90],
+            "spaces_per_level":[20, 20, 20, 20, 20, 20],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 32000, 64000, 96000, 128000, 160000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 28800, 43200, 64800, 86400, 108000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[3, 3, 4, 4, 4, 4],
+            "watch_post_gold_costs_per_level":[2, 2, 2, 2, 2, 3]
+        },
+        {
+            "id":14,
+            "name":"Khamikazee",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "splash_range":6,
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":2
+            },
+            "unlock_duration_in_secs":28800,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":64000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[2, 2.2, 2.4, 2.6, 2.8, 3],
+            "health_points_per_level":[600, 900, 1200, 1600, 2000, 2400],
+            "damage_points_per_level":[4000, 8000, 12000, 16000, 20000, 24000],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[5000, 15000, 30000, 45000, 60000, 80000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[1500, 1500, 1500, 1500, 1500, 1500],
+            "spaces_per_level":[60, 60, 60, 60, 60, 60],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 64000, 128000, 192000, 384000, 512000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 18000, 25200, 43200, 86400, 129600],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[37, 44, 54, 63, 73, 86],
+            "watch_post_gold_costs_per_level":[19, 22, 27, 32, 37, 43]
+        },
+        {
+            "id":15,
+            "name":"Nubian Guard",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":2
+            },
+            "unlock_duration_in_secs":57600,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":128000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1.2, 1.2, 1.2, 1.2, 1.2, 1.2],
+            "health_points_per_level":[2000, 2100, 2200, 2300, 2500, 2800],
+            "damage_points_per_level":[50, 60, 70, 80, 95, 110],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[5000, 5625, 8440, 10250, 13000, 17000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[100, 100, 90, 90, 90, 90],
+            "spaces_per_level":[20, 20, 20, 20, 20, 20],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 128000, 256000, 409600, 640000, 820000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 64800, 86400, 172800, 259200],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[6, 6, 7, 9, 10, 13],
+            "watch_post_gold_costs_per_level":[3, 3, 4, 5, 6, 7]
+        },
+        {
+            "id":16,
+            "name":"Ravager",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "ranges_per_mastery":[18, 25, 33],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":2
+            },
+            "unlock_duration_in_secs":100800,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":256000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1, 1, 1, 1, 1, 1],
+            "health_points_per_level":[500, 550, 600, 650, 750, 900],
+            "damage_points_per_level":[200, 250, 300, 350, 400, 450],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[2500, 3500, 4500, 5500, 7500, 10000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[180, 180, 180, 180, 180, 180],
+            "spaces_per_level":[20, 20, 20, 20, 20, 20],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 256000, 512000, 756000, 1024000, 1444000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 57600, 86400, 129600, 172800],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[6, 6, 7, 8, 9, 11],
+            "watch_post_gold_costs_per_level":[3, 4, 4, 4, 5, 6],
+            "mastery":true
+        },
+        {
+            "id":17,
+            "name":"Painblower",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "ranges_per_masters":[12, 16, 20],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":2
+            },
+            "unlock_duration_in_secs":108000,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":512000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1.1, 1.2, 1.3, 1.4, 1.5, 1.6],
+            "health_points_per_level":[400, 400, 400, 400, 400, 400],
+            "damage_points_per_level":[600, 600, 620, 660, 720, 800],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[18000, 25000, 40000, 50000, 68000, 80000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[450, 350, 250, 225, 195, 195],
+            "spaces_per_level":[30, 30, 30, 30, 30, 30],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 512000, 512000, 756000, 1024000, 1440000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 57600, 86400, 129600, 172800],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[14, 14, 14, 15, 18, 20],
+            "watch_post_gold_costs_per_level":[7, 7, 7, 8, 9, 11],
+            "mastery":true
+        },
+        {
+            "id":18,
+            "name":"Sneak Peak",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["resource_producer", "resource_storage", "main_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":3
+            },
+            "unlock_duration_in_secs":187200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":1024000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[2, 2, 2, 2, 2.1, 2.2],
+            "health_points_per_level":[600, 700, 750, 800, 1100, 1400],
+            "damage_points_per_level":[100, 100, 200, 250, 300, 350],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[4000, 5000, 10000, 12000, 16000, 25000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[342, 342, 342, 342, 342, 342],
+            "spaces_per_level":[30, 30, 30, 30, 30, 30],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 1024000, 2056000, 2870000, 4500000, 6000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 57600, 72000, 144000, 216000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[10, 11, 14, 15, 18, 22],
+            "watch_post_gold_costs_per_level":[3, 3, 4, 4, 5, 6],
+            "cloak_duration_per_mastery":[2, 4, 6],
+            "mastery":true
+        },
+        {
+            "id":19,
+            "name":"Mongolian Gargantuan",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":3
+            },
+            "unlock_duration_in_secs":208800,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":2048000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[1, 1, 1, 1.2, 1.4, 1.5],
+            "health_points_per_level":[4000, 4000, 4300, 4400, 4600, 4800],
+            "damage_points_per_level":[100, 120, 130, 140, 150, 170],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[30000, 36000, 42000, 55500, 72500, 92000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[750, 750, 750, 750, 750, 750],
+            "spaces_per_level":[40, 40, 40, 40, 40, 40],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 2048000, 3000000, 4400000, 6000000, 7500000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 64800, 86400, 172800, 259200],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[23, 24, 25, 28, 31, 35],
+            "watch_post_gold_costs_per_level":[12, 13, 13, 14, 16, 18]
+        },
+        {
+            "id":20,
+            "name":"Pharaoh Warrior",
+            "flying":false,
+            "ranges_per_level":[35, 35, 35, 35, 35, 35],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":3
+            },
+            "unlock_duration_in_secs":223200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":4096000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[0.9, 0.9, 1, 1.2, 1.2, 1.3],
+            "health_points_per_level":[800, 900, 950, 1000, 1100, 1200],
+            "damage_points_per_level":[1200, 1400, 1600, 1800, 2000, 2200],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[60000, 78750, 105000, 150000, 180000, 240000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[1384, 1384, 1384, 1384, 1384, 1384],
+            "spaces_per_level":[70, 70, 70, 70, 70, 70],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4096000, 7000000, 12000000, 18000000, 24000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 86400, 129600, 172800, 345600, 460800],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[38, 40, 43, 47, 50, 57],
+            "watch_post_gold_costs_per_level":[19, 20, 22, 24, 26, 29]
+        },
+        {
+            "id":21,
+            "name":"Rock'n Gaul",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":4
+            },
+            "unlock_duration_in_secs":259200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":8192000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[0.8, 0.85, 0.9, 1, 1.1, 1.2],
+            "health_points_per_level":[8000, 9100, 10000, 12000, 16500, 21000],
+            "damage_points_per_level":[1500, 1500, 1600, 1700, 1800, 1900],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[150000, 180000, 225000, 320000, 500000, 750000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[3600, 3600, 3600, 3600, 3600, 3600],
+            "spaces_per_level":[160, 160, 160, 160, 160, 160],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 8192000, 10000000, 12200000, 19200000, 28000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 172800, 259200, 345600, 518400, 691200],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[98, 101, 106, 116, 135, 161],
+            "watch_post_gold_costs_per_level":[49, 51, 53, 58, 68, 81]
+        },
+        {
+            "id":22,
+            "name":"Persian Sapper",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":true,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":4
+            },
+            "unlock_duration_in_secs":223200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":4096000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[3, 4, 4, 4, 4, 4],
+            "health_points_per_level":[1600, 1900, 2100, 2400, 2700, 3000],
+            "damage_points_per_level":[700, 800, 900, 1000, 1100, 1200],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[20000, 25000, 30000, 35000, 40000, 47500]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[1384, 1384, 1384, 1384, 1384, 1384],
+            "spaces_per_level":[70, 70, 70, 70, 70, 70],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4096000, 8192000, 8192000, 8192000, 12800000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 86400, 172800, 259200, 345600, 460800],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[35, 36, 37, 38, 39, 41],
+            "watch_post_gold_costs_per_level":[18, 19, 19, 20, 20, 21],
+            "splash_per_mastery":[8, 11, 14],
+            "mastery":true
+        },
+        {
+            "id":23,
+            "name":"Hezarfen",
+            "flying":true,
+            "ranges_per_level":[20, 20, 20, 20, 20, 20],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":4
+            },
+            "unlock_duration_in_secs":223200,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":4096000
+                }
+            ],
+            "max_levels":6,
+            "speeds_per_level":[2.5, 2.75, 3, 3.25, 3.5, 3.5],
+            "health_points_per_level":[1600, 1900, 2400, 3000, 3600, 4200],
+            "damage_points_per_level":[300, 350, 400, 500, 600, 700],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[70000, 95000, 145000, 200000, 300000, 400000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[1800, 1920, 2040, 2160, 2280, 2400],
+            "spaces_per_level":[70, 70, 70, 70, 70, 70],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4096000, 7000000, 10000000, 16000000, 24000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 129600, 194400, 288000, 489600, 648000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[48, 54, 62, 70, 83, 97],
+            "watch_post_gold_costs_per_level":[25, 27, 31, 36, 42, 49]
+        },
+        {
+            "id":24,
+            "name":"Gentle Healer",
+            "flying":true,
+            "ranges_per_level":[20, 20, 20, 20, 20],
+            "underground":false,
+            "healer":true,
+            "targets_anything":true,
+            "unlock_prerequisite":{
+                "building":"Recruitment Chamber",
+                "level":3
+            },
+            "unlock_duration_in_secs":216000,
+            "unlock_costs":[
+                {
+                    "name":"Might",
+                    "amount":6192000
+                }
+            ],
+            "max_levels":5,
+            "speeds_per_level":[0.75, 0.8, 0.85, 0.9, 0.95],
+            "health_points_per_level":[8000, 8000, 8000, 8000, 8000],
+            "damage_points_per_level":[400, 550, 700, 850, 1000],
+            "damage_per_seconds_per_level":[2000, 2750, 3500, 4750, 5000],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[120000, 175000, 240000, 324000, 380000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[2400, 2400, 2400, 2400, 2400],
+            "spaces_per_level":[200, 200, 200, 200, 200],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 6192000, 7800000, 12000000, 18000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 129600, 194400, 288000, 489600],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                }
+            ],
+            "barracks_gold_costs_per_level":[67, 73, 80, 89, 95],
+            "watch_post_gold_costs_per_level":[34, 37, 40, 45, 48]
+        },
+        {
+            "id":28,
+            "name":"Samurai Team",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["resource_producer", "resource_storage", "main_building"],
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "unlock_costs":[],
+            "max_levels":6,
+            "speeds_per_level":[2.4, 2.4, 2.4, 2.4, 2.5, 2.6],
+            "health_points_per_level":[350, 400, 500, 600, 800, 1000],
+            "damage_points_per_level":[250, 250, 275, 300, 350, 400],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[120000, 150000, 180000, 200000, 225000, 250000]
+                },
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[120000, 150000, 180000, 200000, 225000, 250000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[3600, 3200, 3000, 2500, 2000, 1800],
+            "spaces_per_level":[1, 1, 1, 1, 1, 1],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 1024000, 2056000, 2870000, 4500000, 6000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 43200, 57600, 72000, 144000, 216000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":12,
+            "event":true
+        },
+        {
+            "id":29,
+            "name":"Siege Tower",
+            "flying":false,
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "unlock_costs":[],
+            "max_levels":6,
+            "speeds_per_level":[0, 0, 0, 0, 0, 0],
+            "splash_range":12,
+            "health_points_per_level":[1000, 1500, 2000, 3000, 3500, 4000],
+            "damage_points_per_level":[3300, 3400, 3500, 3600, 3800, 4000],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[750000, 800000, 900000, 1000000, 1250000, 1500000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[750000, 800000, 900000, 1000000, 1250000, 1500000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[7200, 6600, 5400, 4800, 3600, 2400],
+            "ranges_per_level":[80, 80, 80, 80, 80, 80],
+            "spaces_per_level":[0, 0, 0, 0, 0, 0],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4096000, 7000000, 10000000, 16000000, 24000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 129600, 194400, 288000, 489600, 648000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":1,
+            "event":true
+        },
+        {
+            "id":30,
+            "name":"Cyclop",
+            "flying":false,
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "splash_range":10,
+            "unlock_costs":[],
+            "max_levels":6,
+            "speeds_per_level":[1.4, 1.4, 1.4, 1.4, 1.4, 1.4],
+            "health_points_per_level":[12000, 13000, 13500, 14000, 14500, 15000],
+            "damage_points_per_level":[3000, 3100, 3200, 3300, 3400, 3500],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[800000, 900000, 1000000, 1100000, 1300000, 1500000]
+                },
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[800000, 900000, 1000000, 1100000, 1300000, 1500000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[7200, 6000, 5400, 4800, 4200, 3600],
+            "spaces_per_level":[1, 1, 1, 1, 1, 1],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 8192000, 10000000, 12200000, 19200000, 28000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 172800, 259200, 345600, 518400, 391200],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":1,
+            "event":true
+        },
+        {
+            "id":31,
+            "name":"Longbowman",
+            "flying":false,
+            "ranges_per_level":[52, 52, 52, 52, 52, 52],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "unlock_costs":[],
+            "max_levels":6,
+            "speeds_per_level":[1.2, 1.2, 1.2, 1.2, 1.2, 1.2],
+            "health_points_per_level":[400, 600, 700, 800, 900, 1000],
+            "damage_points_per_level":[500, 525, 550, 600, 650, 700],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[600000, 650000, 700000, 800000, 900000, 1000000]
+                },
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[600000, 650000, 700000, 800000, 900000, 1000000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[9000, 8000, 7200, 5400, 3600, 2400],
+            "spaces_per_level":[1, 1, 1, 1, 1, 1],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4096000, 7000000, 12000000, 18000000, 24000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 86400, 129600, 172800, 345600, 460800],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":6,
+            "event":true
+        },
+        {
+            "id":32,
+            "deprecated":true,
+            "name":"Wolfpack",
+            "flying":false,
+            "ranges_per_level":[0],
+            "underground":false,
+            "healer":false,
+            "targets_anything":true,
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "unlock_costs":[],
+            "max_levels":1,
+            "speeds_per_level":[2.6],
+            "health_points_per_level":[400],
+            "damage_points_per_level":[250],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[600000]
+                },
+                {
+                    "resource":"Iron",
+                    "amounts_per_level":[600000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[9000],
+            "spaces_per_level":[1],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":15,
+            "event":true
+        },
+        {
+            "id":34,
+            "name":"Acid Tower",
+            "flying":false,
+            "underground":false,
+            "healer":false,
+            "favourite_targets":["defensive_building"],
+            "auto_unlocked":true,
+            "unlock_prerequisite":{
+                "building":"City Center",
+                "level":1
+            },
+            "unlock_costs":[],
+            "max_levels":6,
+            "speeds_per_level":[0, 0, 0, 0, 0, 0],
+            "splash_range":12,
+            "health_points_per_level":[1500, 2000, 3000, 3500, 4000, 4500],
+            "damage_points_per_level":[3500, 3600, 3700, 3800, 3900, 4000],
+            "hiring_costs_per_level":[
+                {
+                    "resource":"Lumber",
+                    "amounts_per_level":[600000, 700000, 800000, 1000000, 1250000, 1500000]
+                },
+                {
+                    "resource":"Stone",
+                    "amounts_per_level":[600000, 700000, 800000, 1000000, 1250000, 1500000]
+                }
+            ],
+            "hiring_durations_per_level_in_secs":[7200, 6600, 5400, 4800, 3600, 2400],
+            "ranges_per_level":[80, 80, 80, 80, 80, 80],
+            "spaces_per_level":[0, 0, 0, 0, 0, 0],
+            "training_costs_per_Level":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[0, 4000000, 7000000, 10000000, 16000000, 24000000]
+                }
+            ],
+            "training_durations_per_level_in_secs":[0, 129600, 194400, 288000, 489600, 648000],
+            "training_prerequisites_per_level":[
+                {
+                    "building":"City Center",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":1
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":2
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":3
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":4
+                },
+                {
+                    "building":"Training Chamber",
+                    "level":5
+                }
+            ],
+            "barracks_gold_costs_per_level":[],
+            "watch_post_gold_costs_per_level":[],
+            "team_size":1,
+            "event":true
+        }
+    ],
+    "beasts":[
+        {
+            "id":25,
+            "name":"Dragonfly",
+            "favourite_targets":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "favourite_targets_for_max_level":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "prerequisite":{
+                "building":"Beast Cave",
+                "level":1
+            },
+            "max_levels":6,
+            "speeds_per_level":[1.2, 1.4, 2, 2.1, 2.2, 2.3],
+            "health_points_per_level":[15000, 17500, 20000, 22500, 25000, 40000],
+            "damage_points_per_level":[70, 80, 90, 100, 110, 120],
+            "damage_per_seconds_per_level":[350, 400, 450, 500, 550, 600],
+            "healing_cost_times_per_level":[3600, 7200, 14400, 28800, 57600, 115200],
+            "healing_times_per_level":[1800, 2700, 4800, 7800, 13500, 36000],
+            "ranges_per_level":[28, 28, 36, 38, 40, 42],
+            "buffs_per_level":[10, 20, 30, 40, 50, 60],
+            "training_costs_per_level":[
+                {
+                    "unitNames":["Knight Rider"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Knight Rider", "Sneak Peak"],
+                    "amounts":[20, 5]
+                },
+                {
+                    "unitNames":["Knight Rider", "Sneak Peak"],
+                    "amounts":[40, 5]
+                },
+                {
+                    "unitNames":["Knight Rider", "Sneak Peak"],
+                    "amounts":[30, 10]
+                },
+                {
+                    "unitNames":["Sneak Peak"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Sneak Peak"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_level":[26, 45, 62, 76, 96, 96],
+            "level_up_gold_costs_per_level":[154, 537, 1116, 1822, 2891, 192],
+            "number_of_trainings_to_level_up_per_level":[3, 6, 9, 12, 15, 0],
+            "pre_training_duration_in_secs":82800,
+            "wait_training_duration_in_secs":86400,
+            "max_bonus_stages":3,
+            "speeds_per_stage":[2.4, 2.5, 2.7],
+            "health_points_per_stage":[41000, 42200, 44000],
+            "damage_points_per_stage":[123, 126, 130],
+            "damage_per_seconds_per_stage":[615, 630, 650],
+            "ranges_per_stage":[43, 44, 45],
+            "buffs_per_stage":[63, 66, 75],
+            "training_costs_per_stage":[
+                {
+                    "unitNames":["Sneak Peak"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Sneak Peak"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Sneak Peak"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_stage":[96, 96, 96],
+            "level_up_gold_costs_per_stage":[192, 192, 192],
+            "flying":true,
+            "underground":false,
+            "healer":false
+        },
+        {
+            "id":26,
+            "name":"Mightosour",
+            "favourite_targets":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "favourite_targets_for_max_level":["defensive_building"],
+            "prerequisite":{
+                "building":"Beast Cave",
+                "level":1
+            },
+            "max_levels":6,
+            "speeds_per_level":[2, 2.2, 2.5, 2.8, 3.2, 3.6],
+            "health_points_per_level":[12000, 20000, 36000, 42000, 52000, 60000],
+            "damage_points_per_level":[3000, 3600, 4200, 5500, 6500, 8000],
+            "healing_cost_times_per_level":[3600, 7200, 14400, 28800, 57600, 115200],
+            "healing_times_per_level":[1800, 2700, 4800, 7800, 13500, 36000],
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "buffs_per_level":[0, 0, 0, 0, 0, 0],
+            "training_costs_per_level":[
+                {
+                    "unitNames":["Bedouin Brute"],
+                    "amounts":[30]
+                },
+                {
+                    "unitNames":["Bedouin Brute", "Persian Hashishin"],
+                    "amounts":[20, 15]
+                },
+                {
+                    "unitNames":["Ravager"],
+                    "amounts":[50]
+                },
+                {
+                    "unitNames":["Ravager", "Painblower"],
+                    "amounts":[10, 15]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[30]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[30]
+                }
+            ],
+            "training_gold_costs_per_level":[26, 44, 75, 105, 131, 131],
+            "level_up_gold_costs_per_level":[158, 530, 1358, 2530, 3918, 262],
+            "number_of_trainings_to_level_up_per_level":[3, 6, 9, 12, 15, 0],
+            "pre_training_duration_in_secs":82800,
+            "wait_training_duration_in_secs":86400,
+            "max_bonus_stages":3,
+            "speeds_per_stage":[3.7, 3.8, 4],
+            "health_points_per_stage":[62500, 65500, 70000],
+            "damage_points_per_stage":[8400, 8880, 9600],
+            "ranges_per_stage":[0, 0, 0],
+            "buffs_per_stage":[0, 0, 0],
+            "training_costs_per_stage":[
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[30]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[30]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[30]
+                }
+            ],
+            "training_gold_costs_per_stage":[131, 131, 131],
+            "level_up_gold_costs_per_stage":[262, 262, 262],
+            "flying":false,
+            "underground":false,
+            "healer":false
+        },
+        {
+            "id":27,
+            "name":"Bearwolf",
+            "favourite_targets":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "favourite_targets_for_max_level":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "prerequisite":{
+                "building":"Beast Cave",
+                "level":1
+            },
+            "max_levels":6,
+            "speeds_per_level":[1, 1.2, 1.4, 1.6, 1.8, 2],
+            "health_points_per_level":[40000, 80000, 120000, 140000, 160000, 200000],
+            "damage_points_per_level":[1000, 1200, 1500, 2000, 2500, 3000],
+            "healing_cost_times_per_level":[3600, 7200, 14400, 28800, 57600, 115200],
+            "healing_times_per_level":[1800, 2700, 4800, 7800, 13500, 36000],
+            "ranges_per_level":[0, 0, 0, 0, 0, 0],
+            "buffs_per_level":[0, 0, 0, 0, 0, 0],
+            "training_costs_per_level":[
+                {
+                    "unitNames":["Janissary"],
+                    "amounts":[15]
+                },
+                {
+                    "unitNames":["Janissary", "Nubian Guard"],
+                    "amounts":[10, 5]
+                },
+                {
+                    "unitNames":["Nubian Guard"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Mongolian Gargantuan", "Nubian Guard"],
+                    "amounts":[10, 10]
+                },
+                {
+                    "unitNames":["Mongolian Gargantuan"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Mongolian Gargantuan"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_level":[26, 44, 75, 111, 136, 136],
+            "level_up_gold_costs_per_level":[158, 530, 1358, 2664, 4076, 272],
+            "number_of_trainings_to_level_up_per_level":[3, 6, 9, 12, 15, 0],
+            "pre_training_duration_in_secs":82800,
+            "wait_training_duration_in_secs":86400,
+            "max_bonus_stages":3,
+            "speeds_per_stage":[2.1, 2.2, 2.4],
+            "health_points_per_stage":[212500, 227500, 250000],
+            "damage_points_per_stage":[3150, 3330, 3600],
+            "ranges_per_stage":[0, 0, 0],
+            "buffs_per_stage":[0, 0, 0],
+            "training_costs_per_stage":[
+                {
+                    "unitNames":["Mongolian Gargantuan"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Mongolian Gargantuan"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Mongolian Gargantuan"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_stage":[136, 136, 136],
+            "level_up_gold_costs_per_stage":[272, 272, 272],
+            "flying":false,
+            "underground":false,
+            "healer":false
+        },
+        {
+            "id":33,
+            "name":"Womkong",
+            "favourite_targets":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "favourite_targets_for_max_level":["resource_producer", "resource_storage", "main_building", "defensive_building"],
+            "prerequisite":{
+                "building":"Beast Cave",
+                "level":1
+            },
+            "max_levels":6,
+            "speeds_per_level":[1.6, 1.8, 2.0, 2.3, 2.6, 3.0],
+            "health_points_per_level":[15000, 25000, 40000, 65000, 90000, 120000],
+            "damage_points_per_level":[2000, 2400, 2800, 3600, 4000, 4800],
+            "healing_cost_times_per_level":[3600, 7200, 14400, 28800, 57600, 115200],
+            "healing_times_per_level":[1800, 2700, 4800, 7800, 13500, 36000],
+            "ranges_per_level":[34, 36, 38, 42, 48, 54],
+            "splash_range":8,
+            "buffs_per_level":[0, 0, 0, 0, 0, 0],
+            "training_costs_per_level":[
+                {
+                    "unitNames":["Khamikazee"],
+                    "amounts":[2]
+                },
+                {
+                    "unitNames":["Khamikazee", "Ravager"],
+                    "amounts":[2, 25]
+                },
+                {
+                    "unitNames":["Khamikazee", "Ravager"],
+                    "amounts":[4, 25]
+                },
+                {
+                    "unitNames":["Khamikazee", "Ravager"],
+                    "amounts":[6, 50]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_level":[26, 45, 62, 76, 96, 96],
+            "level_up_gold_costs_per_level":[154, 537, 1116, 1822, 2891, 0],
+            "number_of_trainings_to_level_up_per_level":[3, 6, 9, 12, 15, 0],
+            "pre_training_duration_in_secs":82800,
+            "wait_training_duration_in_secs":86400,
+            "max_bonus_stages":3,
+            "speeds_per_stage":[3.1, 3.2, 3.3],
+            "health_points_per_stage":[124000, 128000, 132000],
+            "damage_points_per_stage":[4920, 5040, 5160],
+            "ranges_per_stage":[56, 58, 60],
+            "buffs_per_stage":[0, 0, 0],
+            "training_costs_per_stage":[
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[20]
+                },
+                {
+                    "unitNames":["Painblower"],
+                    "amounts":[20]
+                }
+            ],
+            "training_gold_costs_per_stage":[90, 90, 90],
+            "level_up_gold_costs_per_stage":[272, 272, 272],
+            "flying":false,
+            "ranged":true,
+            "range":50,
+            "underground":false,
+            "healer":false
+        }
+    ],
+    "catapults":[
+        {
+            "id":1,
+            "name":"Lumber_Salvo",
+            "max_stage":3,
+            "ranges_per_stage":[168, 168, 168],
+            "resource_costs":[
+                {
+                    "amounts_per_level":[10000, 100000, 5000000, 10000000],
+                    "resource":"Lumber"
+                }
+            ],
+            "activation_time_per_stage":[480, 480, 480],
+            "effect_values":[
+                {
+                    "effect_type":"building_damage",
+                    "values_per_stage":[2200, 7000, 37500]
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Hurling_Stones",
+            "max_stage":4,
+            "ranges_per_stage":[168, 252, 294, 336],
+            "resource_costs":[
+                {
+                    "amounts_per_level":[10000, 100000, 2000000, 10000000],
+                    "resource":"Stone"
+                }
+            ],
+            "activation_time_per_stage":[480, 480, 480, 480],
+            "effect_values":[
+                {
+                    "effect_type":"building_damage",
+                    "values_per_stage":[2400, 9000, 22500, 56250]
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Mighty_Rage",
+            "max_stage":4,
+            "ranges_per_stage":[126, 126, 252, 420],
+            "resource_costs":[
+                {
+                    "amounts_per_level":[10000, 100000, 5000000, 10000000],
+                    "resource":"Might"
+                }
+            ],
+            "activation_time_per_stage":[480, 480, 480, 480],
+            "effect_values":[
+                {
+                    "effect_type":"speed_buff",
+                    "values_per_stage":[1.2, 1.8, 1.8, 2.0]
+                },
+                {
+                    "effect_type":"armor_buff",
+                    "values_per_stage":[0.8, 0.6, 0.3, 0.1]
+                },
+                {
+                    "effect_type":"buff_time",
+                    "values_per_stage":[480, 720, 1440, 1800]
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"Acid_Rain",
+            "max_stage":1,
+            "ranges_per_stage":[400],
+            "upgrade_durations_per_level_in_secs":[3600],
+            "resource_costs":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[300000]
+                }
+            ],
+            "activation_time_per_stage":[600],
+            "effect_values":[
+                {
+                    "effect_type":"unit_damage",
+                    "values_per_stage":[20000]
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name":"Ice_Shards",
+            "max_stage":1,
+            "ranges_per_stage":[252],
+            "upgrade_durations_per_level_in_secs":[7200],
+            "resource_costs":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[300000]
+                }
+            ],
+            "activation_time_per_stage":[600],
+            "effect_values":[
+                {
+                    "effect_type":"disable_tower",
+                    "values_per_stage":[10]
+                }
+            ]
+        },
+        {
+            "id":6,
+            "name":"Heal_Aura",
+            "max_stage":1,
+            "ranges_per_stage":[400],
+            "upgrade_durations_per_level_in_secs":[3600],
+            "resource_costs":[
+                {
+                    "resource":"Might",
+                    "amounts_per_level":[300000]
+                }
+            ],
+            "activation_time_per_stage":[600],
+            "effect_values":[
+                {
+                    "effect_type":"unit_heal",
+                    "values_per_stage":[2000]
+                }
+            ]
+        }
+    ],
+    "worker":{
+        "max_instance":5,
+        "base_cost_per_instance":[0, 50, 600, 1200, 2400],
+        "number_of_required_staff_per_instance":4,
+        "staff_gold_reductions_per_instance":[
+            [0, 0, 0, 0],
+            [0, 0, 0, 0],
+            [10, 30, 60, 100],
+            [20, 60, 120, 200],
+            [40, 120, 240, 400]
+        ]
+    }
+}

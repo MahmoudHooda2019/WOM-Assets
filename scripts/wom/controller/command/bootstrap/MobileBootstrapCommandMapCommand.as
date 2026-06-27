@@ -1,0 +1,330 @@
+package wom.controller.command.bootstrap
+{
+   import org.robotlegs.core.ICommandMap;
+   import org.robotlegs.mvcs.StarlingCommand;
+   import peak.display.ViewportResizeEvent;
+   import peak.network.ClientEvent;
+   import peak.network.NetworkEvent;
+   import wom.controller.command.AuthenticateCommand;
+   import wom.controller.command.ConnectToGameServerCommand;
+   import wom.controller.command.HandleChatConnectionLostCommand;
+   import wom.controller.command.HandleConnectionLostCommand;
+   import wom.controller.command.HandleIncomingDataCommand;
+   import wom.controller.command.KeepAliveCommand;
+   import wom.controller.command.MaintenanceCommand;
+   import wom.controller.command.PreloadAssetsCommand;
+   import wom.controller.command.RefreshPageCommand;
+   import wom.controller.command.SendMessageCommand;
+   import wom.controller.command.UpdateModelUponGameTickCommand;
+   import wom.controller.command.UpdateViewportCommand;
+   import wom.controller.command.WindowCreationCommand;
+   import wom.controller.command.alliance.RemoveAllianceInvitationCommand;
+   import wom.controller.command.alliance.RetrieveAllianceInvitationsCommand;
+   import wom.controller.command.alliance.SearchAllianceCandidateCommand;
+   import wom.controller.command.beast.ExecuteBeastActionCommand;
+   import wom.controller.command.beast.HandleBeastDeploymentEventCommand;
+   import wom.controller.command.chat.ChatAuthenticateCommand;
+   import wom.controller.command.chat.ConnectToChatServerCommand;
+   import wom.controller.command.chat.SendChatMessageCommand;
+   import wom.controller.command.city.BuildingUpgradeCompletedCommand;
+   import wom.controller.command.city.ExecuteConstructableActionCommand;
+   import wom.controller.command.city.RedirectToResourceStoreCommand;
+   import wom.controller.command.combat.AddWaypointsCommand;
+   import wom.controller.command.combat.EndAttackCommand;
+   import wom.controller.command.combat.EndDeploymentCommand;
+   import wom.controller.command.combat.RemoveDeployedUnitsCommand;
+   import wom.controller.command.combat.StartAttackCommand;
+   import wom.controller.command.combat.StartSpyingCommand;
+   import wom.controller.command.defense.EndNPCAttackCommand;
+   import wom.controller.command.defense.EndTuskHornCommand;
+   import wom.controller.command.defense.SoundTuskHornCommand;
+   import wom.controller.command.friend.RetrieveFriendsCommand;
+   import wom.controller.command.friend.RetrieveInvitableFriendsCommand;
+   import wom.controller.command.friend.UpdateBlockedFriendsCommand;
+   import wom.controller.command.inbox.OpenInboxWindowCommand;
+   import wom.controller.command.inbox.RetrieveRequestResponseCommand;
+   import wom.controller.command.mobile.HandleMobileApplicationRaterCommand;
+   import wom.controller.command.mobile.HandleMobileFacebookConnectionCommand;
+   import wom.controller.command.mobile.HandleMobileGooglePlayGamesServicesEventCommand;
+   import wom.controller.command.mobile.HandleMobileInAppPurchaseCommand;
+   import wom.controller.command.mobile.HandleMobilePushNotificationsCommand;
+   import wom.controller.command.mobile.MobileContactSupportResponseCommand;
+   import wom.controller.command.mobile.MobileExternalInterfaceEventCommand;
+   import wom.controller.command.mobile.MobilePreSelectCommand;
+   import wom.controller.command.mobile.MobileRetrieveRequestResponseCommand;
+   import wom.controller.command.mobile.MobileSelectCommand;
+   import wom.controller.command.model.CalculateFinishNowHiringPriceCommand;
+   import wom.controller.command.model.FinishAllHiresCommand;
+   import wom.controller.command.model.GenerateBuildingTypeInfosCommand;
+   import wom.controller.command.model.GenerateUnitTypeInfosCommand;
+   import wom.controller.command.model.StartGameTickTimerCommand;
+   import wom.controller.command.model.WorkerUpdateCommand;
+   import wom.controller.command.platform.GetPlatformUserInfoCommand;
+   import wom.controller.command.resource.BankResourcesCommand;
+   import wom.controller.command.staff.GetStaffsEventCommand;
+   import wom.controller.command.staff.HireStaffCommand;
+   import wom.controller.command.store.GetStoreItemsCommand;
+   import wom.controller.command.tutorial.DisableTutorialsCommand;
+   import wom.controller.command.tutorial.EnableTutorialsCommand;
+   import wom.controller.command.tutorial.MobileCreateTutorialsCommand;
+   import wom.controller.command.tutorial.ResetTutorialInfoCommand;
+   import wom.controller.command.tutorial.SetMandatoryTutorialsCompletedCommand;
+   import wom.controller.command.tutorial.SkipTutorialCommand;
+   import wom.controller.command.tutorial.UpdateTutorialCommand;
+   import wom.controller.command.ui.ActionSelectCommand;
+   import wom.controller.command.ui.CloseGenericWindowCommand;
+   import wom.controller.command.ui.GetBuildDecorationPageCommand;
+   import wom.controller.command.ui.GetBuildPageCommand;
+   import wom.controller.command.ui.GetInventoryPageCommand;
+   import wom.controller.command.ui.GetSelectFriendsWindowCommand;
+   import wom.controller.command.ui.MobileApplySettingsCommand;
+   import wom.controller.command.ui.MobileCloseGenericWindowCommand;
+   import wom.controller.command.ui.RetrieveBlockedFriendsCommand;
+   import wom.controller.command.ui.TextInputResponseCommand;
+   import wom.controller.command.unit.CalculateUnitStatsCommand;
+   import wom.controller.command.unit.CancelActiveHiringCommand;
+   import wom.controller.command.unit.CancelQueuedHiringCommand;
+   import wom.controller.command.unit.ChooseAttackingSoldierEventCommand;
+   import wom.controller.command.unit.MobileHireUnitCommand;
+   import wom.controller.command.unit.ResetAttackingSoldierEventCommand;
+   import wom.controller.command.user.RetrieveAnnouncementsResponseCommand;
+   import wom.controller.command.user.RetrieveInviteFriendsResponseCommand;
+   import wom.controller.command.user.RetrievePurchaseResponseCommand;
+   import wom.controller.command.user.RetrieveSendRequestResponseCommand;
+   import wom.controller.command.user.UpdateUsernameCommand;
+   import wom.controller.command.user.UserNotificationCommand;
+   import wom.controller.command.visit.EndVisitCommand;
+   import wom.controller.command.visit.StartVisitCommand;
+   import wom.controller.event.ConstructableActionEvent;
+   import wom.controller.event.ExternalInterfaceEvent;
+   import wom.controller.event.GameTickEvent;
+   import wom.controller.event.KeepAliveEvent;
+   import wom.controller.event.MaintenanceEvent;
+   import wom.controller.event.ModelUpdateEvent;
+   import wom.controller.event.OutgoingMessageEvent;
+   import wom.controller.event.PreloadAssetsEvent;
+   import wom.controller.event.WindowCreationEvent;
+   import wom.controller.event.WorkerUpdateEvent;
+   import wom.controller.event.alliance.RemoveAllianceInvitationEvent;
+   import wom.controller.event.alliance.RetrieveAllianceInvitationsEvent;
+   import wom.controller.event.alliance.SearchAllianceCandidateEvent;
+   import wom.controller.event.beast.BeastActionEvent;
+   import wom.controller.event.beast.BeastDeploymentEvent;
+   import wom.controller.event.chat.ChatClientEvent;
+   import wom.controller.event.combat.AddWaypointsEvent;
+   import wom.controller.event.combat.EndAttackEvent;
+   import wom.controller.event.combat.EndDeploymentEvent;
+   import wom.controller.event.combat.RemoveDeployedUnitsEvent;
+   import wom.controller.event.combat.StartAttackEvent;
+   import wom.controller.event.defense.EndNPCAttackEvent;
+   import wom.controller.event.defense.EndTuskHornEvent;
+   import wom.controller.event.defense.SoundTuskHornEvent;
+   import wom.controller.event.friend.GetSelectFriendsWindowEvent;
+   import wom.controller.event.friend.UpdateBlockedFriendsEvent;
+   import wom.controller.event.mobile.MobileApplicationRaterEvent;
+   import wom.controller.event.mobile.MobileContactSupportResponseEvent;
+   import wom.controller.event.mobile.MobileExternalInterfaceEvent;
+   import wom.controller.event.mobile.MobileFacebookConnectionEvent;
+   import wom.controller.event.mobile.MobileGooglePlayGamesServicesEvent;
+   import wom.controller.event.mobile.MobileInAppPurchaseEvent;
+   import wom.controller.event.mobile.MobilePreSelectEvent;
+   import wom.controller.event.mobile.MobilePushNotificationsEvent;
+   import wom.controller.event.mobile.MobileSelectEvent;
+   import wom.controller.event.model.BuildingUpgradeCompletedEvent;
+   import wom.controller.event.model.FinishNowHiringEvent;
+   import wom.controller.event.model.GenerateBuildingTypeInfosEvent;
+   import wom.controller.event.model.GenerateUnitTypeInfosEvent;
+   import wom.controller.event.model.NotEnoughResourceEvent;
+   import wom.controller.event.platform.PlatformUserEvent;
+   import wom.controller.event.resource.BankResourcesEvent;
+   import wom.controller.event.staff.GetStaffsEvent;
+   import wom.controller.event.staff.HireStaffEvent;
+   import wom.controller.event.tutorial.TutorialEvent;
+   import wom.controller.event.ui.ActionSelectEvent;
+   import wom.controller.event.ui.CancelActiveHiringEvent;
+   import wom.controller.event.ui.CancelQueuedHiringEvent;
+   import wom.controller.event.ui.CloseGenericWindowEvent;
+   import wom.controller.event.ui.GetBuildDecorationPageEvent;
+   import wom.controller.event.ui.GetBuildPageEvent;
+   import wom.controller.event.ui.GetInventoryPageEvent;
+   import wom.controller.event.ui.GetStoreItemsEvent;
+   import wom.controller.event.ui.MobileCloseGenericWindowEvent;
+   import wom.controller.event.ui.MobileHiringQuarterHireEvent;
+   import wom.controller.event.ui.SettingsEvent;
+   import wom.controller.event.ui.UserNotificationEvent;
+   import wom.controller.event.unit.CalculateUnitStatsEvent;
+   import wom.controller.event.unit.ChooseAttackingSoldierEvent;
+   import wom.controller.event.unit.ResetAttackingSoldierEvent;
+   import wom.controller.event.visit.EndVisitEvent;
+   import wom.controller.event.visit.StartVisitEvent;
+   
+   public class MobileBootstrapCommandMapCommand extends StarlingCommand
+   {
+      
+      public function MobileBootstrapCommandMapCommand()
+      {
+         super();
+      }
+      
+      private static function mapFacebookConnectionServicesCommands(param1:ICommandMap) : void
+      {
+         param1.mapEvent("setup",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("connectToFacebook",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("connectionCancelled",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("sendFacebookRequest",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("approveRequestOverFacebook",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("acceptAndSendRequestOverFacebook",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("uploadScreenshot",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("reauthWithPublishPermissions",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+         param1.mapEvent("uploadScreenshotWithPermission",HandleMobileFacebookConnectionCommand,MobileFacebookConnectionEvent);
+      }
+      
+      private static function mapANECommands(param1:ICommandMap) : void
+      {
+         param1.mapEvent("preparePurchase",HandleMobileInAppPurchaseCommand,MobileInAppPurchaseEvent);
+         param1.mapEvent("makePurchase",HandleMobileInAppPurchaseCommand,MobileInAppPurchaseEvent);
+         param1.mapEvent("retreiveProductsFromStore",HandleMobileInAppPurchaseCommand,MobileInAppPurchaseEvent);
+         param1.mapEvent("setupMobileInAppPurchaseService",HandleMobileInAppPurchaseCommand,MobileInAppPurchaseEvent);
+         param1.mapEvent("consumePurchase",HandleMobileInAppPurchaseCommand,MobileInAppPurchaseEvent);
+         param1.mapEvent("setupMobilePushNotificationsService",HandleMobilePushNotificationsCommand,MobilePushNotificationsEvent);
+         param1.mapEvent("setupMobileApplicationRater",HandleMobileApplicationRaterCommand,MobileApplicationRaterEvent);
+         param1.mapEvent("significantEvent",HandleMobileApplicationRaterCommand,MobileApplicationRaterEvent);
+         param1.mapEvent("initGooglePlayGamesServices",HandleMobileGooglePlayGamesServicesEventCommand,MobileGooglePlayGamesServicesEvent);
+         param1.mapEvent("signInGooglePlayGamesServices",HandleMobileGooglePlayGamesServicesEventCommand,MobileGooglePlayGamesServicesEvent);
+         param1.mapEvent("signOutGooglePlayGamesServices",HandleMobileGooglePlayGamesServicesEventCommand,MobileGooglePlayGamesServicesEvent);
+         param1.mapEvent("showStandardAchievements",HandleMobileGooglePlayGamesServicesEventCommand,MobileGooglePlayGamesServicesEvent);
+         param1.mapEvent("googlePlayGamesServicesStatusUpdated",HandleMobileGooglePlayGamesServicesEventCommand,MobileGooglePlayGamesServicesEvent);
+      }
+      
+      private static function mapTutorialCommands(param1:ICommandMap) : void
+      {
+         param1.mapEvent("createTutorials",MobileCreateTutorialsCommand,TutorialEvent);
+         param1.mapEvent("skipTutorial",SkipTutorialCommand,TutorialEvent);
+         param1.mapEvent("disableTutorials",DisableTutorialsCommand,TutorialEvent);
+         param1.mapEvent("enableTutorials",EnableTutorialsCommand,TutorialEvent);
+         param1.mapEvent("saveTutorialsToServer",UpdateTutorialCommand,TutorialEvent);
+         param1.mapEvent("resetTutorialsOnServer",ResetTutorialInfoCommand,TutorialEvent);
+         param1.mapEvent("setMandatoryTutorialsCompleted",SetMandatoryTutorialsCompletedCommand,TutorialEvent);
+      }
+      
+      private static function mapExternalInterfaceCommands(param1:ICommandMap) : void
+      {
+         param1.mapEvent("sendRequest",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("acceptRequest",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("retrieveRequests",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("approveRequest",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("rejectRequest",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("deviceTokenNotification",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("getProductsInfo",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("notifySuccessfullPurchase",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("getBlockedFriends",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("getExternalURLs",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("notifyFBLogin",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("notifyChooseAccount",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("notifyLoginTrack",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("makeWallPost",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("inboxCount",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("getAnnouncements",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("setAnnouncementAsSeen",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("updateClientSettings",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("retrieveRequestResponse",MobileRetrieveRequestResponseCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("acceptAndSendRequest",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("checkWallPostLocalStore",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("notifyAppRating",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("checkInAppBilling",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("setLanguage",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("getLanguages",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("contactSupport",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("connectToWebServer",MobileExternalInterfaceEventCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("retrieveInvitableFriends",RetrieveInvitableFriendsCommand,MobileExternalInterfaceEvent);
+         param1.mapEvent("retrieveFriends",RetrieveFriendsCommand,MobileExternalInterfaceEvent);
+      }
+      
+      override public function execute() : void
+      {
+         commandMap.mapEvent("connectToServer",ConnectToGameServerCommand,ClientEvent);
+         commandMap.mapEvent("connectionEstablished",AuthenticateCommand,ClientEvent);
+         commandMap.mapEvent("connectionLost",HandleConnectionLostCommand,ClientEvent);
+         commandMap.mapEvent("chatConnectionEstablished",ChatAuthenticateCommand,ChatClientEvent);
+         commandMap.mapEvent("connectToChatServer",ConnectToChatServerCommand,ChatClientEvent);
+         commandMap.mapEvent("chatConnectionLost",HandleChatConnectionLostCommand,ChatClientEvent);
+         commandMap.mapEvent("start",StartGameTickTimerCommand,GameTickEvent);
+         commandMap.mapEvent("refreshPage",RefreshPageCommand,ClientEvent);
+         commandMap.mapEvent("dataReceived",HandleIncomingDataCommand,NetworkEvent);
+         commandMap.mapEvent("outgoingMessage",SendMessageCommand,OutgoingMessageEvent);
+         commandMap.mapEvent("outgoingChatMessage",SendChatMessageCommand,OutgoingMessageEvent);
+         commandMap.mapEvent("execute",ExecuteConstructableActionCommand,ConstructableActionEvent);
+         commandMap.mapEvent("getInventoryPage",GetInventoryPageCommand,GetInventoryPageEvent);
+         commandMap.mapEvent("getBuildPage",GetBuildPageCommand,GetBuildPageEvent);
+         commandMap.mapEvent("getBuildDecorationPage",GetBuildDecorationPageCommand,GetBuildDecorationPageEvent);
+         commandMap.mapEvent("getStoreItems",GetStoreItemsCommand,GetStoreItemsEvent);
+         commandMap.mapEvent("actionSelect",ActionSelectCommand,ActionSelectEvent);
+         commandMap.mapEvent("generateBuildingTypeInfosEvent",GenerateBuildingTypeInfosCommand,GenerateBuildingTypeInfosEvent);
+         commandMap.mapEvent("generateUnitTypeInfosEvent",GenerateUnitTypeInfosCommand,GenerateUnitTypeInfosEvent);
+         commandMap.mapEvent("updateCount",WorkerUpdateCommand,WorkerUpdateEvent);
+         commandMap.mapEvent("chooseAttackingSoldierEvent",ChooseAttackingSoldierEventCommand,ChooseAttackingSoldierEvent);
+         commandMap.mapEvent("resetSoldiers",ResetAttackingSoldierEventCommand,ResetAttackingSoldierEvent);
+         commandMap.mapEvent("calculate",CalculateUnitStatsCommand,CalculateUnitStatsEvent);
+         commandMap.mapEvent("beastDeploymentChoose",HandleBeastDeploymentEventCommand,BeastDeploymentEvent);
+         commandMap.mapEvent("beastAction",ExecuteBeastActionCommand,BeastActionEvent);
+         commandMap.mapEvent("tick",UpdateModelUponGameTickCommand,GameTickEvent);
+         commandMap.mapEvent("endAttack",EndAttackCommand,EndAttackEvent);
+         commandMap.mapEvent("endDeployment",EndDeploymentCommand,EndDeploymentEvent);
+         commandMap.mapEvent("endNPCAttack",EndNPCAttackCommand,EndNPCAttackEvent);
+         commandMap.mapEvent("endAttack",EndTuskHornCommand,EndTuskHornEvent);
+         commandMap.mapEvent("endVisit",EndVisitCommand,EndVisitEvent);
+         commandMap.mapEvent("startAttack",StartAttackCommand,StartAttackEvent);
+         commandMap.mapEvent("startVisit",StartVisitCommand,StartVisitEvent);
+         commandMap.mapEvent("startDefense",SoundTuskHornCommand,SoundTuskHornEvent);
+         commandMap.mapEvent("startSpying",StartSpyingCommand,StartAttackEvent);
+         commandMap.mapEvent("getStaffs",GetStaffsEventCommand,GetStaffsEvent);
+         commandMap.mapEvent("calculateFinishNowPrice",CalculateFinishNowHiringPriceCommand,FinishNowHiringEvent);
+         commandMap.mapEvent("finishAllHires",FinishAllHiresCommand,FinishNowHiringEvent);
+         commandMap.mapEvent("closeGenericWindow",CloseGenericWindowCommand,CloseGenericWindowEvent);
+         commandMap.mapEvent("mobileCloseGenericWindow",MobileCloseGenericWindowCommand,MobileCloseGenericWindowEvent);
+         commandMap.mapEvent("resize",UpdateViewportCommand,ViewportResizeEvent);
+         commandMap.mapEvent("openInboxWindow",OpenInboxWindowCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrieveRequestResponse",RetrieveRequestResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrieveBlockedFriends",RetrieveBlockedFriendsCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrieveSendRequestResponse",RetrieveSendRequestResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrieveInviteFriendsResponse",RetrieveInviteFriendsResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrievePurchaseResponse",RetrievePurchaseResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("retrieveAnnouncementsResponse",RetrieveAnnouncementsResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("textInputResponse",TextInputResponseCommand,ExternalInterfaceEvent);
+         commandMap.mapEvent("createWindow",WindowCreationCommand,WindowCreationEvent);
+         commandMap.mapEvent("keepAlive",KeepAliveCommand,KeepAliveEvent);
+         commandMap.mapEvent("getSelectFriendsWindow",GetSelectFriendsWindowCommand,GetSelectFriendsWindowEvent);
+         commandMap.mapEvent("getSelectFriendsWindowReady",GetSelectFriendsWindowCommand,GetSelectFriendsWindowEvent);
+         commandMap.mapEvent("getPlatformUserInfo",GetPlatformUserInfoCommand,PlatformUserEvent);
+         commandMap.mapEvent("platformUsersUpdated",UpdateUsernameCommand,ModelUpdateEvent);
+         commandMap.mapEvent("userNotificationEventShow",UserNotificationCommand,UserNotificationEvent);
+         commandMap.mapEvent("createWindow",PreloadAssetsCommand,PreloadAssetsEvent);
+         commandMap.mapEvent("hireStaff",HireStaffCommand,HireStaffEvent);
+         commandMap.mapEvent("resourceTypeUnknown",RedirectToResourceStoreCommand,NotEnoughResourceEvent);
+         commandMap.mapEvent("maintenance",MaintenanceCommand,MaintenanceEvent);
+         commandMap.mapEvent("addWayPoint",AddWaypointsCommand,AddWaypointsEvent);
+         commandMap.mapEvent("flushWaypoints",AddWaypointsCommand,AddWaypointsEvent);
+         commandMap.mapEvent("unitDeployed",RemoveDeployedUnitsCommand,RemoveDeployedUnitsEvent);
+         commandMap.mapEvent("flushDeployedUnits",RemoveDeployedUnitsCommand,RemoveDeployedUnitsEvent);
+         commandMap.mapEvent("hireUnit",MobileHireUnitCommand,MobileHiringQuarterHireEvent);
+         commandMap.mapEvent("cancelUnit",CancelQueuedHiringCommand,CancelQueuedHiringEvent);
+         commandMap.mapEvent("cancelActiveUnit",CancelActiveHiringCommand,CancelActiveHiringEvent);
+         mapTutorialCommands(commandMap);
+         commandMap.mapEvent("buildingUpgradeCompleted",BuildingUpgradeCompletedCommand,BuildingUpgradeCompletedEvent);
+         commandMap.mapEvent("searchUser",SearchAllianceCandidateCommand,SearchAllianceCandidateEvent);
+         commandMap.mapEvent("retrieveAllianceInvitations",RetrieveAllianceInvitationsCommand,RetrieveAllianceInvitationsEvent);
+         commandMap.mapEvent("removeAllianceInvitation",RemoveAllianceInvitationCommand,RemoveAllianceInvitationEvent);
+         commandMap.mapEvent("applySettings",MobileApplySettingsCommand,SettingsEvent);
+         mapExternalInterfaceCommands(commandMap);
+         commandMap.mapEvent("mobileSelect",MobileSelectCommand,MobileSelectEvent);
+         commandMap.mapEvent("mobilePreSelect",MobilePreSelectCommand,MobilePreSelectEvent);
+         commandMap.mapEvent("bankAllResources",BankResourcesCommand,BankResourcesEvent);
+         commandMap.mapEvent("bankInstanceResources",BankResourcesCommand,BankResourcesEvent);
+         commandMap.mapEvent("updateBlockedFriends",UpdateBlockedFriendsCommand,UpdateBlockedFriendsEvent);
+         commandMap.mapEvent("contactSupportResponse",MobileContactSupportResponseCommand,MobileContactSupportResponseEvent);
+         mapANECommands(commandMap);
+         mapFacebookConnectionServicesCommands(commandMap);
+      }
+   }
+}
+
