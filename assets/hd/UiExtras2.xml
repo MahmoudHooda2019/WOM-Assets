@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cafc4f1a060b3613ef07575d27b467a0:1/1$ -->
+<TextureAtlas imagePath="UiExtras2.atf">
+    <SubTexture name="AcidRain" x="2284" y="1496" width="629" height="669"/>
+    <SubTexture name="AcidTower" x="1907" y="2385" width="445" height="701"/>
+    <SubTexture name="ArmPattern1" x="3737" y="3511" width="218" height="245"/>
+    <SubTexture name="ArmPattern10" x="3517" y="3758" width="218" height="245"/>
+    <SubTexture name="ArmPattern11" x="3517" y="3511" width="218" height="245"/>
+    <SubTexture name="ArmPattern12" x="3297" y="3798" width="218" height="245"/>
+    <SubTexture name="ArmPattern2" x="3297" y="3551" width="218" height="245"/>
+    <SubTexture name="ArmPattern3" x="3077" y="3785" width="218" height="245"/>
+    <SubTexture name="ArmPattern4" x="2857" y="3839" width="218" height="245"/>
+    <SubTexture name="ArmPattern5" x="2637" y="3839" width="218" height="245"/>
+    <SubTexture name="ArmPattern6" x="2417" y="3839" width="218" height="245"/>
+    <SubTexture name="ArmPattern7" x="2670" y="3592" width="218" height="245"/>
+    <SubTexture name="ArmPattern8" x="2917" y="3538" width="218" height="245"/>
+    <SubTexture name="ArmPattern9" x="3049" y="249" width="218" height="245"/>
+    <SubTexture name="ArmPatternBase" x="3049" y="2" width="218" height="245"/>
+    <SubTexture name="BedoinBrute" x="1217" y="2" width="598" height="825"/>
+    <SubTexture name="CityExpansion" x="2921" y="3058" width="286" height="240"/>
+    <SubTexture name="Cut1Hour" x="3911" y="1697" width="183" height="245"/>
+    <SubTexture name="Cut2Hours" x="3209" y="3267" width="265" height="282"/>
+    <SubTexture name="Cut30Min" x="1512" y="3745" width="183" height="245"/>
+    <SubTexture name="Cyclop" x="3280" y="2" width="767" height="540"/>
+    <SubTexture name="ExpressHiring" x="2" y="3594" width="308" height="360"/>
+    <SubTexture name="ExtraBarrackSpace1" x="3256" y="1327" width="410" height="276"/>
+    <SubTexture name="ExtraBarrackSpace2" x="3280" y="1049" width="410" height="276"/>
+    <SubTexture name="ExtraWorker" x="2417" y="2470" width="305" height="278"/>
+    <SubTexture name="FasterUpgrade" x="2921" y="3300" width="265" height="236"/>
+    <SubTexture name="FinishNow" x="2417" y="2167" width="320" height="301"/>
+    <SubTexture name="FreeFinish" x="1512" y="3498" width="183" height="245"/>
+    <SubTexture name="GentleHealer" x="2" y="2" width="562" height="943"/>
+    <SubTexture name="Hezarfen" x="1195" y="2513" width="710" height="774"/>
+    <SubTexture name="IceShard" x="1384" y="829" width="542" height="789"/>
+    <SubTexture name="IronBoost" x="2628" y="2805" width="297" height="247" frameX="0" frameY="-2" frameWidth="297" frameHeight="251"/>
+    <SubTexture name="IronFillUp" x="2915" y="1976" width="322" height="276" frameX="0" frameY="-2" frameWidth="324" frameHeight="280"/>
+    <SubTexture name="IronTouchUp" x="1409" y="3289" width="297" height="207"/>
+    <SubTexture name="Janissary" x="2" y="1835" width="491" height="885"/>
+    <SubTexture name="Khamikazee" x="1053" y="1720" width="584" height="791"/>
+    <SubTexture name="Longbowman" x="2" y="2722" width="550" height="870"/>
+    <SubTexture name="LouderHorn" x="2620" y="1265" width="293" height="226"/>
+    <SubTexture name="LumberBoost" x="3246" y="1839" width="326" height="283"/>
+    <SubTexture name="LumberFillUp" x="3583" y="1697" width="326" height="313"/>
+    <SubTexture name="LumberTouchUp" x="2670" y="3360" width="245" height="230"/>
+    <SubTexture name="MercDamageBoost1" x="2628" y="3054" width="291" height="304" frameX="0" frameY="-2" frameWidth="291" frameHeight="308"/>
+    <SubTexture name="MercDamageBoost2" x="3668" y="1357" width="332" height="338" frameX="0" frameY="-2" frameWidth="332" frameHeight="342"/>
+    <SubTexture name="MercHealthBoost" x="2739" y="2254" width="306" height="269"/>
+    <SubTexture name="MercSpeedBoost" x="3854" y="2355" width="239" height="277"/>
+    <SubTexture name="MightBoost" x="3574" y="2012" width="314" height="341" frameX="0" frameY="-2" frameWidth="314" frameHeight="345"/>
+    <SubTexture name="MightFillUp" x="3239" y="2124" width="310" height="345" frameX="0" frameY="-2" frameWidth="310" frameHeight="349"/>
+    <SubTexture name="MightTouchUp" x="2417" y="3360" width="251" height="256" frameX="0" frameY="-2" frameWidth="251" frameHeight="260"/>
+    <SubTexture name="MongolianGargantuan" x="818" y="3503" width="692" height="589"/>
+    <SubTexture name="NightRider" x="410" y="947" width="471" height="883"/>
+    <SubTexture name="NubianGuard" x="1817" y="2" width="783" height="783"/>
+    <SubTexture name="Painblower" x="2" y="947" width="406" height="886"/>
+    <SubTexture name="PersianHashishin" x="1639" y="1620" width="643" height="763"/>
+    <SubTexture name="PersianSapper" x="1928" y="787" width="690" height="707"/>
+    <SubTexture name="PharaohWarrior" x="566" y="2" width="649" height="881"/>
+    <SubTexture name="ProductionBoost1" x="2724" y="2525" width="301" height="278"/>
+    <SubTexture name="ProductionBoost2" x="3047" y="2471" width="301" height="278"/>
+    <SubTexture name="QuickHiring" x="3027" y="2751" width="299" height="305"/>
+    <SubTexture name="Ravager" x="554" y="2685" width="639" height="816"/>
+    <SubTexture name="RepairAllBuildings" x="3328" y="2987" width="287" height="278"/>
+    <SubTexture name="RocknGaul" x="2620" y="705" width="658" height="558"/>
+    <SubTexture name="SamuraiTeam" x="1708" y="3289" width="707" height="768"/>
+    <SubTexture name="ShieldDaily" x="3617" y="3214" width="282" height="295" frameX="0" frameY="0" frameWidth="284" frameHeight="297"/>
+    <SubTexture name="ShieldMonthly" x="3551" y="2355" width="301" height="323" frameX="0" frameY="0" frameWidth="301" frameHeight="325"/>
+    <SubTexture name="ShieldWeekly" x="3651" y="2887" width="288" height="325" frameX="0" frameY="-2" frameWidth="288" frameHeight="329"/>
+    <SubTexture name="SiegeTower" x="2602" y="2" width="445" height="701"/>
+    <SubTexture name="SneakPeak" x="495" y="1832" width="556" height="851"/>
+    <SubTexture name="SpeedyHiring" x="484" y="3594" width="332" height="352"/>
+    <SubTexture name="StockpileBoost" x="2354" y="2750" width="272" height="351" frameX="0" frameY="-2" frameWidth="272" frameHeight="355"/>
+    <SubTexture name="StoneBoost" x="3854" y="2634" width="235" height="251" frameX="0" frameY="-2" frameWidth="235" frameHeight="255"/>
+    <SubTexture name="StoneFillUp" x="3692" y="1049" width="334" height="306" frameX="0" frameY="-2" frameWidth="334" frameHeight="310"/>
+    <SubTexture name="StoneTouchUp" x="1195" y="3289" width="212" height="211" frameX="0" frameY="-2" frameWidth="212" frameHeight="215"/>
+    <SubTexture name="SwiftHiring" x="3350" y="2680" width="299" height="305"/>
+    <SubTexture name="Thorzain" x="883" y="885" width="499" height="833"/>
+    <SubTexture name="TowerDamageBoost" x="312" y="3594" width="170" height="360"/>
+    <SubTexture name="WallUpgrade1" x="2915" y="1499" width="333" height="232"/>
+    <SubTexture name="WallUpgrade2" x="2915" y="1265" width="339" height="232"/>
+    <SubTexture name="WallUpgrade3" x="3250" y="1605" width="331" height="232"/>
+    <SubTexture name="WallUpgrade4" x="2915" y="1733" width="329" height="241"/>
+    <SubTexture name="WolfPack" x="3280" y="544" width="709" height="503"/>
+</TextureAtlas>

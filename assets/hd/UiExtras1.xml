@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:39a72c3980b030653b8a8c984ac3a39e:1/1$ -->
+<TextureAtlas imagePath="UiExtras1.atf">
+    <SubTexture name="Bearwolf1" x="1393" y="1561" width="647" height="636"/>
+    <SubTexture name="Bearwolf2" x="1941" y="2371" width="686" height="635"/>
+    <SubTexture name="Bearwolf3" x="589" y="2" width="624" height="786"/>
+    <SubTexture name="Bearwolf4" x="618" y="790" width="643" height="773"/>
+    <SubTexture name="Bearwolf5" x="2" y="824" width="614" height="794"/>
+    <SubTexture name="Bearwolf6" x="2" y="1620" width="675" height="773"/>
+    <SubTexture name="BearwolfPortrait1" x="2789" y="2811" width="158" height="140"/>
+    <SubTexture name="BearwolfPortrait2" x="2789" y="2669" width="158" height="140"/>
+    <SubTexture name="BearwolfPortrait3" x="2789" y="2527" width="158" height="140"/>
+    <SubTexture name="BearwolfPortrait4" x="2949" y="2479" width="158" height="140"/>
+    <SubTexture name="BearwolfPortrait5" x="2789" y="2385" width="158" height="140"/>
+    <SubTexture name="BearwolfPortrait6" x="2985" y="2337" width="158" height="140"/>
+    <SubTexture name="BeastChain" x="2788" y="579" width="707" height="569"/>
+    <SubTexture name="BedoinBrutePortrait" x="2825" y="2243" width="158" height="140"/>
+    <SubTexture name="BrickTile" x="3220" y="1298" width="177" height="131"/>
+    <SubTexture name="BrokenChain" x="2582" y="3008" width="636" height="630"/>
+    <SubTexture name="BronzeCoil" x="940" y="3971" width="185" height="111"/>
+    <SubTexture name="ClayTile" x="1876" y="624" width="188" height="103" frameX="-1" frameY="-19" frameWidth="190" frameHeight="135"/>
+    <SubTexture name="Cloth" x="190" y="3995" width="187" height="91"/>
+    <SubTexture name="CyclopPortrait" x="2985" y="2195" width="158" height="140"/>
+    <SubTexture name="Dragonfly1" x="3497" y="994" width="597" height="564"/>
+    <SubTexture name="Dragonfly2" x="1210" y="2390" width="729" height="644"/>
+    <SubTexture name="Dragonfly3" x="2776" y="2" width="733" height="575"/>
+    <SubTexture name="Dragonfly4" x="679" y="1565" width="712" height="645"/>
+    <SubTexture name="Dragonfly5" x="1263" y="744" width="736" height="637"/>
+    <SubTexture name="Dragonfly6" x="2001" y="729" width="739" height="613"/>
+    <SubTexture name="DragonflyPortrait1" x="2825" y="2101" width="158" height="140"/>
+    <SubTexture name="DragonflyPortrait2" x="2925" y="1959" width="158" height="140"/>
+    <SubTexture name="DragonflyPortrait3" x="2925" y="1817" width="158" height="140"/>
+    <SubTexture name="DragonflyPortrait4" x="2765" y="1959" width="158" height="140"/>
+    <SubTexture name="DragonflyPortrait5" x="2765" y="1817" width="158" height="140"/>
+    <SubTexture name="DragonflyPortrait6" x="2665" y="2150" width="158" height="140"/>
+    <SubTexture name="FacebookFallbackPicture" x="2350" y="624" width="100" height="100"/>
+    <SubTexture name="GearShaft" x="3220" y="2971" width="145" height="131"/>
+    <SubTexture name="GentleHealerPortrait" x="2605" y="2008" width="158" height="140"/>
+    <SubTexture name="GrindingStone" x="3109" y="2836" width="147" height="133"/>
+    <SubTexture name="GuestAvatar1" x="3385" y="2698" width="131" height="124"/>
+    <SubTexture name="GuestAvatar2" x="3258" y="2834" width="131" height="124"/>
+    <SubTexture name="GuestAvatar3" x="3085" y="2069" width="131" height="124"/>
+    <SubTexture name="GuestAvatar4" x="3085" y="1943" width="131" height="124"/>
+    <SubTexture name="GuestAvatar5" x="3085" y="1817" width="131" height="124"/>
+    <SubTexture name="GuestAvatar6" x="2655" y="598" width="131" height="124"/>
+    <SubTexture name="Hammer" x="3220" y="1577" width="171" height="133"/>
+    <SubTexture name="HezarfenPortrait" x="2605" y="1866" width="158" height="140"/>
+    <SubTexture name="JanissaryPortrait" x="2949" y="1675" width="158" height="140"/>
+    <SubTexture name="KhamikazeePortrait" x="2605" y="1724" width="158" height="140"/>
+    <SubTexture name="LightningRod" x="3993" y="2" width="95" height="134"/>
+    <SubTexture name="LongBowmanPortrait" x="2789" y="1675" width="158" height="140"/>
+    <SubTexture name="MPose2Left" x="2042" y="1675" width="401" height="506"/>
+    <SubTexture name="MPose4" x="3380" y="2032" width="626" height="523"/>
+    <SubTexture name="MPose5Left" x="2742" y="1150" width="435" height="523"/>
+    <SubTexture name="MPose7Right" x="3511" y="2" width="480" height="477"/>
+    <SubTexture name="Magnet" x="379" y="3981" width="186" height="113"/>
+    <SubTexture name="Mightosour1" x="3398" y="1560" width="644" height="470"/>
+    <SubTexture name="Mightosour2" x="1876" y="2" width="491" height="620"/>
+    <SubTexture name="Mightosour3" x="2" y="3103" width="612" height="688"/>
+    <SubTexture name="Mightosour4" x="2" y="2395" width="658" height="706"/>
+    <SubTexture name="Mightosour5" x="1146" y="3060" width="703" height="657"/>
+    <SubTexture name="Mightosour6" x="1851" y="3036" width="729" height="642"/>
+    <SubTexture name="MightosourPortrait1" x="2629" y="2848" width="158" height="140"/>
+    <SubTexture name="MightosourPortrait2" x="2629" y="2706" width="158" height="140"/>
+    <SubTexture name="MightosourPortrait3" x="2629" y="2316" width="158" height="140"/>
+    <SubTexture name="MightosourPortrait4" x="2629" y="2564" width="158" height="140"/>
+    <SubTexture name="MightosourPortrait5" x="3173" y="3924" width="158" height="140"/>
+    <SubTexture name="MightosourPortrait6" x="3173" y="3782" width="158" height="140"/>
+    <SubTexture name="MongolianGargantuanPortrait" x="3013" y="3924" width="158" height="140"/>
+    <SubTexture name="Nail" x="3267" y="2564" width="126" height="132"/>
+    <SubTexture name="NightRiderPortrait" x="3110" y="3640" width="158" height="140"/>
+    <SubTexture name="NubianGuardPortrait" x="3013" y="3782" width="158" height="140"/>
+    <SubTexture name="PainblowerPortrait" x="2853" y="3924" width="158" height="140"/>
+    <SubTexture name="Paint" x="3993" y="138" width="93" height="134"/>
+    <SubTexture name="PersianHashishinPortrait" x="2950" y="3640" width="158" height="140"/>
+    <SubTexture name="PersianSapperPortrait" x="2853" y="3782" width="158" height="140"/>
+    <SubTexture name="PharaohWarriorPortrait" x="2445" y="1866" width="158" height="140"/>
+    <SubTexture name="Pin" x="1127" y="3971" width="182" height="107"/>
+    <SubTexture name="Q10" x="1549" y="1383" width="94" height="176" frameX="-54" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q100" x="2207" y="2183" width="170" height="146" frameX="-30" frameY="-31" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1000" x="662" y="3791" width="152" height="180" frameX="-20" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1100" x="662" y="3791" width="152" height="180" frameX="-20" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1200" x="2528" y="3680" width="152" height="176" frameX="-23" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q125" x="3220" y="1431" width="176" height="144" frameX="-11" frameY="-33" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1300" x="496" y="3793" width="164" height="180" frameX="-18" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1400" x="1707" y="3897" width="182" height="176" frameX="0" frameY="-4" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1500" x="662" y="3791" width="152" height="180" frameX="-20" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1600" x="1645" y="1383" width="200" height="174" frameX="0" frameY="-3" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1700" x="1009" y="2212" width="162" height="176" frameX="-20" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1800" x="1891" y="3897" width="176" height="176" frameX="0" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q1900" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q20" x="1706" y="3719" width="184" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q200" x="2949" y="2621" width="158" height="136" frameX="-24" frameY="-41" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2000" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2100" x="3220" y="1150" width="200" height="146" frameX="0" frameY="-41" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2200" x="2019" y="1344" width="150" height="164" frameX="-32" frameY="-16" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2300" x="2069" y="3858" width="158" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2400" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2500" x="2387" y="3858" width="152" height="176" frameX="-26" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2600" x="2520" y="1494" width="200" height="140" frameX="0" frameY="-23" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2650" x="1549" y="1383" width="94" height="176" frameX="-54" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2675" x="2019" y="1344" width="150" height="164" frameX="-32" frameY="-16" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2700" x="2171" y="1344" width="158" height="156" frameX="-21" frameY="-24" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2800" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q2900" x="2007" y="2199" width="198" height="166" frameX="0" frameY="-4" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q30" x="1706" y="3719" width="184" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q300" x="2042" y="1510" width="158" height="158" frameX="-21" frameY="-18" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3000" x="3220" y="1150" width="200" height="146" frameX="0" frameY="-41" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3100" x="2052" y="3680" width="158" height="176" frameX="-21" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3200" x="1311" y="3899" width="200" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3300" x="1707" y="3897" width="182" height="176" frameX="0" frameY="-4" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3400" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q350" x="1892" y="3680" width="158" height="176" frameX="-15" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3500" x="1513" y="3897" width="192" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3600" x="2360" y="1496" width="158" height="150" frameX="-21" frameY="-27" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3800" x="1415" y="1383" width="132" height="176" frameX="-35" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q3900" x="1320" y="3719" width="196" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q40" x="1263" y="1383" width="150" height="176" frameX="-26" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q400" x="2379" y="2183" width="124" height="146" frameX="-42" frameY="-31" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4000" x="2491" y="1344" width="158" height="148" frameX="-21" frameY="-29" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4050" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4100" x="1707" y="3897" width="182" height="176" frameX="0" frameY="-4" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4200" x="1160" y="3719" width="158" height="178" frameX="-21" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4300" x="330" y="3793" width="164" height="186" frameX="-18" frameY="-7" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4400" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q450" x="2202" y="1502" width="156" height="152" frameX="-27" frameY="-25" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4500" x="1518" y="3719" width="186" height="176" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4600" x="330" y="3793" width="164" height="186" frameX="-18" frameY="-7" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4700" x="1675" y="2199" width="170" height="172" frameX="-9" frameY="-14" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4800" x="845" y="2212" width="162" height="176" frameX="-16" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q4900" x="2229" y="3858" width="156" height="176" frameX="-23" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q50" x="1000" y="3791" width="158" height="178" frameX="-21" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q500" x="2370" y="3680" width="156" height="176" frameX="-22" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5000" x="2682" y="3640" width="106" height="166" frameX="-48" frameY="-11" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5100" x="2541" y="3858" width="150" height="176" frameX="-28" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5200" x="2212" y="3680" width="156" height="176" frameX="-21" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5300" x="2528" y="3680" width="152" height="176" frameX="-23" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5400" x="1333" y="2212" width="158" height="176" frameX="-21" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5500" x="1847" y="1383" width="170" height="174" frameX="-22" frameY="-3" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5600" x="172" y="3793" width="156" height="200" frameX="-21" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5700" x="2052" y="3680" width="158" height="176" frameX="-21" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5800" x="2212" y="3680" width="156" height="176" frameX="-21" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q5900" x="1173" y="2212" width="158" height="176" frameX="-27" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q60" x="679" y="2212" width="164" height="176" frameX="-20" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q600" x="2949" y="2759" width="158" height="134" frameX="-21" frameY="-43" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q6000" x="172" y="3793" width="156" height="200" frameX="-21" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q6100" x="2331" y="1344" width="158" height="150" frameX="-21" frameY="-27" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q6200" x="1847" y="2199" width="158" height="170" frameX="-21" frameY="-7" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q70" x="330" y="3793" width="164" height="186" frameX="-18" frameY="-7" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q700" x="1707" y="3897" width="182" height="176" frameX="0" frameY="-4" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q80" x="2" y="3793" width="168" height="200" frameX="-22" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q800" x="1493" y="2199" width="180" height="172" frameX="-20" frameY="-5" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q850" x="2019" y="1344" width="150" height="164" frameX="-32" frameY="-16" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="Q900" x="816" y="3791" width="182" height="178" frameX="0" frameY="-1" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="RavagerPortrait" x="2445" y="1724" width="158" height="140"/>
+    <SubTexture name="RocknGaulPortrait" x="2790" y="3640" width="158" height="140"/>
+    <SubTexture name="Rope" x="751" y="3973" width="187" height="112"/>
+    <SubTexture name="SafetyHat" x="3109" y="2564" width="156" height="134"/>
+    <SubTexture name="SamuraiTeamPortrait" x="2693" y="3950" width="158" height="140"/>
+    <SubTexture name="Screw" x="2452" y="598" width="87" height="129"/>
+    <SubTexture name="Shovel" x="3236" y="2700" width="147" height="132"/>
+    <SubTexture name="SneakPeakPortrait" x="2693" y="3808" width="158" height="140"/>
+    <SubTexture name="Spud" x="3993" y="274" width="93" height="130"/>
+    <SubTexture name="SteelBar" x="3109" y="2700" width="125" height="134"/>
+    <SubTexture name="StoneBlock" x="2066" y="624" width="180" height="101"/>
+    <SubTexture name="ThorzainPortrait" x="3220" y="2422" width="158" height="140"/>
+    <SubTexture name="ToothedWheel" x="3979" y="481" width="115" height="132"/>
+    <SubTexture name="Trolley" x="2520" y="1636" width="185" height="86"/>
+    <SubTexture name="Tube" x="2541" y="598" width="112" height="127"/>
+    <SubTexture name="TutorialDefenderIcon" x="2248" y="624" width="100" height="100"/>
+    <SubTexture name="Wire" x="567" y="3975" width="182" height="113"/>
+    <SubTexture name="WolfPackPortrait" x="3220" y="2280" width="158" height="140"/>
+    <SubTexture name="Womkong1" x="3511" y="481" width="466" height="511"/>
+    <SubTexture name="Womkong2" x="2369" y="2" width="405" height="594"/>
+    <SubTexture name="Womkong3" x="662" y="2395" width="546" height="663"/>
+    <SubTexture name="Womkong4" x="616" y="3103" width="528" height="686"/>
+    <SubTexture name="Womkong5" x="2" y="2" width="585" height="820"/>
+    <SubTexture name="Womkong6" x="1215" y="2" width="659" height="740"/>
+    <SubTexture name="WomkongPortrait1" x="3220" y="2138" width="158" height="140"/>
+    <SubTexture name="WomkongPortrait2" x="2505" y="2174" width="158" height="140"/>
+    <SubTexture name="WomkongPortrait3" x="3220" y="1996" width="158" height="140"/>
+    <SubTexture name="WomkongPortrait4" x="3220" y="1854" width="158" height="140"/>
+    <SubTexture name="WomkongPortrait5" x="3220" y="1712" width="158" height="140"/>
+    <SubTexture name="WomkongPortrait6" x="2445" y="2032" width="158" height="140"/>
+    <SubTexture name="WoodenPlanks" x="2" y="3995" width="186" height="94"/>
+</TextureAtlas>

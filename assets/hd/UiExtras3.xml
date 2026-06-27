@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6f72a84e2bfc609691bce4ff0587513d:72360dacfbbfb8a181527fc26209d780:1df38667a4107869b19f7afeb650eb7b$ -->
+<TextureAtlas imagePath="UiExtras3.atf">
+    <SubTexture name="AcidRainPortrait" x="2" y="3977" width="106" height="109"/>
+    <SubTexture name="AcidTowerPortrait" x="3915" y="993" width="165" height="159"/>
+    <SubTexture name="AttackedBackground" x="2969" y="2" width="1084" height="604"/>
+    <SubTexture name="DeployHand" x="3884" y="2110" width="125" height="136"/>
+    <SubTexture name="DeployHandShadow" x="2817" y="1443" width="123" height="133"/>
+    <SubTexture name="DiscountLabel" x="813" y="3726" width="346" height="346"/>
+    <SubTexture name="ExpandCity" x="2691" y="707" width="234" height="204"/>
+    <SubTexture name="FBGoldStack" x="2" y="761" width="857" height="420"/>
+    <SubTexture name="HealAura" x="852" y="1492" width="577" height="825" frameX="-51" frameY="-12" frameWidth="659" frameHeight="877"/>
+    <SubTexture name="HealAuraPortrait" x="3884" y="1949" width="135" height="159"/>
+    <SubTexture name="IceShardPortrait" x="3884" y="1585" width="158" height="140"/>
+    <SubTexture name="IconAvea" x="2906" y="1199" width="57" height="100"/>
+    <SubTexture name="IconBombs" x="1274" y="3954" width="64" height="61"/>
+    <SubTexture name="IconCapacity" x="1431" y="1492" width="83" height="66"/>
+    <SubTexture name="IconEP" x="4021" y="1949" width="73" height="60"/>
+    <SubTexture name="IconEPBig" x="1161" y="3954" width="111" height="94"/>
+    <SubTexture name="IconFacebookW" x="2906" y="1139" width="58" height="58"/>
+    <SubTexture name="IconGooglePlus" x="2906" y="1026" width="60" height="60" frameX="-6" frameY="-6" frameWidth="72" frameHeight="72"/>
+    <SubTexture name="IconGooglePlusAchievements" x="2919" y="913" width="46" height="64" frameX="-9" frameY="0" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="IconGooglePlusController" x="3915" y="608" width="170" height="120"/>
+    <SubTexture name="IconGoogleWallet" x="325" y="3977" width="486" height="100"/>
+    <SubTexture name="IconMastercard" x="3915" y="730" width="166" height="100"/>
+    <SubTexture name="IconPeakGames" x="3884" y="1360" width="200" height="100"/>
+    <SubTexture name="IconRequestFriends" x="110" y="3977" width="108" height="106"/>
+    <SubTexture name="IconSpecialOffer" x="2691" y="1443" width="124" height="127"/>
+    <SubTexture name="IconStockPile" x="4021" y="2011" width="72" height="69"/>
+    <SubTexture name="IconStockPileBig" x="220" y="3977" width="103" height="102"/>
+    <SubTexture name="IconTurkcell" x="2691" y="913" width="226" height="100"/>
+    <SubTexture name="IconVisa" x="3884" y="1727" width="157" height="100"/>
+    <SubTexture name="IconVodafone" x="3915" y="1154" width="165" height="100"/>
+    <SubTexture name="KompuGatchaBackground" x="2" y="2" width="1523" height="757"/>
+    <SubTexture name="LeagueBackground" x="1527" y="707" width="1162" height="795"/>
+    <SubTexture name="LeagueBlankShield" x="2469" y="2169" width="378" height="384"/>
+    <SubTexture name="LeagueWin" x="861" y="761" width="624" height="729"/>
+    <SubTexture name="LightAnimation" x="2691" y="1015" width="213" height="426"/>
+    <SubTexture name="NPCAttackBackground" x="1527" y="2" width="1440" height="703"/>
+    <SubTexture name="PoseWorker1" x="2966" y="1171" width="916" height="1049"/>
+    <SubTexture name="PoseWorker2" x="2" y="2238" width="830" height="895"/>
+    <SubTexture name="PoseWorker3" x="2" y="3135" width="785" height="840"/>
+    <SubTexture name="PoseWorker4" x="2" y="1183" width="848" height="1053"/>
+    <SubTexture name="PoseWorker5" x="1662" y="1504" width="805" height="974"/>
+    <SubTexture name="RearmTraps" x="1161" y="3726" width="381" height="226"/>
+    <SubTexture name="SiegeTowerPortrait" x="3915" y="832" width="165" height="159"/>
+    <SubTexture name="SymbolExclamationBig" x="4021" y="2082" width="69" height="176"/>
+    <SubTexture name="SymbolOK" x="2906" y="1088" width="60" height="49"/>
+    <SubTexture name="SymbolTickBig" x="3884" y="1829" width="151" height="118"/>
+    <SubTexture name="TopSellerRibbon" x="3884" y="1256" width="206" height="102"/>
+    <SubTexture name="TournamentRewardIcon1" x="2906" y="1393" width="44" height="44"/>
+    <SubTexture name="TournamentRewardIcon2" x="2906" y="1347" width="44" height="44"/>
+    <SubTexture name="TournamentRewardIcon3" x="2906" y="1301" width="44" height="44"/>
+    <SubTexture name="TutorMaskM" x="2919" y="979" width="45" height="45"/>
+    <SubTexture name="TutorialArrowDownM" x="1544" y="3897" width="116" height="169"/>
+    <SubTexture name="TutorialArrowLeftRightM" x="3884" y="1462" width="163" height="121"/>
+    <SubTexture name="TutorialArrowUpM" x="1544" y="3726" width="116" height="169"/>
+    <SubTexture name="TutorialBackgroundM" x="2969" y="608" width="944" height="561"/>
+    <SubTexture name="TutorialPose1M" x="789" y="3135" width="830" height="589"/>
+    <SubTexture name="TutorialPose2M" x="2469" y="1578" width="467" height="589"/>
+    <SubTexture name="TutorialPose3M" x="834" y="2480" width="500" height="581"/>
+</TextureAtlas>

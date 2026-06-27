@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:27c3badfc6c0ce5b88834430e8c4551e$ -->
+<TextureAtlas imagePath="Ui.png">
+    <SubTexture name="ArrowBlue" x="1238" y="979" width="79" height="125"/>
+    <SubTexture name="ArrowBrownInner" x="687" y="800" width="50" height="70"/>
+    <SubTexture name="AvatarBackground" x="103" y="1227" width="177" height="320"/>
+    <SubTexture name="B" x="2" y="2" width="1000" height="390" frameX="-3" frameY="-2" frameWidth="1024" frameHeight="512"/>
+    <SubTexture name="BL" x="1004" y="102" width="504" height="172" frameX="-3" frameY="-1" frameWidth="512" frameHeight="256"/>
+    <SubTexture name="BackgroundBorderedDark" x="1003" y="806" width="160" height="171"/>
+    <SubTexture name="BackgroundBubble" x="1880" y="1071" width="64" height="67"/>
+    <SubTexture name="BackgroundChatYellow" x="172" y="2036" width="32" height="10"/>
+    <SubTexture name="BackgroundCombatCount" x="1881" y="725" width="36" height="48"/>
+    <SubTexture name="BackgroundFullTop" x="955" y="602" width="10" height="157"/>
+    <SubTexture name="BackgroundInnerDark" x="1637" y="1389" width="80" height="73"/>
+    <SubTexture name="BackgroundInnerLight" x="1457" y="1481" width="80" height="74"/>
+    <SubTexture name="BackgroundMapList" x="2043" y="541" width="3" height="167"/>
+    <SubTexture name="BackgroundRedWarning" x="172" y="2013" width="21" height="21"/>
+    <SubTexture name="BackgroundRowBeige" x="1334" y="1486" width="80" height="79"/>
+    <SubTexture name="BackgroundRowBrown" x="1252" y="1491" width="80" height="80"/>
+    <SubTexture name="BackgroundRowGray" x="1170" y="1494" width="80" height="80"/>
+    <SubTexture name="BackgroundRowGreen" x="1228" y="1112" width="80" height="80"/>
+    <SubTexture name="BackgroundRowRed" x="1146" y="1112" width="80" height="80"/>
+    <SubTexture name="BackgroundRowYellow" x="1165" y="897" width="80" height="80"/>
+    <SubTexture name="BackgroundTransparent" x="389" y="1339" width="80" height="85"/>
+    <SubTexture name="BackgroundTransparentProtection" x="1064" y="1113" width="80" height="82"/>
+    <SubTexture name="BackgroundTransparentYellow" x="1588" y="1748" width="60" height="91"/>
+    <SubTexture name="BackgroundYellowChat" x="490" y="1761" width="94" height="193"/>
+    <SubTexture name="BoostIconBarrack" x="137" y="812" width="131" height="91"/>
+    <SubTexture name="BoostIconHiring" x="1414" y="1567" width="102" height="107"/>
+    <SubTexture name="BoostIconProduction" x="1413" y="1194" width="114" height="108"/>
+    <SubTexture name="BoostIconProductionRP" x="1410" y="979" width="114" height="108"/>
+    <SubTexture name="BoostIconTower" x="1526" y="978" width="61" height="108"/>
+    <SubTexture name="ButtonBeigeLarge" x="765" y="1204" width="100" height="187"/>
+    <SubTexture name="ButtonBeigeLargeHover" x="820" y="1393" width="100" height="183" frameX="0" frameY="0" frameWidth="100" frameHeight="187"/>
+    <SubTexture name="ButtonBeigeMedium" x="1205" y="1896" width="60" height="127"/>
+    <SubTexture name="ButtonBeigeMediumHover" x="1276" y="1703" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonBeigeSmall" x="1520" y="1654" width="60" height="95"/>
+    <SubTexture name="ButtonBeigeSmallHover" x="1566" y="1846" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="ButtonBlueLarge" x="790" y="1744" width="100" height="187"/>
+    <SubTexture name="ButtonBlueLargeHover" x="718" y="1418" width="100" height="187"/>
+    <SubTexture name="ButtonBlueMedium" x="1152" y="1706" width="60" height="127"/>
+    <SubTexture name="ButtonBlueMediumHover" x="1234" y="1576" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonBlueSmall" x="1464" y="1773" width="60" height="95"/>
+    <SubTexture name="ButtonBlueSmallHover" x="1719" y="1445" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="ButtonClose" x="2" y="797" width="96" height="106"/>
+    <SubTexture name="ButtonCloseHover" x="1454" y="1089" width="96" height="102"/>
+    <SubTexture name="ButtonDarkBlueLarge" x="1110" y="1577" width="60" height="127"/>
+    <SubTexture name="ButtonDarkBlueLargeHover" x="1214" y="1703" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonGrayLarge" x="663" y="1229" width="100" height="187"/>
+    <SubTexture name="ButtonGrayLargeHover" x="688" y="1753" width="100" height="187"/>
+    <SubTexture name="ButtonGrayMedium" x="1090" y="1707" width="60" height="127"/>
+    <SubTexture name="ButtonGrayMediumHover" x="1239" y="1194" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonGraySmall" x="1686" y="1185" width="60" height="95"/>
+    <SubTexture name="ButtonGraySmallHover" x="1783" y="1393" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="ButtonGreenLarge" x="616" y="1425" width="100" height="187"/>
+    <SubTexture name="ButtonGreenLargeHover" x="586" y="1753" width="100" height="187"/>
+    <SubTexture name="ButtonGreenMedium" x="1048" y="1578" width="60" height="127"/>
+    <SubTexture name="ButtonGreenMediumHover" x="1210" y="1364" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonGreenSmall" x="1628" y="1292" width="60" height="95"/>
+    <SubTexture name="ButtonGreenSmallHover" x="1582" y="1653" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="ButtonInfo" x="1024" y="1500" width="72" height="76"/>
+    <SubTexture name="ButtonInfoHover" x="1615" y="1479" width="72" height="74"/>
+    <SubTexture name="ButtonMerc" x="389" y="789" width="96" height="184"/>
+    <SubTexture name="ButtonMercEmpty" x="575" y="1257" width="86" height="166" frameX="-5" frameY="0" frameWidth="96" frameHeight="166"/>
+    <SubTexture name="ButtonMercHover" x="389" y="1157" width="96" height="180"/>
+    <SubTexture name="ButtonMercSlot" x="487" y="1257" width="86" height="166" frameX="-5" frameY="0" frameWidth="96" frameHeight="166"/>
+    <SubTexture name="ButtonMercWarSelected" x="389" y="975" width="96" height="180"/>
+    <SubTexture name="ButtonRedLarge" x="514" y="1425" width="100" height="187"/>
+    <SubTexture name="ButtonRedLargeHover" x="412" y="1426" width="100" height="187"/>
+    <SubTexture name="ButtonRedMedium" x="1086" y="1371" width="60" height="127"/>
+    <SubTexture name="ButtonRedMediumHover" x="1172" y="1576" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonRedSmall" x="1518" y="1557" width="60" height="95"/>
+    <SubTexture name="ButtonRedSmallHover" x="1526" y="1751" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="ButtonResourceFull" x="1965" y="1350" width="62" height="64"/>
+    <SubTexture name="ButtonSidebarArrowLeft" x="1190" y="1835" width="42" height="59"/>
+    <SubTexture name="ButtonSidebarArrowRight" x="379" y="629" width="42" height="59"/>
+    <SubTexture name="ButtonSidebarHover" x="465" y="1615" width="74" height="144"/>
+    <SubTexture name="ButtonSidebarOpen" x="389" y="1618" width="74" height="148"/>
+    <SubTexture name="ButtonToggleCircle" x="1589" y="977" width="96" height="105"/>
+    <SubTexture name="ButtonToggleCircleHover" x="674" y="1942" width="96" height="103" frameX="0" frameY="0" frameWidth="96" frameHeight="105"/>
+    <SubTexture name="ButtonToggleOff" x="490" y="1062" width="154" height="66"/>
+    <SubTexture name="ButtonToggleOn" x="490" y="994" width="154" height="66"/>
+    <SubTexture name="ButtonTransparentBlueLarge" x="246" y="1771" width="120" height="238"/>
+    <SubTexture name="ButtonTransparentBlueLargeHover" x="124" y="1773" width="120" height="238"/>
+    <SubTexture name="ButtonTransparentBlueMedium" x="206" y="394" width="100" height="184"/>
+    <SubTexture name="ButtonTransparentBlueMediumHover" x="922" y="1388" width="100" height="182" frameX="0" frameY="0" frameWidth="100" frameHeight="184"/>
+    <SubTexture name="ButtonTransparentBlueSmall" x="665" y="1614" width="60" height="137"/>
+    <SubTexture name="ButtonTransparentBlueSmallHover" x="851" y="1578" width="60" height="135" frameX="0" frameY="0" frameWidth="60" frameHeight="137"/>
+    <SubTexture name="ButtonTransparentGrayLarge" x="2" y="1774" width="120" height="238"/>
+    <SubTexture name="ButtonTransparentGrayLargeHover" x="368" y="1771" width="120" height="236" frameX="0" frameY="0" frameWidth="120" frameHeight="238"/>
+    <SubTexture name="ButtonTransparentGrayMedium" x="104" y="394" width="100" height="184"/>
+    <SubTexture name="ButtonTransparentGrayMediumHover" x="892" y="1715" width="100" height="182" frameX="0" frameY="0" frameWidth="100" frameHeight="184"/>
+    <SubTexture name="ButtonTransparentRedLarge" x="1510" y="340" width="120" height="238"/>
+    <SubTexture name="ButtonTransparentRedLargeHover" x="1921" y="541" width="120" height="238"/>
+    <SubTexture name="ButtonTransparentRedMedium" x="2" y="394" width="100" height="184"/>
+    <SubTexture name="ButtonTransparentRedMediumHover" x="867" y="1204" width="100" height="182" frameX="0" frameY="0" frameWidth="100" frameHeight="184"/>
+    <SubTexture name="ButtonTransparentRedSmall" x="603" y="1614" width="60" height="137"/>
+    <SubTexture name="ButtonTransparentRedSmallHover" x="789" y="1607" width="60" height="135" frameX="0" frameY="0" frameWidth="60" frameHeight="137"/>
+    <SubTexture name="ButtonTransparentWhiteSmall" x="541" y="1614" width="60" height="137"/>
+    <SubTexture name="ButtonTransparentWhiteSmallHover" x="727" y="1607" width="60" height="135" frameX="0" frameY="0" frameWidth="60" frameHeight="137"/>
+    <SubTexture name="ButtonYellowLarge" x="310" y="1429" width="100" height="187"/>
+    <SubTexture name="ButtonYellowLargeHover" x="901" y="930" width="100" height="187"/>
+    <SubTexture name="ButtonYellowMedium" x="1024" y="1371" width="60" height="127"/>
+    <SubTexture name="ButtonYellowMediumHover" x="1148" y="1367" width="60" height="125" frameX="0" frameY="0" frameWidth="60" frameHeight="127"/>
+    <SubTexture name="ButtonYellowSmall" x="1458" y="1676" width="60" height="95"/>
+    <SubTexture name="ButtonYellowSmallHover" x="1504" y="1870" width="60" height="93" frameX="0" frameY="0" frameWidth="60" frameHeight="95"/>
+    <SubTexture name="CatapultButtonLumber" x="1120" y="979" width="116" height="131"/>
+    <SubTexture name="CatapultButtonMight" x="1003" y="979" width="115" height="132"/>
+    <SubTexture name="CatapultButtonStone" x="1917" y="781" width="127" height="122"/>
+    <SubTexture name="ChainAsset" x="2" y="905" width="74" height="867"/>
+    <SubTexture name="DefaultArm" x="1637" y="2" width="298" height="325"/>
+    <SubTexture name="DiscountBanner" x="739" y="602" width="214" height="96"/>
+    <SubTexture name="DiscountCancel" x="1820" y="892" width="94" height="95"/>
+    <SubTexture name="ELONotr" x="1632" y="550" width="247" height="245"/>
+    <SubTexture name="ELOPositive" x="1261" y="276" width="247" height="245"/>
+    <SubTexture name="EvolutionProgressOff" x="1880" y="1140" width="62" height="93"/>
+    <SubTexture name="EvolutionProgressOn" x="937" y="761" width="64" height="98"/>
+    <SubTexture name="FormRadio" x="1687" y="977" width="96" height="96"/>
+    <SubTexture name="FormRadioSelected" x="1650" y="879" width="96" height="96"/>
+    <SubTexture name="FormSelectbox" x="1546" y="879" width="102" height="96"/>
+    <SubTexture name="FormSelectboxSelected" x="1351" y="881" width="102" height="96"/>
+    <SubTexture name="FormSelectboxSelectedDisabled" x="1247" y="881" width="102" height="96"/>
+    <SubTexture name="FormTextArea" x="1109" y="1897" width="94" height="127"/>
+    <SubTexture name="FormTextInput" x="994" y="1713" width="94" height="127"/>
+    <SubTexture name="Grate" x="78" y="905" width="23" height="711"/>
+    <SubTexture name="HurlingStone1" x="1195" y="612" width="56" height="85"/>
+    <SubTexture name="HurlingStone2" x="1386" y="1310" width="84" height="114"/>
+    <SubTexture name="HurlingStone3" x="1510" y="224" width="125" height="114"/>
+    <SubTexture name="HurlingStone4" x="1510" y="102" width="125" height="120"/>
+    <SubTexture name="IconAllianceM" x="1455" y="879" width="89" height="97"/>
+    <SubTexture name="IconBP" x="1272" y="1437" width="48" height="48"/>
+    <SubTexture name="IconBPDisable" x="687" y="979" width="48" height="48"/>
+    <SubTexture name="IconBPM" x="877" y="1119" width="101" height="83"/>
+    <SubTexture name="IconBPS" x="1554" y="752" width="76" height="62"/>
+    <SubTexture name="IconBack" x="251" y="580" width="55" height="55"/>
+    <SubTexture name="IconBlueSub" x="1504" y="1965" width="60" height="65"/>
+    <SubTexture name="IconBlueSubHover" x="1566" y="1941" width="60" height="63"/>
+    <SubTexture name="IconBoostLabel" x="1937" y="395" width="64" height="44"/>
+    <SubTexture name="IconBuildLBordered" x="1450" y="580" width="178" height="170"/>
+    <SubTexture name="IconChat" x="1826" y="1329" width="73" height="62"/>
+    <SubTexture name="IconDE" x="1944" y="1191" width="92" height="93"/>
+    <SubTexture name="IconDamage" x="243" y="1549" width="65" height="67"/>
+    <SubTexture name="IconEN" x="1946" y="1096" width="92" height="93"/>
+    <SubTexture name="IconES" x="1950" y="1001" width="92" height="93"/>
+    <SubTexture name="IconFR" x="1786" y="1084" width="92" height="93"/>
+    <SubTexture name="IconFacebook" x="1539" y="1481" width="74" height="74"/>
+    <SubTexture name="IconFortifyMBordered" x="646" y="1029" width="91" height="96"/>
+    <SubTexture name="IconFreeSpin" x="1165" y="809" width="80" height="86"/>
+    <SubTexture name="IconGetWomkong" x="1301" y="1194" width="110" height="114"/>
+    <SubTexture name="IconGoldL" x="1338" y="1698" width="118" height="116"/>
+    <SubTexture name="IconGoldM" x="582" y="1956" width="90" height="89"/>
+    <SubTexture name="IconGoldS" x="103" y="1549" width="69" height="67"/>
+    <SubTexture name="IconGoldXS" x="1370" y="1437" width="46" height="46"/>
+    <SubTexture name="IconGreenAdd" x="1694" y="812" width="60" height="65"/>
+    <SubTexture name="IconGreenAddHover" x="1683" y="1555" width="60" height="63"/>
+    <SubTexture name="IconHealth" x="1318" y="1830" width="72" height="64"/>
+    <SubTexture name="IconHourglass" x="1937" y="111" width="106" height="158"/>
+    <SubTexture name="IconIT" x="1748" y="1185" width="92" height="93"/>
+    <SubTexture name="IconInboxMBordered" x="308" y="394" width="115" height="127"/>
+    <SubTexture name="IconInfo" x="1392" y="1816" width="70" height="75"/>
+    <SubTexture name="IconInfoHover" x="1098" y="1500" width="70" height="75"/>
+    <SubTexture name="IconIronMBordered" x="1921" y="441" width="122" height="98"/>
+    <SubTexture name="IconLevelBeastMBordered" x="389" y="690" width="98" height="97"/>
+    <SubTexture name="IconLevelM" x="1580" y="1557" width="101" height="94"/>
+    <SubTexture name="IconLockMBordered" x="1319" y="979" width="89" height="110"/>
+    <SubTexture name="IconLumberMBordered" x="1351" y="1091" width="101" height="101"/>
+    <SubTexture name="IconMapGuide" x="1637" y="329" width="282" height="219"/>
+    <SubTexture name="IconMightL" x="1386" y="1896" width="116" height="115"/>
+    <SubTexture name="IconMightM" x="490" y="1956" width="90" height="89"/>
+    <SubTexture name="IconMightMBordered" x="282" y="1125" width="105" height="103"/>
+    <SubTexture name="IconMightS" x="1879" y="1001" width="69" height="68"/>
+    <SubTexture name="IconPT" x="1690" y="1282" width="92" height="93"/>
+    <SubTexture name="IconPassFriendDown" x="739" y="902" width="160" height="151"/>
+    <SubTexture name="IconPassFriendUp" x="227" y="1618" width="160" height="151"/>
+    <SubTexture name="IconProtectionMBordered" x="1591" y="1190" width="93" height="100"/>
+    <SubTexture name="IconQuestMBordered" x="282" y="1230" width="105" height="79"/>
+    <SubTexture name="IconRPEmpty" x="2003" y="395" width="43" height="43"/>
+    <SubTexture name="IconRPL" x="1267" y="1896" width="117" height="117"/>
+    <SubTexture name="IconRPM" x="270" y="812" width="91" height="91"/>
+    <SubTexture name="IconRPS" x="174" y="1549" width="67" height="67"/>
+    <SubTexture name="IconRanking1" x="1101" y="1197" width="136" height="125"/>
+    <SubTexture name="IconRanking2" x="1416" y="752" width="136" height="125"/>
+    <SubTexture name="IconRanking3" x="490" y="1130" width="136" height="125"/>
+    <SubTexture name="IconRankingMBordered" x="1916" y="905" width="101" height="94"/>
+    <SubTexture name="IconRedClose" x="1632" y="812" width="60" height="65"/>
+    <SubTexture name="IconRedCloseHover" x="1644" y="1653" width="60" height="63"/>
+    <SubTexture name="IconRedDecrease" x="1719" y="1377" width="62" height="66"/>
+    <SubTexture name="IconRedDecreaseHover" x="1901" y="1350" width="62" height="64"/>
+    <SubTexture name="IconReturnLBordered" x="78" y="1618" width="147" height="153"/>
+    <SubTexture name="IconReturnMBordered" x="1842" y="1235" width="88" height="92"/>
+    <SubTexture name="IconSettingM" x="646" y="1127" width="90" height="100"/>
+    <SubTexture name="IconSocialM" x="772" y="1942" width="103" height="102"/>
+    <SubTexture name="IconSortDown" x="161" y="791" width="22" height="18"/>
+    <SubTexture name="IconSortUp" x="137" y="791" width="22" height="18"/>
+    <SubTexture name="IconSpace" x="1654" y="1084" width="130" height="99"/>
+    <SubTexture name="IconSpyM" x="1785" y="989" width="92" height="93"/>
+    <SubTexture name="IconStoneMBordered" x="282" y="1018" width="105" height="105"/>
+    <SubTexture name="IconStoreM" x="1937" y="2" width="107" height="107"/>
+    <SubTexture name="IconTR" x="1786" y="797" width="92" height="93"/>
+    <SubTexture name="IconTimerM" x="1552" y="1088" width="100" height="100"/>
+    <SubTexture name="IconUpgradeM" x="1534" y="1302" width="92" height="105"/>
+    <SubTexture name="IconWarL" x="1248" y="717" width="166" height="162"/>
+    <SubTexture name="IconWinStar" x="980" y="1119" width="82" height="82"/>
+    <SubTexture name="League0Icon" x="687" y="924" width="48" height="53"/>
+    <SubTexture name="League0IconBig" x="1004" y="612" width="189" height="192"/>
+    <SubTexture name="League1Icon" x="1195" y="753" width="49" height="54"/>
+    <SubTexture name="League1IconBig" x="1253" y="523" width="195" height="192"/>
+    <SubTexture name="League2Icon" x="1450" y="523" width="49" height="54"/>
+    <SubTexture name="League2IconBig" x="490" y="800" width="195" height="192"/>
+    <SubTexture name="League3Icon" x="425" y="574" width="63" height="54"/>
+    <SubTexture name="League3IconBig" x="1004" y="418" width="247" height="192"/>
+    <SubTexture name="League4Icon" x="425" y="514" width="63" height="58"/>
+    <SubTexture name="League4IconBig" x="739" y="394" width="247" height="206"/>
+    <SubTexture name="League5Icon" x="425" y="454" width="63" height="58"/>
+    <SubTexture name="League5IconBig" x="490" y="394" width="247" height="209"/>
+    <SubTexture name="League6Icon" x="425" y="394" width="63" height="58"/>
+    <SubTexture name="League6IconBig" x="2" y="580" width="247" height="209"/>
+    <SubTexture name="LockAsset" x="969" y="1204" width="130" height="165"/>
+    <SubTexture name="LumberSalvo1" x="877" y="1933" width="95" height="110"/>
+    <SubTexture name="LumberSalvo2" x="282" y="905" width="105" height="111"/>
+    <SubTexture name="LumberSalvo3" x="1272" y="1321" width="112" height="114"/>
+    <SubTexture name="LumberSalvo4" x="1296" y="1573" width="116" height="123"/>
+    <SubTexture name="MightyRage1" x="310" y="1311" width="77" height="116"/>
+    <SubTexture name="MightyRage2" x="1937" y="271" width="106" height="122"/>
+    <SubTexture name="MightyRage3" x="974" y="1899" width="133" height="133"/>
+    <SubTexture name="MightyRage4" x="913" y="1578" width="133" height="133"/>
+    <SubTexture name="NPCAvatarBackground" x="103" y="905" width="177" height="320"/>
+    <SubTexture name="ProgressbarBase" x="1784" y="1280" width="40" height="66"/>
+    <SubTexture name="ProgressbarBlue" x="705" y="667" width="32" height="60"/>
+    <SubTexture name="ProgressbarGreen" x="705" y="605" width="32" height="60"/>
+    <SubTexture name="ProgressbarMiniBase" x="1220" y="1324" width="47" height="38"/>
+    <SubTexture name="ProgressbarMiniYellow" x="2" y="2014" width="41" height="32"/>
+    <SubTexture name="ProgressbarVictoryBase" x="1004" y="2" width="631" height="26"/>
+    <SubTexture name="ProgressbarVictoryBlack" x="1004" y="78" width="627" height="22"/>
+    <SubTexture name="ProgressbarVictoryGreen" x="1004" y="54" width="627" height="22"/>
+    <SubTexture name="ProgressbarVictoryRed" x="1004" y="30" width="627" height="22"/>
+    <SubTexture name="ProgressbarYellow" x="251" y="747" width="32" height="60"/>
+    <SubTexture name="QuestsBackground" x="739" y="700" width="196" height="200" frameX="-2" frameY="0" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="ResourceIconIron" x="1234" y="1830" width="82" height="64"/>
+    <SubTexture name="ResourceIconLumber" x="1487" y="1413" width="66" height="66"/>
+    <SubTexture name="ResourceIconMight" x="1879" y="1001" width="69" height="68"/>
+    <SubTexture name="ResourceIconStone" x="1748" y="905" width="70" height="70"/>
+    <SubTexture name="ResourceProgressbarBase" x="988" y="562" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarExperience" x="988" y="506" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarFull" x="988" y="450" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarIron" x="988" y="394" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarLumber" x="285" y="747" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarMight" x="1921" y="385" width="14" height="54"/>
+    <SubTexture name="ResourceProgressbarStone" x="1921" y="329" width="14" height="54"/>
+    <SubTexture name="SortActiveBackground" x="967" y="602" width="7" height="108" frameX="0" frameY="0" frameWidth="7" frameHeight="112"/>
+    <SubTexture name="SortPassiveBackground" x="127" y="791" width="8" height="112"/>
+    <SubTexture name="SortSideBackground" x="100" y="791" width="25" height="112"/>
+    <SubTexture name="SymbolBlueMinus" x="1881" y="704" width="38" height="19"/>
+    <SubTexture name="SymbolBluePlus" x="1881" y="663" width="38" height="39"/>
+    <SubTexture name="SymbolCancel" x="1881" y="775" width="34" height="35"/>
+    <SubTexture name="SymbolClose" x="379" y="582" width="44" height="45"/>
+    <SubTexture name="SymbolConnected" x="687" y="872" width="50" height="50"/>
+    <SubTexture name="SymbolDisconnected" x="1129" y="1836" width="59" height="59"/>
+    <SubTexture name="SymbolDiscountPrice" x="251" y="692" width="52" height="53"/>
+    <SubTexture name="SymbolDubbleArrow" x="379" y="523" width="44" height="57"/>
+    <SubTexture name="SymbolGreenPlus" x="1881" y="622" width="38" height="39"/>
+    <SubTexture name="SymbolMinusBig" x="99" y="2014" width="51" height="25"/>
+    <SubTexture name="SymbolPalette" x="1932" y="1286" width="75" height="62"/>
+    <SubTexture name="SymbolPlusBig" x="1195" y="699" width="51" height="52"/>
+    <SubTexture name="SymbolRadioSelected" x="1322" y="1437" width="46" height="47"/>
+    <SubTexture name="SymbolSearch" x="937" y="861" width="64" height="67"/>
+    <SubTexture name="SymbolThreeDot" x="195" y="2013" width="64" height="18"/>
+    <SubTexture name="SymbolTickApproved" x="1555" y="1409" width="80" height="68"/>
+    <SubTexture name="SymbolTickDisable" x="1418" y="1426" width="67" height="53"/>
+    <SubTexture name="SymbolTickSelected" x="1060" y="1842" width="67" height="53"/>
+    <SubTexture name="SymbolWhiteClear" x="423" y="630" width="62" height="57"/>
+    <SubTexture name="SymbolWhiteGrid" x="1554" y="816" width="67" height="57"/>
+    <SubTexture name="SymbolWhiteMinus" x="45" y="2014" width="52" height="25"/>
+    <SubTexture name="SymbolWhitePlus" x="251" y="637" width="52" height="53"/>
+    <SubTexture name="TabPassiveSide" x="1529" y="1193" width="60" height="107"/>
+    <SubTexture name="TabSelectedSide" x="1472" y="1304" width="60" height="107"/>
+    <SubTexture name="TavernIndicator" x="1101" y="1324" width="46" height="41"/>
+    <SubTexture name="TavernWheelSlice" x="1004" y="276" width="255" height="140"/>
+    <SubTexture name="TooltipArrowBottom" x="994" y="1842" width="64" height="54"/>
+    <SubTexture name="TooltipArrowLeft" x="1881" y="550" width="38" height="70"/>
+    <SubTexture name="TooltipArrowRight" x="1416" y="1485" width="39" height="79"/>
+    <SubTexture name="TooltipArrowTop" x="1149" y="1324" width="69" height="38"/>
+    <SubTexture name="VictoryIndicator1" x="162" y="2013" width="8" height="33"/>
+    <SubTexture name="VictoryIndicator2" x="152" y="2013" width="8" height="33"/>
+    <SubTexture name="VsShieldSword" x="490" y="605" width="213" height="193"/>
+    <SubTexture name="WarLoadingShield" x="739" y="1055" width="136" height="147"/>
+    <SubTexture name="WarLoadingSword" x="308" y="523" width="69" height="282"/>
+    <SubTexture name="YellowTooltipArrowRight" x="1310" y="1106" width="39" height="79"/>
+</TextureAtlas>

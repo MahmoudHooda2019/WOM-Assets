@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7b5bd575b4fe1dd9f566ee989b94a7cb:dd54a9af6eebcba268d2a9ac90af5c4f:4ee0603efaf9448ca83536d9673e4cd4$ -->
+<TextureAtlas imagePath="Canvas1.atf">
+    <SubTexture name="AcidRainDrop" x="598" y="723" width="23" height="39"/>
+    <SubTexture name="AcidRainFoam2" x="1114" y="866" width="40" height="23"/>
+    <SubTexture name="ArchersArrow" x="1399" y="1215" width="25" height="6" frameX="-1" frameY="0" frameWidth="27" frameHeight="6"/>
+    <SubTexture name="Arrow1" x="612" y="2043" width="34" height="3"/>
+    <SubTexture name="ArrowBottom" x="1956" y="1205" width="40" height="26"/>
+    <SubTexture name="ArrowLeft" x="1602" y="1780" width="41" height="26"/>
+    <SubTexture name="ArrowRight" x="1645" y="1781" width="41" height="26"/>
+    <SubTexture name="ArrowTop" x="1805" y="1609" width="40" height="26"/>
+    <SubTexture name="B11BuildingDestroyed" x="1180" y="1113" width="139" height="92"/>
+    <SubTexture name="B11S1Animation-0" x="1305" y="1207" width="14" height="18" frameX="-17" frameY="-24" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-1" x="867" y="902" width="16" height="17" frameX="-15" frameY="-25" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-10" x="1433" y="732" width="12" height="27" frameX="-7" frameY="-13" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-11" x="173" y="679" width="8" height="25" frameX="-8" frameY="-14" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-12" x="626" y="229" width="20" height="23" frameX="-7" frameY="-4" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-13" x="1481" y="2024" width="12" height="20" frameX="-19" frameY="-23" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-14" x="1356" y="648" width="17" height="16" frameX="-15" frameY="-26" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-15" x="1823" y="2023" width="14" height="18" frameX="-17" frameY="-24" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-16" x="1835" y="1939" width="14" height="18" frameX="-17" frameY="-24" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-17" x="1838" y="1959" width="14" height="18" frameX="-17" frameY="-24" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-2" x="1609" y="1890" width="18" height="15" frameX="-14" frameY="-27" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-3" x="1817" y="1959" width="19" height="13" frameX="-12" frameY="-29" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-4" x="875" y="258" width="17" height="15" frameX="-14" frameY="-27" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-5" x="875" y="201" width="17" height="16" frameX="-14" frameY="-26" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-6" x="1982" y="1192" width="20" height="11" frameX="-11" frameY="-31" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-7" x="1104" y="401" width="19" height="25" frameX="-6" frameY="-17" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-8" x="1829" y="1637" width="16" height="27" frameX="-7" frameY="-18" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Animation-9" x="2022" y="1276" width="14" height="27" frameX="-7" frameY="-15" frameWidth="36" frameHeight="49"/>
+    <SubTexture name="B11S1Building" x="1239" y="1626" width="110" height="87"/>
+    <SubTexture name="B11S1BuildingDamaged" x="1560" y="270" width="141" height="95"/>
+    <SubTexture name="B11S2Animation-0" x="1158" y="212" width="9" height="14" frameX="-12" frameY="-20" frameWidth="45" frameHeight="47"/>
+    <SubTexture name="B11S2Animation-1" x="1460" y="137" width="9" height="16" frameX="-12" frameY="-18" frameWidth="45" frameHeight="47"/>
+    <SubTexture name="B11S2Animation-2" x="2037" y="1240" width="9" height="14" frameX="-20" frameY="0" frameWidth="45" frameHeight="47"/>
+    <SubTexture name="B11S2Animation-3" x="1547" y="1497" width="40" height="28" frameX="-1" frameY="-19" frameWidth="45" frameHeight="47"/>
+    <SubTexture name="B11S2Building" x="909" y="902" width="118" height="109"/>
+    <SubTexture name="B11S2BuildingDamaged" x="1851" y="349" width="134" height="107"/>
+    <SubTexture name="B11S3Animation-0" x="1801" y="1704" width="30" height="26" frameX="-6" frameY="-7" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-1" x="1962" y="1630" width="29" height="33" frameX="-3" frameY="-2" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-2" x="2019" y="884" width="27" height="37" frameX="-2" frameY="0" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-3" x="1909" y="1672" width="29" height="33" frameX="-3" frameY="-2" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-4" x="1908" y="1707" width="30" height="26" frameX="-7" frameY="-7" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-5" x="745" y="1542" width="29" height="19" frameX="-9" frameY="-12" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Animation-6" x="1739" y="1976" width="29" height="23" frameX="-8" frameY="-9" frameWidth="40" frameHeight="37"/>
+    <SubTexture name="B11S3Building" x="759" y="1236" width="129" height="112"/>
+    <SubTexture name="B11S3BuildingDamaged" x="1830" y="458" width="135" height="112"/>
+    <SubTexture name="B11S4Animation-0" x="814" y="2010" width="50" height="36" frameX="0" frameY="0" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-1" x="1793" y="1156" width="39" height="36" frameX="0" frameY="0" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-10" x="1939" y="1410" width="40" height="36" frameX="-9" frameY="-5" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-11" x="1390" y="1497" width="40" height="35" frameX="-7" frameY="-4" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-12" x="1560" y="1764" width="40" height="35" frameX="-4" frameY="-3" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-13" x="1731" y="1774" width="40" height="35" frameX="-2" frameY="-2" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-14" x="1681" y="1811" width="40" height="36" frameX="0" frameY="0" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-2" x="1773" y="1774" width="40" height="35" frameX="-1" frameY="-1" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-3" x="1604" y="1580" width="40" height="34" frameX="-5" frameY="-5" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-4" x="1791" y="1240" width="41" height="34" frameX="-8" frameY="-7" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-5" x="1765" y="1811" width="40" height="35" frameX="-10" frameY="-6" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-6" x="1723" y="1811" width="40" height="36" frameX="-10" frameY="-5" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-7" x="1932" y="1448" width="41" height="35" frameX="-9" frameY="-6" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-8" x="1669" y="1891" width="40" height="35" frameX="-10" frameY="-6" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Animation-9" x="1688" y="1774" width="41" height="35" frameX="-9" frameY="-6" frameWidth="50" frameHeight="41"/>
+    <SubTexture name="B11S4Building" x="1703" y="333" width="146" height="110"/>
+    <SubTexture name="B11S4BuildingDamaged" x="1103" y="549" width="136" height="115"/>
+    <SubTexture name="B12BuildingDestroyed" x="158" y="1990" width="125" height="49"/>
+    <SubTexture name="B12S1Animation-0" x="1730" y="1420" width="38" height="44" frameX="-6" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-1" x="1770" y="1467" width="40" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-10" x="1730" y="1466" width="38" height="44" frameX="-6" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-11" x="1770" y="1513" width="40" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-12" x="1793" y="1194" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-13" x="1689" y="1574" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-14" x="1711" y="1620" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-15" x="1730" y="1512" width="38" height="44" frameX="-6" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-16" x="1770" y="1559" width="40" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-17" x="1752" y="1620" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-18" x="1539" y="1696" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-19" x="1556" y="1801" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-2" x="1568" y="1863" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-3" x="1590" y="1931" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-4" x="1597" y="1999" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-5" x="1730" y="1558" width="38" height="44" frameX="-6" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-6" x="1669" y="1620" width="40" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-7" x="1580" y="1692" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-8" x="1638" y="1999" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Animation-9" x="1621" y="1692" width="39" height="44" frameX="-5" frameY="-4" frameWidth="48" frameHeight="52"/>
+    <SubTexture name="B12S1Building" x="965" y="1750" width="111" height="89"/>
+    <SubTexture name="B12S1BuildingDamaged" x="1943" y="675" width="103" height="69"/>
+    <SubTexture name="B12S2Animation-0" x="1514" y="1206" width="45" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-1" x="1701" y="1178" width="45" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-10" x="1701" y="1226" width="45" height="48" frameX="-4" frameY="0" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-11" x="1945" y="1233" width="45" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-12" x="1701" y="1276" width="45" height="43" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-13" x="1843" y="1276" width="45" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-14" x="1609" y="712" width="49" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-15" x="1609" y="760" width="49" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-16" x="1495" y="2000" width="49" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-17" x="1719" y="1372" width="45" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-18" x="1546" y="2000" width="49" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-19" x="1943" y="1281" width="49" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-2" x="1843" y="1324" width="44" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-3" x="1565" y="761" width="42" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-4" x="1748" y="1227" width="41" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-5" x="1889" y="1325" width="44" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-6" x="1748" y="1275" width="41" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-7" x="1766" y="1323" width="45" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-8" x="1770" y="1419" width="41" height="46" frameX="-4" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Animation-9" x="1766" y="1371" width="45" height="46" frameX="0" frameY="-2" frameWidth="49" frameHeight="48"/>
+    <SubTexture name="B12S2Building" x="912" y="1412" width="118" height="99"/>
+    <SubTexture name="B12S2BuildingDamaged" x="74" y="1760" width="126" height="75"/>
+    <SubTexture name="B12S3Animation-0" x="1711" y="1891" width="33" height="35" frameX="-6" frameY="-5" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-1" x="1812" y="1573" width="33" height="34" frameX="-5" frameY="-7" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-10" x="1957" y="1522" width="32" height="34" frameX="-6" frameY="-8" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-11" x="1669" y="1290" width="30" height="34" frameX="-9" frameY="-6" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-12" x="1671" y="1255" width="28" height="33" frameX="-11" frameY="-5" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-13" x="1813" y="1323" width="28" height="34" frameX="-12" frameY="-3" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-14" x="1908" y="1766" width="31" height="33" frameX="-9" frameY="-2" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-15" x="1488" y="1462" width="34" height="33" frameX="-7" frameY="-1" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-16" x="1920" y="1522" width="35" height="34" frameX="-5" frameY="-1" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-17" x="1844" y="1519" width="36" height="34" frameX="-4" frameY="-2" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-18" x="1882" y="1521" width="36" height="34" frameX="-4" frameY="-3" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-19" x="1919" y="1558" width="34" height="34" frameX="-5" frameY="-5" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-2" x="1847" y="1592" width="33" height="34" frameX="-5" frameY="-9" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-3" x="1836" y="1730" width="31" height="34" frameX="-6" frameY="-11" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-4" x="1960" y="1485" width="32" height="35" frameX="-5" frameY="-12" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-5" x="1955" y="1558" width="32" height="35" frameX="-6" frameY="-14" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-6" x="1847" y="1555" width="33" height="35" frameX="-5" frameY="-14" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-7" x="1882" y="1593" width="34" height="35" frameX="-4" frameY="-14" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-8" x="1882" y="1557" width="35" height="34" frameX="-3" frameY="-12" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Animation-9" x="1918" y="1594" width="34" height="34" frameX="-3" frameY="-10" frameWidth="43" frameHeight="50"/>
+    <SubTexture name="B12S3Building" x="782" y="1463" width="128" height="98"/>
+    <SubTexture name="B12S3BuildingDamaged" x="698" y="1759" width="143" height="82"/>
+    <SubTexture name="B12S4Animation-0" x="375" y="705" width="33" height="41" frameX="-5" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-1" x="2011" y="841" width="35" height="41" frameX="-4" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-10" x="1367" y="228" width="42" height="40" frameX="0" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-11" x="1937" y="1368" width="42" height="40" frameX="0" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-12" x="1646" y="1574" width="41" height="40" frameX="0" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-13" x="1889" y="1443" width="41" height="40" frameX="0" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-14" x="1602" y="1738" width="41" height="40" frameX="0" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-15" x="1723" y="1732" width="39" height="40" frameX="-1" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-16" x="375" y="662" width="37" height="41" frameX="-2" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-17" x="874" y="1563" width="36" height="41" frameX="-3" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-18" x="1488" y="1419" width="34" height="41" frameX="-4" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-19" x="1645" y="1738" width="34" height="41" frameX="-4" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-2" x="776" y="2005" width="36" height="41" frameX="-4" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-3" x="1654" y="597" width="37" height="41" frameX="-4" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-4" x="1078" y="1750" width="37" height="40" frameX="-5" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-5" x="1730" y="1849" width="38" height="38" frameX="-5" frameY="-2" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-6" x="1770" y="1848" width="38" height="38" frameX="-5" frameY="-2" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-7" x="1650" y="1849" width="38" height="39" frameX="-5" frameY="-2" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-8" x="1681" y="1732" width="40" height="40" frameX="-3" frameY="-2" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Animation-9" x="568" y="2005" width="42" height="41" frameX="-1" frameY="-1" frameWidth="44" frameHeight="44"/>
+    <SubTexture name="B12S4Building" x="1165" y="1366" width="128" height="110"/>
+    <SubTexture name="B12S4BuildingDamaged" x="828" y="1932" width="120" height="76"/>
+    <SubTexture name="B13BuildingDestroyed" x="1356" y="458" width="147" height="102"/>
+    <SubTexture name="B13S1Animation-0" x="1595" y="1410" width="22" height="34" frameX="-7" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-1" x="1599" y="1464" width="22" height="34" frameX="-8" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-10" x="1686" y="1968" width="22" height="33" frameX="-2" frameY="-3" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-11" x="1940" y="1708" width="22" height="32" frameX="-1" frameY="-4" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-12" x="1868" y="1816" width="22" height="32" frameX="-2" frameY="-4" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-13" x="1411" y="228" width="21" height="33" frameX="-2" frameY="-3" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-14" x="1941" y="1766" width="22" height="33" frameX="-3" frameY="-3" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-15" x="1940" y="1672" width="22" height="34" frameX="-5" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-16" x="1803" y="1053" width="23" height="34" frameX="-6" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-2" x="1739" y="1940" width="23" height="34" frameX="-9" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-3" x="1986" y="1329" width="23" height="34" frameX="-10" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-4" x="1807" y="1811" width="23" height="34" frameX="-9" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-5" x="1810" y="1847" width="23" height="34" frameX="-8" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-6" x="1835" y="1844" width="23" height="34" frameX="-6" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-7" x="1818" y="1883" width="22" height="34" frameX="-5" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-8" x="389" y="1479" width="21" height="34" frameX="-4" frameY="-2" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Animation-9" x="389" y="1515" width="21" height="33" frameX="-3" frameY="-3" frameWidth="34" frameHeight="38"/>
+    <SubTexture name="B13S1Building" x="202" y="1760" width="116" height="75"/>
+    <SubTexture name="B13S1BuildingDamaged" x="1032" y="1445" width="125" height="67"/>
+    <SubTexture name="B13S2Animation-0" x="1510" y="892" width="47" height="70" frameX="-5" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-1" x="1358" y="1280" width="46" height="70" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-10" x="320" y="1754" width="44" height="75" frameX="-5" frameY="0" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-11" x="1987" y="349" width="44" height="75" frameX="-5" frameY="0" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-12" x="1801" y="905" width="45" height="73" frameX="-5" frameY="-2" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-13" x="1687" y="982" width="45" height="72" frameX="-6" frameY="-3" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-14" x="1781" y="980" width="45" height="71" frameX="-6" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-15" x="1817" y="827" width="46" height="71" frameX="-6" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-16" x="1295" y="1406" width="47" height="70" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-2" x="1358" y="1352" width="46" height="70" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-3" x="1607" y="1119" width="45" height="70" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-4" x="1594" y="1046" width="45" height="71" frameX="-5" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-5" x="1734" y="979" width="45" height="72" frameX="-5" frameY="-3" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-6" x="1478" y="1344" width="44" height="73" frameX="-5" frameY="-2" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-7" x="1706" y="822" width="44" height="75" frameX="-5" frameY="0" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-8" x="1642" y="957" width="43" height="75" frameX="-5" frameY="0" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Animation-9" x="1406" y="1344" width="43" height="75" frameX="-5" frameY="0" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S2Building" x="271" y="925" width="137" height="92"/>
+    <SubTexture name="B13S2BuildingDamaged" x="294" y="1862" width="131" height="125"/>
+    <SubTexture name="B13S3Animation-0" x="1969" y="278" width="46" height="69" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-1" x="1462" y="892" width="46" height="68" frameX="-6" frameY="-6" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-10" x="1424" y="1799" width="44" height="73" frameX="-5" frameY="-1" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-11" x="1440" y="1874" width="44" height="73" frameX="-5" frameY="-1" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-12" x="1514" y="1133" width="45" height="71" frameX="-5" frameY="-3" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-13" x="1654" y="1119" width="45" height="70" frameX="-6" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-14" x="1701" y="1106" width="45" height="70" frameX="-6" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-15" x="1619" y="1338" width="46" height="69" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-16" x="1440" y="1422" width="46" height="69" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-2" x="1427" y="1626" width="46" height="68" frameX="-6" frameY="-6" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-3" x="1402" y="1534" width="45" height="69" frameX="-6" frameY="-5" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-4" x="1524" y="1338" width="46" height="70" frameX="-5" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-5" x="1572" y="1338" width="45" height="70" frameX="-5" frameY="-4" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-6" x="1561" y="1124" width="44" height="71" frameX="-5" frameY="-3" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-7" x="1449" y="1949" width="44" height="73" frameX="-5" frameY="-1" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-8" x="1502" y="1058" width="44" height="73" frameX="-5" frameY="-1" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Animation-9" x="1548" y="1049" width="44" height="73" frameX="-5" frameY="-1" frameWidth="59" frameHeight="75"/>
+    <SubTexture name="B13S3Building" x="1830" y="572" width="138" height="101" frameX="-37" frameY="-14" frameWidth="175" frameHeight="115"/>
+    <SubTexture name="B13S3BuildingDamaged" x="755" y="1012" width="146" height="128" frameX="-25" frameY="0" frameWidth="171" frameHeight="128"/>
+    <SubTexture name="B13S4Animation-0" x="1471" y="1696" width="39" height="66" frameX="-1" frameY="-2" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-1" x="1793" y="1089" width="39" height="65" frameX="-1" frameY="-3" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-10" x="807" y="714" width="43" height="65" frameX="-1" frameY="-3" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-11" x="1428" y="1696" width="41" height="66" frameX="-2" frameY="-2" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-12" x="2006" y="426" width="40" height="67" frameX="-2" frameY="-1" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-13" x="2006" y="495" width="40" height="67" frameX="-1" frameY="-1" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-14" x="1486" y="1863" width="39" height="67" frameX="-1" frameY="-1" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-15" x="1527" y="1863" width="39" height="66" frameX="0" frameY="-2" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-16" x="1495" y="1932" width="39" height="66" frameX="0" frameY="-2" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-2" x="1515" y="1797" width="39" height="64" frameX="-1" frameY="-4" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-3" x="1449" y="1534" width="40" height="64" frameX="-1" frameY="-4" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-4" x="1924" y="1072" width="41" height="63" frameX="-1" frameY="-5" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-5" x="1748" y="1086" width="43" height="63" frameX="-1" frameY="-5" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-6" x="1834" y="1072" width="43" height="63" frameX="-2" frameY="-5" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-7" x="1879" y="1072" width="43" height="63" frameX="-2" frameY="-5" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-8" x="1470" y="1797" width="43" height="64" frameX="-2" frameY="-4" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Animation-9" x="1331" y="666" width="42" height="64" frameX="-2" frameY="-4" frameWidth="45" frameHeight="68"/>
+    <SubTexture name="B13S4Building" x="438" y="1013" width="160" height="125"/>
+    <SubTexture name="B13S4BuildingDamaged" x="90" y="760" width="175" height="166"/>
+    <SubTexture name="B14BuildingDestroyed" x="1119" y="1880" width="105" height="75"/>
+    <SubTexture name="B14S1Animation-0" x="1666" y="445" width="12" height="17" frameX="0" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-1" x="258" y="948" width="11" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-2" x="1655" y="1465" width="12" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-3" x="258" y="967" width="11" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-4" x="258" y="986" width="11" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-5" x="1680" y="445" width="11" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Animation-6" x="1989" y="1558" width="12" height="17" frameX="-1" frameY="-2" frameWidth="14" frameHeight="20"/>
+    <SubTexture name="B14S1Building" x="1226" y="1882" width="105" height="77"/>
+    <SubTexture name="B14S1BuildingDamaged" x="1117" y="1714" width="109" height="75"/>
+    <SubTexture name="B14S2Animation-0" x="1449" y="1600" width="14" height="24" frameX="-3" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-1" x="1952" y="1872" width="14" height="24" frameX="-3" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-2" x="406" y="1989" width="14" height="23" frameX="-4" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-3" x="1984" y="1868" width="15" height="22" frameX="-3" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-4" x="389" y="1550" width="15" height="24" frameX="-3" frameY="-3" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-5" x="1994" y="1304" width="14" height="23" frameX="-4" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Animation-6" x="1968" y="1868" width="14" height="24" frameX="-4" frameY="-4" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S2Building" x="427" y="1862" width="98" height="76"/>
+    <SubTexture name="B14S2BuildingDamaged" x="1763" y="754" width="100" height="71"/>
+    <SubTexture name="B14S3Animation-0" x="890" y="1303" width="15" height="27" frameX="-2" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-1" x="1686" y="207" width="15" height="27" frameX="-3" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-2" x="1895" y="1872" width="14" height="27" frameX="-3" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-3" x="1686" y="236" width="15" height="27" frameX="-3" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-4" x="1911" y="1871" width="14" height="27" frameX="-4" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-5" x="1662" y="1692" width="15" height="27" frameX="-4" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Animation-6" x="1798" y="1994" width="15" height="27" frameX="-5" frameY="-2" frameWidth="21" frameHeight="29"/>
+    <SubTexture name="B14S3Building" x="1033" y="1147" width="133" height="95"/>
+    <SubTexture name="B14S3BuildingDamaged" x="1158" y="1534" width="122" height="90"/>
+    <SubTexture name="B14S4Animation-0" x="1892" y="1804" width="14" height="32" frameX="-1" frameY="-7" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-1" x="505" y="2014" width="15" height="31" frameX="-1" frameY="-8" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-2" x="2033" y="349" width="13" height="33" frameX="-2" frameY="-6" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-3" x="1583" y="1464" width="14" height="31" frameX="-1" frameY="-8" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-4" x="2033" y="384" width="13" height="33" frameX="-2" frameY="-6" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-5" x="1158" y="174" width="14" height="36" frameX="-1" frameY="-3" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Animation-6" x="1892" y="1838" width="14" height="32" frameX="-2" frameY="-7" frameWidth="16" frameHeight="40"/>
+    <SubTexture name="B14S4Building" x="903" y="1013" width="136" height="128"/>
+    <SubTexture name="B14S4BuildingDamaged" x="782" y="1350" width="123" height="111"/>
+    <SubTexture name="B15Animation-0" x="1344" y="1406" width="12" height="13" frameX="-18" frameY="-16" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-1" x="1967" y="1121" width="18" height="14" frameX="-13" frameY="-13" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-10" x="1667" y="1940" width="34" height="26" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-11" x="1589" y="1500" width="34" height="25" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-12" x="1397" y="732" width="34" height="27" frameX="-10" frameY="-1" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-2" x="1986" y="1365" width="23" height="22" frameX="-13" frameY="-7" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-3" x="1449" y="2024" width="30" height="22" frameX="-11" frameY="-7" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-4" x="1964" y="1845" width="30" height="21" frameX="-13" frameY="-7" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-5" x="1651" y="1970" width="33" height="27" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-6" x="1965" y="1773" width="33" height="26" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-7" x="1634" y="1665" width="33" height="25" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-8" x="1703" y="1940" width="34" height="26" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Animation-9" x="1832" y="1816" width="34" height="26" frameX="-10" frameY="-3" frameWidth="53" frameHeight="37"/>
+    <SubTexture name="B15Building" x="1851" y="216" width="116" height="131"/>
+    <SubTexture name="B15BuildingDamaged" x="843" y="1753" width="120" height="103"/>
+    <SubTexture name="B15BuildingDestroyed" x="1502" y="712" width="105" height="47"/>
+    <SubTexture name="B17BuildingDestroyed" x="1802" y="675" width="139" height="77"/>
+    <SubTexture name="B17S1Building" x="1515" y="367" width="149" height="95"/>
+    <SubTexture name="B17S1BuildingDamaged" x="751" y="921" width="156" height="89"/>
+    <SubTexture name="B17S2Building" x="277" y="1231" width="151" height="115"/>
+    <SubTexture name="B17S2BuildingDamaged" x="1362" y="365" width="151" height="91"/>
+    <SubTexture name="B17S3Building" x="215" y="1612" width="149" height="140"/>
+    <SubTexture name="B17S3BuildingDamaged" x="412" y="1368" width="154" height="108"/>
+    <SubTexture name="B17S4Building" x="2" y="1837" width="154" height="184"/>
+    <SubTexture name="B17S4BuildingDamaged" x="233" y="1479" width="154" height="131"/>
+    <SubTexture name="B18BuildingDestroyed" x="841" y="1662" width="120" height="89"/>
+    <SubTexture name="B18S1Animation-0" x="1625" y="1494" width="29" height="32" frameX="-4" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-1" x="1679" y="2003" width="29" height="32" frameX="-4" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-10" x="1813" y="1463" width="27" height="32" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-11" x="1964" y="1665" width="25" height="34" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-12" x="1963" y="1000" width="26" height="34" frameX="-5" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-13" x="1813" y="1359" width="28" height="33" frameX="-4" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-2" x="1710" y="2002" width="29" height="31" frameX="-5" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-3" x="1710" y="1968" width="27" height="32" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-4" x="1964" y="1701" width="25" height="34" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-5" x="1965" y="1737" width="25" height="34" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-6" x="1813" y="1427" width="27" height="34" frameX="-4" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-7" x="1616" y="1528" width="29" height="33" frameX="-3" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-8" x="1869" y="1733" width="30" height="31" frameX="-4" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Animation-9" x="1813" y="1394" width="28" height="31" frameX="-6" frameY="-1" frameWidth="38" frameHeight="35"/>
+    <SubTexture name="B18S1Building" x="895" y="1143" width="136" height="89"/>
+    <SubTexture name="B18S1BuildingDamaged" x="686" y="1912" width="140" height="91"/>
+    <SubTexture name="B18S2Building" x="1167" y="1279" width="131" height="85"/>
+    <SubTexture name="B18S2BuildingDamaged" x="1032" y="1354" width="131" height="89"/>
+    <SubTexture name="B18S3Animation-0" x="963" y="1662" width="33" height="29" frameX="0" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-1" x="1867" y="1879" width="26" height="30" frameX="-3" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-10" x="1937" y="1840" width="25" height="30" frameX="-5" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-11" x="1860" y="1850" width="30" height="27" frameX="-5" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-12" x="1908" y="1813" width="33" height="25" frameX="-3" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-13" x="1901" y="1735" width="33" height="29" frameX="-1" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-2" x="1977" y="1813" width="24" height="30" frameX="-6" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-3" x="1791" y="1938" width="24" height="30" frameX="-6" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-4" x="1908" y="1840" width="27" height="29" frameX="-6" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-5" x="1943" y="1813" width="32" height="25" frameX="-5" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-6" x="1793" y="1637" width="34" height="27" frameX="-1" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-7" x="1741" y="2001" width="29" height="30" frameX="-1" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-8" x="1764" y="1938" width="25" height="30" frameX="-5" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Animation-9" x="1772" y="1994" width="24" height="30" frameX="-6" frameY="-1" frameWidth="37" frameHeight="31"/>
+    <SubTexture name="B18S3Building" x="1693" y="564" width="135" height="90"/>
+    <SubTexture name="B18S3BuildingDamaged" x="598" y="917" width="151" height="93"/>
+    <SubTexture name="B18S4Animation-0" x="1936" y="1742" width="27" height="22" frameX="-2" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-1" x="2010" y="1305" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-10" x="2011" y="1329" width="25" height="22" frameX="-4" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-11" x="2011" y="1353" width="25" height="22" frameX="-4" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-12" x="1981" y="1389" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-13" x="1981" y="1413" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-2" x="2011" y="1377" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-3" x="2009" y="1401" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-4" x="2009" y="1449" width="25" height="22" frameX="-4" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-5" x="2009" y="1425" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-6" x="2009" y="1122" width="27" height="22" frameX="-2" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-7" x="1981" y="1437" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-8" x="2004" y="1192" width="27" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Animation-9" x="1975" y="1461" width="26" height="22" frameX="-3" frameY="-1" frameWidth="31" frameHeight="25"/>
+    <SubTexture name="B18S4Building" x="1505" y="464" width="147" height="98"/>
+    <SubTexture name="B18S4BuildingDamaged" x="697" y="1661" width="142" height="96"/>
+    <SubTexture name="B19BuildingBack" x="1471" y="2" width="261" height="155"/>
+    <SubTexture name="B19BuildingDamagedBack" x="1734" y="2" width="250" height="148"/>
+    <SubTexture name="B19BuildingDamagedFront" x="861" y="666" width="246" height="81" frameX="-13" frameY="-78" frameWidth="263" frameHeight="172"/>
+    <SubTexture name="B19BuildingDestroyed" x="858" y="401" width="244" height="141"/>
+    <SubTexture name="B19BuildingFront" x="1177" y="137" width="255" height="89" frameX="-3" frameY="-77" frameWidth="263" frameHeight="172"/>
+    <SubTexture name="B20BuildingDestroyed" x="1367" y="270" width="191" height="93"/>
+    <SubTexture name="B20S1Animation-0" x="1668" y="1106" width="22" height="11" frameX="0" frameY="-5" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-1" x="885" y="902" width="22" height="11" frameX="0" frameY="-5" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-2" x="1710" y="2035" width="22" height="11" frameX="0" frameY="-5" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-3" x="1465" y="1600" width="23" height="12" frameX="0" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-4" x="598" y="764" width="23" height="15" frameX="0" frameY="-1" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-5" x="1593" y="1446" width="23" height="16"/>
+    <SubTexture name="B20S1Animation-6" x="2009" y="1146" width="23" height="16"/>
+    <SubTexture name="B20S1Animation-7" x="1927" y="1872" width="23" height="16"/>
+    <SubTexture name="B20S1Animation-8" x="1660" y="640" width="23" height="14" frameX="0" frameY="-2" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Animation-9" x="1123" y="1613" width="23" height="11" frameX="0" frameY="-5" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S1Building" x="598" y="781" width="152" height="134"/>
+    <SubTexture name="B20S1BuildingDamaged" x="600" y="1012" width="153" height="129" frameX="0" frameY="-3" frameWidth="153" frameHeight="132"/>
+    <SubTexture name="B20S2Animation-0" x="1730" y="1604" width="34" height="14" frameX="0" frameY="-9" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-1" x="866" y="2031" width="33" height="15" frameX="-1" frameY="-8" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-10" x="1556" y="1847" width="34" height="14" frameX="-1" frameY="-9" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-2" x="901" y="2031" width="33" height="15" frameX="-1" frameY="-8" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-3" x="1623" y="1480" width="30" height="12" frameX="-1" frameY="-7" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-4" x="1802" y="656" width="26" height="15" frameX="-1" frameY="-4" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-5" x="623" y="543" width="23" height="18" frameX="-1" frameY="-1" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-6" x="532" y="1639" width="23" height="18" frameX="-1" frameY="-1" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-7" x="1375" y="1608" width="25" height="16" frameX="-1" frameY="-3" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-8" x="1616" y="1563" width="28" height="15" frameX="-1" frameY="-5" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Animation-9" x="1570" y="1580" width="32" height="12" frameX="-1" frameY="-9" frameWidth="42" frameHeight="29"/>
+    <SubTexture name="B20S2Building" x="74" y="1318" width="177" height="148"/>
+    <SubTexture name="B20S2BuildingDamaged" x="90" y="1097" width="179" height="150" frameX="0" frameY="-5" frameWidth="179" frameHeight="155"/>
+    <SubTexture name="B20S3Animation-0" x="1766" y="1605" width="21" height="13" frameX="-1" frameY="-3" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-1" x="1637" y="808" width="21" height="12" frameX="-1" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-10" x="1968" y="1064" width="21" height="12" frameX="-1" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-11" x="1815" y="1974" width="21" height="12" frameX="-1" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-12" x="1987" y="1121" width="20" height="12" frameX="-1" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-13" x="1523" y="1289" width="20" height="14" frameX="-1" frameY="-2" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-14" x="1815" y="1988" width="18" height="15" frameX="-1" frameY="-1" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-15" x="1158" y="156" width="17" height="16" frameX="-1" frameY="0" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-16" x="1162" y="994" width="16" height="16" frameX="-1" frameY="0" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-17" x="1833" y="2005" width="18" height="15" frameX="-1" frameY="-1" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-18" x="1493" y="1238" width="19" height="14" frameX="-1" frameY="-2" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-19" x="1741" y="2033" width="21" height="13" frameX="-1" frameY="-3" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-2" x="1835" y="1991" width="21" height="12" frameX="-1" frameY="-4" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-3" x="1647" y="1552" width="20" height="13" frameX="-1" frameY="-3" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-4" x="2022" y="824" width="19" height="15" frameX="-1" frameY="-1" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-5" x="1987" y="426" width="17" height="16" frameX="-1" frameY="0" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-6" x="1815" y="2005" width="16" height="16" frameX="-1" frameY="0" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-7" x="1682" y="1191" width="17" height="16" frameX="-1" frameY="0" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-8" x="1104" y="428" width="19" height="15" frameX="-1" frameY="-1" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Animation-9" x="1764" y="2033" width="20" height="13" frameX="-1" frameY="-3" frameWidth="23" frameHeight="16"/>
+    <SubTexture name="B20S3Building" x="183" y="471" width="229" height="189"/>
+    <SubTexture name="B20S3BuildingDamaged" x="648" y="201" width="225" height="191" frameX="0" frameY="-6" frameWidth="225" frameHeight="197"/>
+    <SubTexture name="B21Animation-0" x="320" y="1831" width="38" height="29" frameX="0" frameY="-7" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-1" x="1832" y="1666" width="38" height="30" frameX="0" frameY="-6" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-2" x="1428" y="1764" width="37" height="33" frameX="0" frameY="-3" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-3" x="1843" y="1482" width="37" height="35" frameX="0" frameY="-1" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-4" x="1521" y="1764" width="37" height="31" frameX="0" frameY="-5" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-5" x="1833" y="1698" width="36" height="30" frameX="0" frameY="-6" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Animation-6" x="1882" y="1485" width="37" height="34" frameX="0" frameY="-2" frameWidth="38" frameHeight="38"/>
+    <SubTexture name="B21Building" x="267" y="760" width="141" height="163" frameX="-28" frameY="-5" frameWidth="169" frameHeight="169"/>
+    <SubTexture name="B21BuildingDamaged" x="158" y="1837" width="134" height="151"/>
+    <SubTexture name="B21BuildingDestroyed" x="1031" y="1514" width="125" height="97"/>
+    <SubTexture name="B23Building" x="755" y="1142" width="138" height="92"/>
+    <SubTexture name="B23BuildingDamaged" x="1660" y="656" width="140" height="90"/>
+    <SubTexture name="B23BuildingDestroyed" x="834" y="1858" width="124" height="72"/>
+    <SubTexture name="B25BuildingBase" x="752" y="781" width="113" height="138"/>
+    <SubTexture name="B25BuildingDamaged" x="907" y="1303" width="123" height="107"/>
+    <SubTexture name="B25BuildingDestroyed" x="1333" y="1883" width="105" height="76"/>
+    <SubTexture name="B26Building" x="867" y="749" width="134" height="151"/>
+    <SubTexture name="B26BuildingDamaged" x="74" y="1606" width="139" height="152"/>
+    <SubTexture name="B26BuildingDestroyed" x="745" y="1563" width="127" height="95"/>
+    <SubTexture name="B27Animation-0" x="1641" y="1046" width="25" height="71" frameX="0" frameY="-6" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-1" x="1413" y="1421" width="25" height="73" frameX="0" frameY="-4" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-10" x="1955" y="1137" width="25" height="66" frameX="0" frameY="-11" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-11" x="1543" y="1527" width="25" height="65" frameX="0" frameY="-12" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-12" x="1512" y="1696" width="25" height="66" frameX="0" frameY="-11" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-13" x="1536" y="1931" width="25" height="67" frameX="0" frameY="-10" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-14" x="414" y="471" width="25" height="70" frameX="0" frameY="-7" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-2" x="1451" y="1344" width="25" height="76" frameX="0" frameY="-1" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-3" x="1687" y="903" width="25" height="77"/>
+    <SubTexture name="B27Animation-4" x="1714" y="899" width="25" height="77"/>
+    <SubTexture name="B27Animation-5" x="2022" y="746" width="24" height="76" frameX="0" frameY="-1" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-6" x="1447" y="732" width="25" height="74" frameX="0" frameY="-3" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-7" x="1375" y="1534" width="25" height="72" frameX="0" frameY="-5" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-8" x="2017" y="278" width="25" height="69" frameX="0" frameY="-8" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Animation-9" x="1563" y="1931" width="25" height="67" frameX="0" frameY="-10" frameWidth="25" frameHeight="77"/>
+    <SubTexture name="B27Building" x="527" y="1904" width="157" height="99"/>
+    <SubTexture name="B27BuildingDamaged" x="271" y="1095" width="157" height="134"/>
+    <SubTexture name="B27BuildingDestroyed" x="598" y="1266" width="159" height="102"/>
+    <SubTexture name="B28Animation-0" x="1950" y="890" width="67" height="30" frameX="-10" frameY="-3" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-1" x="1920" y="972" width="69" height="26" frameX="-10" frameY="-4" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-10" x="1467" y="1764" width="52" height="31" frameX="-17" frameY="-7" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-11" x="1524" y="1464" width="57" height="31" frameX="-15" frameY="-7" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-12" x="1828" y="1040" width="67" height="30" frameX="-11" frameY="-9" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-13" x="1865" y="890" width="83" height="25" frameX="-4" frameY="-16" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-14" x="1962" y="155" width="84" height="24" frameX="-5" frameY="-19" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-15" x="866" y="2010" width="82" height="19" frameX="-6" frameY="-21" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-16" x="1280" y="643" width="74" height="21" frameX="-12" frameY="-17" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-17" x="1897" y="1050" width="69" height="20" frameX="-15" frameY="-17" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-18" x="1344" y="1475" width="67" height="20" frameX="-13" frameY="-15" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-19" x="1594" y="1312" width="65" height="24" frameX="-11" frameY="-15" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-2" x="1607" y="1191" width="73" height="21" frameX="-12" frameY="-9" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-20" x="1488" y="1497" width="57" height="28" frameX="-13" frameY="-13" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-21" x="406" y="2014" width="48" height="32" frameX="-17" frameY="-7" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-22" x="1921" y="1485" width="37" height="35" frameX="-22" frameY="-6" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-23" x="1746" y="1889" width="30" height="36" frameX="-25" frameY="-6" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-24" x="1631" y="1930" width="34" height="38" frameX="-28" frameY="-5" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-25" x="1889" y="1373" width="46" height="35" frameX="-24" frameY="-10" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-26" x="1834" y="1137" width="59" height="31" frameX="-17" frameY="-12" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-27" x="1524" y="1410" width="69" height="29" frameX="-11" frameY="-10" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-28" x="960" y="1926" width="73" height="33" frameX="-8" frameY="-4" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-29" x="1523" y="1305" width="69" height="31" frameX="-10" frameY="-3" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-3" x="1848" y="968" width="70" height="21" frameX="-17" frameY="-13" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-4" x="1524" y="1441" width="67" height="21" frameX="-21" frameY="-13" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-5" x="1895" y="1181" width="58" height="28" frameX="-25" frameY="-7" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-6" x="1491" y="1585" width="50" height="29" frameX="-31" frameY="-8" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-7" x="1842" y="1449" width="45" height="31" frameX="-37" frameY="-6" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-8" x="456" y="2014" width="47" height="32" frameX="-31" frameY="-10" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Animation-9" x="1887" y="1410" width="50" height="31" frameX="-24" frameY="-11" frameWidth="97" frameHeight="49"/>
+    <SubTexture name="B28Building" x="74" y="1468" width="157" height="136"/>
+    <SubTexture name="B28BuildingDamaged" x="253" y="1348" width="157" height="129"/>
+    <SubTexture name="B28BuildingDestroyed" x="1125" y="364" width="157" height="90"/>
+    <SubTexture name="B29BuildingBack" x="183" y="266" width="262" height="203"/>
+    <SubTexture name="B29BuildingDamagedBack" x="626" y="2" width="266" height="197"/>
+    <SubTexture name="B29BuildingDamagedFront" x="894" y="156" width="262" height="119" frameX="-7" frameY="-88" frameWidth="281" frameHeight="209"/>
+    <SubTexture name="B29BuildingDestroyed" x="894" y="2" width="281" height="152"/>
+    <SubTexture name="B29BuildingFrontWithoutFlame" x="1434" y="159" width="250" height="109" frameX="-10" frameY="-99" frameWidth="281" frameHeight="209"/>
+    <SubTexture name="B30Animation-0" x="950" y="1961" width="100" height="85" frameX="-2" frameY="-6" frameWidth="106" frameHeight="91"/>
+    <SubTexture name="B30Animation-1" x="1119" y="1791" width="106" height="87" frameX="0" frameY="-4" frameWidth="106" frameHeight="91"/>
+    <SubTexture name="B30Building" x="414" y="543" width="207" height="178"/>
+    <SubTexture name="B30BuildingDamaged" x="648" y="394" width="208" height="170"/>
+    <SubTexture name="B30BuildingDestroyed" x="1158" y="228" width="207" height="134"/>
+    <SubTexture name="B31Building" x="1003" y="749" width="109" height="140"/>
+    <SubTexture name="B31BuildingDamaged" x="1162" y="866" width="103" height="126"/>
+    <SubTexture name="B31BuildingDestroyed" x="963" y="1693" width="102" height="55"/>
+    <SubTexture name="B32Animation-0" x="1607" y="1214" width="62" height="46" frameX="-9" frameY="-20" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-1" x="1305" y="1230" width="69" height="48" frameX="-1" frameY="-18" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-10" x="1423" y="1238" width="68" height="49" frameX="-24" frameY="-18" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-11" x="1545" y="1255" width="60" height="48" frameX="-22" frameY="-19" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-12" x="1892" y="1233" width="51" height="45" frameX="-21" frameY="-21" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-13" x="1890" y="1280" width="51" height="43" frameX="-21" frameY="-22" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-14" x="1667" y="1375" width="50" height="43" frameX="-21" frameY="-23" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-15" x="1387" y="761" width="58" height="45" frameX="-13" frameY="-21" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-2" x="1920" y="922" width="69" height="48" frameX="-1" frameY="-17" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-3" x="1406" y="1289" width="65" height="53" frameX="-5" frameY="-13" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-4" x="1300" y="1346" width="56" height="58" frameX="-17" frameY="-7" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-5" x="1909" y="152" width="51" height="62" frameX="-22" frameY="-3" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-6" x="1375" y="648" width="50" height="60" frameX="-23" frameY="-4" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-7" x="294" y="1989" width="57" height="57" frameX="-23" frameY="-8" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-8" x="1618" y="903" width="67" height="52" frameX="-23" frameY="-15" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Animation-9" x="1865" y="838" width="70" height="50" frameX="-24" frameY="-17" frameWidth="97" frameHeight="69"/>
+    <SubTexture name="B32Building" x="427" y="1940" width="93" height="72"/>
+    <SubTexture name="B32BuildingDamaged" x="1660" y="748" width="101" height="72"/>
+    <SubTexture name="B32BuildingDestroyed" x="1228" y="1715" width="107" height="80"/>
+    <SubTexture name="B32CannonBall" x="1987" y="444" width="12" height="12" frameX="-1" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="B32Crater" x="1536" y="1673" width="35" height="21" frameX="-3" frameY="-9" frameWidth="42" frameHeight="39"/>
+    <SubTexture name="B32Explosion-0" x="1989" y="1591" width="12" height="10" frameX="-23" frameY="-38" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-1" x="1842" y="1880" width="23" height="33" frameX="-17" frameY="-15" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-2" x="1666" y="367" width="35" height="43" frameX="-11" frameY="-5" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-3" x="1629" y="1890" width="38" height="38" frameX="-10" frameY="-10" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-4" x="1640" y="1809" width="39" height="38" frameX="-9" frameY="-10" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-5" x="1778" y="1888" width="38" height="36" frameX="-10" frameY="-12" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-6" x="1666" y="412" width="35" height="31" frameX="-11" frameY="-17" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B32Explosion-7" x="1872" y="1672" width="35" height="31" frameX="-11" frameY="-17" frameWidth="57" frameHeight="55"/>
+    <SubTexture name="B33Animation-0" x="875" y="219" width="14" height="37" frameX="0" frameY="-8" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-1" x="1402" y="1605" width="40" height="19" frameX="0" frameY="-17" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-2" x="1331" y="732" width="64" height="27" frameX="0" frameY="-13" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-3" x="1387" y="808" width="80" height="31" frameX="0" frameY="-11" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-4" x="612" y="2005" width="80" height="36" frameX="0" frameY="-9" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-5" x="694" y="2005" width="80" height="36" frameX="0" frameY="-9" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Animation-6" x="1470" y="1863" width="14" height="9" frameX="0" frameY="-23" frameWidth="114" frameHeight="54"/>
+    <SubTexture name="B33Building" x="1114" y="747" width="136" height="117"/>
+    <SubTexture name="B33BuildingDamaged" x="1180" y="994" width="133" height="117"/>
+    <SubTexture name="B33BuildingDestroyed" x="912" y="1513" width="117" height="91"/>
+    <SubTexture name="B33BurnTrace" x="1935" y="1329" width="49" height="37"/>
+    <SubTexture name="B34Building" x="1041" y="1012" width="137" height="133"/>
+    <SubTexture name="B34BuildingDamaged" x="1693" y="445" width="135" height="117"/>
+    <SubTexture name="B34BuildingDestroyed" x="965" y="1841" width="113" height="83"/>
+    <SubTexture name="B35Animation-0" x="1607" y="1262" width="60" height="48" frameX="-10" frameY="-9" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-1" x="1344" y="1424" width="67" height="49" frameX="-3" frameY="-8" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-10" x="1474" y="761" width="89" height="48" frameX="0" frameY="-9" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-11" x="1668" y="1056" width="61" height="48" frameX="-20" frameY="-9" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-12" x="1616" y="1616" width="51" height="47" frameX="-20" frameY="-10" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-13" x="1791" y="1276" width="50" height="45" frameX="-20" frameY="-12" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-14" x="1667" y="1326" width="50" height="47" frameX="-20" frameY="-10" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-15" x="1991" y="976" width="55" height="48" frameX="-15" frameY="-9" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-2" x="1848" y="917" width="70" height="49" frameX="0" frameY="-8" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-3" x="1828" y="991" width="67" height="47" frameX="-3" frameY="-10" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-4" x="1991" y="923" width="55" height="51" frameX="-14" frameY="-6" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-5" x="1491" y="1527" width="50" height="56" frameX="-20" frameY="-1" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-6" x="353" y="1989" width="51" height="57" frameX="-19" frameY="0" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-7" x="1286" y="1478" width="50" height="54" frameX="-20" frameY="-3" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-8" x="1897" y="1000" width="64" height="48" frameX="-19" frameY="-9" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Animation-9" x="1937" y="841" width="72" height="47" frameX="-18" frameY="-10" frameWidth="90" frameHeight="57"/>
+    <SubTexture name="B35Building" x="1123" y="1626" width="114" height="86"/>
+    <SubTexture name="B35BuildingDamaged" x="1227" y="1797" width="106" height="83"/>
+    <SubTexture name="B35BuildingDestroyed" x="1001" y="1613" width="120" height="78"/>
+    <SubTexture name="B36Animation-0" x="1300" y="1961" width="74" height="84" frameX="-2" frameY="-11" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-1" x="1145" y="1957" width="76" height="88" frameX="0" frameY="-7" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-10" x="1351" y="1626" width="74" height="87" frameX="-17" frameY="-8" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-11" x="1438" y="1153" width="74" height="83" frameX="-18" frameY="-12" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-12" x="1320" y="761" width="65" height="78" frameX="-19" frameY="-15" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-13" x="1986" y="2" width="60" height="77" frameX="-16" frameY="-16" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-14" x="1261" y="666" width="68" height="79" frameX="-8" frameY="-15" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-15" x="1427" y="648" width="73" height="82" frameX="-3" frameY="-12" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-2" x="1284" y="364" width="76" height="91" frameX="0" frameY="-4" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-3" x="1280" y="548" width="74" height="93" frameX="-1" frameY="-2" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-4" x="1432" y="962" width="72" height="94" frameX="-3" frameY="-1" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-5" x="1438" y="1058" width="62" height="93" frameX="-13" frameY="-2" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-6" x="1252" y="747" width="66" height="95" frameX="-17" frameY="0" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-7" x="1969" y="181" width="73" height="95" frameX="-17" frameY="0" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-8" x="1945" y="746" width="75" height="93" frameX="-17" frameY="-2" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Animation-9" x="1970" y="571" width="76" height="90" frameX="-17" frameY="-5" frameWidth="94" frameHeight="95"/>
+    <SubTexture name="B36Building" x="1159" y="1478" width="125" height="54"/>
+    <SubTexture name="B36BuildingDamaged" x="874" y="1606" width="125" height="54"/>
+    <SubTexture name="B36BuildingDestroyed" x="568" y="1460" width="173" height="71"/>
+    <SubTexture name="B37Building" x="410" y="723" width="186" height="143"/>
+    <SubTexture name="B37BuildingDamaged" x="430" y="1140" width="167" height="112" frameX="-4" frameY="-32" frameWidth="178" frameHeight="151"/>
+    <SubTexture name="B37BuildingDestroyed" x="366" y="1639" width="164" height="95"/>
+    <SubTexture name="B38Building" x="410" y="868" width="186" height="143"/>
+    <SubTexture name="B38BuildingDamaged" x="430" y="1254" width="166" height="112"/>
+    <SubTexture name="B38BuildingDestroyed" x="532" y="1661" width="163" height="96"/>
+    <SubTexture name="B39Building" x="1991" y="1056" width="47" height="26"/>
+    <SubTexture name="B39BuildingUsed" x="1338" y="1497" width="50" height="35"/>
+    <SubTexture name="B40Building" x="1834" y="1214" width="56" height="29"/>
+    <SubTexture name="B40BuildingUsed" x="1834" y="1245" width="56" height="29"/>
+    <SubTexture name="B41S1Building" x="1561" y="1197" width="44" height="56" frameX="-3" frameY="0" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S1BuildingDamaged" x="522" y="2005" width="44" height="41" frameX="-4" frameY="-16" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S1BuildingDestroyed" x="1880" y="1630" width="40" height="28" frameX="-5" frameY="-29" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S2Building" x="1523" y="1616" width="44" height="55" frameX="-3" frameY="-1" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S2BuildingDamaged" x="1570" y="1527" width="44" height="51" frameX="-3" frameY="-5" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S2BuildingDestroyed" x="1843" y="1372" width="44" height="34" frameX="-3" frameY="-22" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S3Building" x="1067" y="1693" width="48" height="55" frameX="0" frameY="-1" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S3BuildingDamaged" x="1569" y="1616" width="45" height="52" frameX="-3" frameY="-4" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S3BuildingDestroyed" x="1686" y="159" width="46" height="46" frameX="-2" frameY="-9" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S4Building" x="1376" y="1224" width="45" height="54" frameX="-2" frameY="-2" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S4BuildingDamaged" x="1473" y="1289" width="48" height="53" frameX="0" frameY="-3" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S4BuildingDestroyed" x="1440" y="1493" width="46" height="39" frameX="-2" frameY="-17" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S5Building" x="1475" y="1616" width="46" height="56" frameX="-1" frameY="-1" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S5BuildingDamaged" x="1719" y="1323" width="45" height="47" frameX="-2" frameY="-10" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41S5BuildingDestroyed" x="1619" y="1409" width="46" height="34" frameX="-1" frameY="-21" frameWidth="48" frameHeight="58"/>
+    <SubTexture name="B41Shadow" x="1035" y="1926" width="70" height="33"/>
+    <SubTexture name="B41ShadowDamaged" x="1734" y="1053" width="67" height="31"/>
+    <SubTexture name="B41ShadowDestroyed" x="1991" y="1026" width="53" height="28"/>
+    <SubTexture name="B42Building" x="599" y="1143" width="149" height="121"/>
+    <SubTexture name="B42BuildingDamaged" x="1703" y="216" width="146" height="115"/>
+    <SubTexture name="B42BuildingDestroyed" x="1356" y="562" width="144" height="84"/>
+    <SubTexture name="B43BuildingDamagedRoofBack" x="1741" y="905" width="58" height="72"/>
+    <SubTexture name="B43BuildingDestroyedRoof" x="1300" y="1280" width="56" height="64"/>
+    <SubTexture name="B43BuildingRoofBack" x="1597" y="1808" width="41" height="39"/>
+    <SubTexture name="B44Building" x="1029" y="891" width="131" height="119" frameX="0" frameY="0" frameWidth="135" frameHeight="122"/>
+    <SubTexture name="B44BuildingDamaged" x="1032" y="1244" width="133" height="108" frameX="-2" frameY="-14" frameWidth="135" frameHeight="122"/>
+    <SubTexture name="B44BuildingDestroyed" x="1168" y="1207" width="135" height="70"/>
+    <SubTexture name="BanditCountBackground" x="1434" y="137" width="24" height="20"/>
+    <SubTexture name="BarracksFull" x="1812" y="1497" width="29" height="36"/>
+    <SubTexture name="BeastCageBack" x="623" y="566" width="236" height="146" frameX="0" frameY="-32" frameWidth="236" frameHeight="178"/>
+    <SubTexture name="BeastCageFront" x="90" y="928" width="166" height="167" frameX="-7" frameY="0" frameWidth="236" frameHeight="178"/>
+    <SubTexture name="BeastReady" x="1812" y="1535" width="30" height="36"/>
+    <SubTexture name="BloodDrop" x="1982" y="1137" width="25" height="25"/>
+    <SubTexture name="Bloodstain" x="1493" y="1254" width="50" height="33" frameX="0" frameY="-8" frameWidth="50" frameHeight="50"/>
+    <SubTexture name="BoundSideBottom" x="86" y="2" width="95" height="675"/>
+    <SubTexture name="BoundSideTop" x="2" y="2" width="82" height="759"/>
+    <SubTexture name="BoundTopLeft" x="2" y="1296" width="70" height="539"/>
+    <SubTexture name="BoundTopRight" x="2" y="763" width="86" height="531"/>
+    <SubTexture name="BuildingFloor" x="861" y="544" width="240" height="120"/>
+    <SubTexture name="BuildingHealth-0" x="1970" y="663" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-1" x="1642" y="1034" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-10" x="1375" y="710" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-11" x="1267" y="975" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-12" x="1880" y="1660" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-13" x="1846" y="1804" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-14" x="1669" y="1928" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-15" x="1908" y="1801" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-16" x="1953" y="1801" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-17" x="1714" y="1928" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-18" x="1778" y="1926" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-19" x="1770" y="1970" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-2" x="1770" y="1982" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-20" x="1998" y="1216" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-21" x="1998" y="1228" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-22" x="1992" y="1240" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-23" x="1992" y="1252" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-24" x="1992" y="1264" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-25" x="2003" y="1473" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-26" x="1994" y="1485" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-27" x="1994" y="1497" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-28" x="1994" y="1509" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-29" x="2003" y="1521" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-3" x="2003" y="1533" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-30" x="2003" y="1545" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-4" x="2003" y="1557" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-5" x="2003" y="1569" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-6" x="2003" y="1581" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-7" x="2003" y="1593" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-8" x="2003" y="1605" width="43" height="10"/>
+    <SubTexture name="BuildingHealth-9" x="2003" y="1617" width="43" height="10"/>
+    <SubTexture name="BuildingProgress-0" x="1834" y="1170" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-1" x="1834" y="1192" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-10" x="1475" y="1674" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-2" x="1543" y="1594" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-3" x="1895" y="1211" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-4" x="1669" y="1420" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-5" x="1669" y="1442" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-6" x="1669" y="1464" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-7" x="1669" y="1486" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-8" x="1669" y="1508" width="59" height="20"/>
+    <SubTexture name="BuildingProgress-9" x="1669" y="1530" width="59" height="20"/>
+    <SubTexture name="CityExpansionSign" x="412" y="1478" width="154" height="96"/>
+    <SubTexture name="CollectedGold" x="1609" y="1849" width="39" height="39" frameX="-13" frameY="-16" frameWidth="69" frameHeight="69"/>
+    <SubTexture name="CollectedIron" x="1967" y="1084" width="40" height="35" frameX="-8" frameY="-13" frameWidth="59" frameHeight="59"/>
+    <SubTexture name="CollectedLumber" x="1764" y="1732" width="39" height="40" frameX="-12" frameY="-14" frameWidth="65" frameHeight="65"/>
+    <SubTexture name="CollectedMight" x="1690" y="1849" width="38" height="40" frameX="-9" frameY="-11" frameWidth="59" frameHeight="59"/>
+    <SubTexture name="CollectedPart" x="1895" y="1137" width="58" height="42"/>
+    <SubTexture name="CollectedResource" x="1843" y="1408" width="42" height="39"/>
+    <SubTexture name="CollectedRp" x="2009" y="1084" width="37" height="36" frameX="-15" frameY="-18" frameWidth="69" frameHeight="69"/>
+    <SubTexture name="CollectedStone" x="745" y="1504" width="35" height="36" frameX="-9" frameY="-11" frameWidth="55" frameHeight="55"/>
+    <SubTexture name="DamagedSmoke-0" x="1865" y="754" width="78" height="82" frameX="-9" frameY="-18" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-1" x="1554" y="811" width="81" height="79" frameX="-8" frameY="-20" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-10" x="1986" y="81" width="60" height="72" frameX="-20" frameY="-26" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-11" x="1752" y="827" width="63" height="76" frameX="-18" frameY="-22" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-12" x="1575" y="964" width="65" height="80" frameX="-17" frameY="-17" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-13" x="1506" y="964" width="67" height="83" frameX="-17" frameY="-13" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-14" x="1637" y="822" width="67" height="79" frameX="-18" frameY="-18" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-15" x="1376" y="1961" width="71" height="84" frameX="-15" frameY="-15" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-16" x="1223" y="1961" width="75" height="85" frameX="-11" frameY="-12" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-2" x="1469" y="811" width="83" height="79" frameX="-7" frameY="-18" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-3" x="86" y="679" width="85" height="79" frameX="-6" frameY="-18" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-4" x="1335" y="1799" width="87" height="82" frameX="-5" frameY="-17" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-5" x="1337" y="1715" width="89" height="82" frameX="-4" frameY="-16" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-6" x="1052" y="1961" width="91" height="85" frameX="-3" frameY="-13" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-7" x="1261" y="457" width="93" height="89" frameX="-2" frameY="-9" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-8" x="1282" y="1534" width="91" height="90" frameX="-3" frameY="-6" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DamagedSmoke-9" x="1559" y="892" width="57" height="70" frameX="-21" frameY="-29" frameWidth="96" frameHeight="100"/>
+    <SubTexture name="DestroyedSmoke-0" x="1080" y="1792" width="37" height="129" frameX="0" frameY="-3" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-1" x="1321" y="1103" width="37" height="125" frameX="0" frameY="-7" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-10" x="1423" y="841" width="37" height="119" frameX="0" frameY="-13" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-11" x="1393" y="967" width="37" height="122" frameX="0" frameY="-10" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-12" x="1360" y="1097" width="37" height="125" frameX="0" frameY="-7" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-13" x="1345" y="841" width="37" height="126" frameX="0" frameY="-6" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-14" x="1354" y="969" width="37" height="126" frameX="0" frameY="-6" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-15" x="1306" y="844" width="37" height="128" frameX="0" frameY="-4" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-2" x="1315" y="974" width="37" height="127" frameX="0" frameY="-5" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-3" x="1267" y="844" width="37" height="129" frameX="0" frameY="-3" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-4" x="1654" y="464" width="37" height="131" frameX="0" frameY="-1" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-5" x="743" y="1370" width="37" height="132"/>
+    <SubTexture name="DestroyedSmoke-6" x="1399" y="1091" width="37" height="122" frameX="0" frameY="-10" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-7" x="1384" y="841" width="37" height="124" frameX="0" frameY="-8" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-8" x="1967" y="458" width="37" height="111" frameX="0" frameY="-21" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="DestroyedSmoke-9" x="1241" y="549" width="37" height="115" frameX="0" frameY="-17" frameWidth="37" frameHeight="132"/>
+    <SubTexture name="FinishBuildingIcon" x="1125" y="277" width="31" height="39"/>
+    <SubTexture name="FortificationMediumS1Back" x="568" y="1533" width="175" height="62"/>
+    <SubTexture name="FortificationMediumS1Front" x="447" y="468" width="199" height="73"/>
+    <SubTexture name="FortificationMediumS2Back" x="258" y="1019" width="178" height="74" frameX="-3" frameY="-3" frameWidth="187" frameHeight="79"/>
+    <SubTexture name="FortificationMediumS2Front" x="1502" y="564" width="150" height="78" frameX="-5" frameY="-2" frameWidth="169" frameHeight="82"/>
+    <SubTexture name="FortificationMediumS3Back" x="90" y="1249" width="185" height="67" frameX="-2" frameY="-7" frameWidth="190" frameHeight="78"/>
+    <SubTexture name="FortificationMediumS3Front" x="529" y="1759" width="167" height="69" frameX="0" frameY="-3" frameWidth="176" frameHeight="72"/>
+    <SubTexture name="FortificationMediumS4Back" x="565" y="1597" width="178" height="62" frameX="-5" frameY="-8" frameWidth="189" frameHeight="77"/>
+    <SubTexture name="FortificationMediumS4Front" x="1502" y="644" width="156" height="66" frameX="-3" frameY="-4" frameWidth="165" frameHeight="73"/>
+    <SubTexture name="FortificationSmallS1Back" x="366" y="1806" width="159" height="54"/>
+    <SubTexture name="FortificationSmallS1Front" x="1734" y="152" width="173" height="62"/>
+    <SubTexture name="FortificationSmallS2Back" x="366" y="1736" width="161" height="68" frameX="-4" frameY="-8" frameWidth="171" frameHeight="83"/>
+    <SubTexture name="FortificationSmallS2Front" x="688" y="1843" width="144" height="67" frameX="-5" frameY="-6" frameWidth="158" frameHeight="77"/>
+    <SubTexture name="FortificationSmallS3Back" x="389" y="1576" width="174" height="61" frameX="-2" frameY="-8" frameWidth="182" frameHeight="75"/>
+    <SubTexture name="FortificationSmallS3Front" x="527" y="1830" width="159" height="72" frameX="-4" frameY="-6" frameWidth="172" frameHeight="83"/>
+    <SubTexture name="FortificationSmallS4Back" x="623" y="714" width="182" height="65" frameX="-3" frameY="-9" frameWidth="189" frameHeight="77"/>
+    <SubTexture name="FortificationSmallS4Front" x="1104" y="456" width="155" height="91" frameX="-4" frameY="0" frameWidth="165" frameHeight="96"/>
+    <SubTexture name="GatlingDart" x="1125" y="359" width="14" height="3"/>
+    <SubTexture name="GoldFull" x="1801" y="1666" width="29" height="36"/>
+    <SubTexture name="GrassTileM" x="447" y="266" width="199" height="200"/>
+    <SubTexture name="GroundSwell1" x="1954" y="1595" width="32" height="33"/>
+    <SubTexture name="GroundSwell2" x="1474" y="732" width="26" height="27"/>
+    <SubTexture name="GroundSwell3" x="294" y="1837" width="23" height="23"/>
+    <SubTexture name="GroundSwell4" x="1647" y="1528" width="20" height="22"/>
+    <SubTexture name="HealBall" x="1950" y="1660" width="10" height="10"/>
+    <SubTexture name="IceShardCracks" x="1671" y="1214" width="28" height="39"/>
+    <SubTexture name="IceShardDrop" x="104" y="2023" width="40" height="23"/>
+    <SubTexture name="IronFull" x="1805" y="1732" width="29" height="36"/>
+    <SubTexture name="LightRay" x="2" y="2023" width="100" height="22" frameX="0" frameY="0" frameWidth="100" frameHeight="23"/>
+    <SubTexture name="LightSource-0" x="1982" y="1164" width="26" height="26" frameX="-5" frameY="0" frameWidth="36" frameHeight="26"/>
+    <SubTexture name="LightSource-1" x="2010" y="1164" width="26" height="26" frameX="-5" frameY="0" frameWidth="36" frameHeight="26"/>
+    <SubTexture name="LightSource-2" x="1994" y="1276" width="26" height="26" frameX="-5" frameY="0" frameWidth="36" frameHeight="26"/>
+    <SubTexture name="Lumber1" x="1968" y="1036" width="21" height="26"/>
+    <SubTexture name="Lumber2" x="253" y="1318" width="22" height="25"/>
+    <SubTexture name="Lumber3" x="626" y="201" width="20" height="26"/>
+    <SubTexture name="LumberFull" x="1815" y="1770" width="29" height="36"/>
+    <SubTexture name="LumberWShadow1" x="1871" y="1705" width="35" height="26"/>
+    <SubTexture name="LumberWShadow2" x="1748" y="1151" width="43" height="28" frameX="0" frameY="0" frameWidth="44" frameHeight="28"/>
+    <SubTexture name="LumberWShadow3" x="1922" y="1630" width="38" height="28"/>
+    <SubTexture name="MightFull" x="1846" y="1766" width="29" height="36"/>
+    <SubTexture name="Number0" x="759" y="1350" width="18" height="18"/>
+    <SubTexture name="Number1" x="258" y="928" width="11" height="18"/>
+    <SubTexture name="Number2" x="1841" y="1919" width="14" height="18"/>
+    <SubTexture name="Number3" x="74" y="1296" width="14" height="19"/>
+    <SubTexture name="Number4" x="1731" y="1086" width="15" height="18"/>
+    <SubTexture name="Number5" x="1851" y="1939" width="15" height="18"/>
+    <SubTexture name="Number6" x="412" y="1348" width="16" height="18"/>
+    <SubTexture name="Number7" x="1854" y="1959" width="15" height="18"/>
+    <SubTexture name="Number8" x="1823" y="1919" width="16" height="18"/>
+    <SubTexture name="Number9" x="1817" y="1939" width="16" height="18"/>
+    <SubTexture name="Part06" x="183" y="2" width="441" height="262"/>
+    <SubTexture name="RPFull" x="1847" y="1628" width="31" height="36"/>
+    <SubTexture name="RecruitProgress-0" x="1669" y="1552" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-1" x="1539" y="1742" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-10" x="1568" y="1909" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-2" x="1590" y="1977" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-3" x="1573" y="1670" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-4" x="1679" y="1666" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-5" x="1740" y="1666" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-6" x="1679" y="1688" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-7" x="1740" y="1688" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-8" x="1679" y="1710" width="59" height="20"/>
+    <SubTexture name="RecruitProgress-9" x="1740" y="1710" width="59" height="20"/>
+    <SubTexture name="SignBlank" x="1623" y="1445" width="30" height="33"/>
+    <SubTexture name="SignEmpty" x="366" y="1612" width="15" height="25" frameX="-3" frameY="-5" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon1" x="146" y="2023" width="10" height="15" frameX="-5" frameY="-9" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon10" x="1107" y="1923" width="10" height="13" frameX="-5" frameY="-11" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon11" x="1107" y="1938" width="10" height="12" frameX="-5" frameY="-12" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon12" x="1168" y="1147" width="10" height="16" frameX="-5" frameY="-9" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon2" x="1655" y="1445" width="12" height="18" frameX="-4" frameY="-7" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon3" x="936" y="2031" width="12" height="15" frameX="-4" frameY="-8" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon4" x="1502" y="1133" width="10" height="14" frameX="-5" frameY="-10" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon5" x="890" y="1332" width="9" height="16" frameX="-6" frameY="-9" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon6" x="1830" y="445" width="11" height="11" frameX="-5" frameY="-13" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon7" x="1168" y="1165" width="10" height="14" frameX="-5" frameY="-10" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon8" x="1168" y="1181" width="10" height="14" frameX="-5" frameY="-10" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="SignIcon9" x="258" y="1005" width="11" height="11" frameX="-5" frameY="-11" frameWidth="30" frameHeight="33"/>
+    <SubTexture name="Soil1" x="233" y="1468" width="12" height="9" frameX="-1" frameY="-1" frameWidth="15" frameHeight="12"/>
+    <SubTexture name="Soil100" x="183" y="662" width="190" height="96" frameX="-3" frameY="-2" frameWidth="200" frameHeight="100"/>
+    <SubTexture name="Soil130" x="875" y="277" width="248" height="122" frameX="-5" frameY="-3" frameWidth="260" frameHeight="130"/>
+    <SubTexture name="Soil160" x="1177" y="2" width="292" height="133" frameX="-9" frameY="-13" frameWidth="320" frameHeight="160"/>
+    <SubTexture name="Soil2" x="1548" y="1124" width="11" height="7" frameX="-2" frameY="-3" frameWidth="14" frameHeight="13"/>
+    <SubTexture name="Soil3" x="1668" y="1046" width="11" height="8" frameX="-1" frameY="-3" frameWidth="14" frameHeight="13"/>
+    <SubTexture name="Soil4" x="400" y="748" width="8" height="10" frameX="-2" frameY="-4" frameWidth="12" frameHeight="15"/>
+    <SubTexture name="Soil70" x="895" y="1234" width="135" height="67" frameX="-3" frameY="-2" frameWidth="140" frameHeight="70"/>
+    <SubTexture name="Soil80" x="1109" y="666" width="150" height="79" frameX="-5" frameY="-1" frameWidth="160" frameHeight="80"/>
+    <SubTexture name="Soil90" x="568" y="1370" width="173" height="88" frameX="-4" frameY="-1" frameWidth="180" frameHeight="90"/>
+    <SubTexture name="SpeedupIcon" x="1125" y="318" width="31" height="39"/>
+    <SubTexture name="Stone1" x="1748" y="1181" width="43" height="44"/>
+    <SubTexture name="StoneCrater" x="1536" y="1673" width="35" height="21" frameX="-3" frameY="-9" frameWidth="42" frameHeight="39"/>
+    <SubTexture name="StoneFull" x="1877" y="1766" width="29" height="36"/>
+    <SubTexture name="StonePart1" x="1252" y="844" width="13" height="15" frameX="-4" frameY="-7" frameWidth="20" frameHeight="25"/>
+    <SubTexture name="StonePart2" x="1839" y="2022" width="19" height="13" frameX="-3" frameY="-3" frameWidth="25" frameHeight="20"/>
+    <SubTexture name="StonePart3" x="626" y="254" width="17" height="10" frameX="-4" frameY="-6" frameWidth="23" frameHeight="21"/>
+    <SubTexture name="StonePart4" x="1895" y="1901" width="18" height="12" frameX="-2" frameY="-6" frameWidth="23" frameHeight="22"/>
+    <SubTexture name="U34Ball" x="1989" y="1577" width="12" height="12" frameX="-1" frameY="-1" frameWidth="13" frameHeight="13"/>
+    <SubTexture name="UnitHealth-0" x="375" y="748" width="23" height="10"/>
+    <SubTexture name="UnitHealth-1" x="2015" y="663" width="23" height="10"/>
+    <SubTexture name="UnitHealth-10" x="1925" y="1660" width="23" height="10"/>
+    <SubTexture name="UnitHealth-11" x="1927" y="1890" width="23" height="10"/>
+    <SubTexture name="UnitHealth-12" x="1838" y="1979" width="23" height="10"/>
+    <SubTexture name="UnitHealth-13" x="1867" y="1911" width="23" height="10"/>
+    <SubTexture name="UnitHealth-14" x="1857" y="1923" width="23" height="10"/>
+    <SubTexture name="UnitHealth-15" x="1892" y="1915" width="23" height="10"/>
+    <SubTexture name="UnitHealth-2" x="1993" y="1629" width="23" height="10"/>
+    <SubTexture name="UnitHealth-3" x="1993" y="1641" width="23" height="10"/>
+    <SubTexture name="UnitHealth-4" x="2018" y="1629" width="23" height="10"/>
+    <SubTexture name="UnitHealth-5" x="1993" y="1653" width="23" height="10"/>
+    <SubTexture name="UnitHealth-6" x="1991" y="1665" width="23" height="10"/>
+    <SubTexture name="UnitHealth-7" x="2018" y="1641" width="23" height="10"/>
+    <SubTexture name="UnitHealth-8" x="1991" y="1677" width="23" height="10"/>
+    <SubTexture name="UnitHealth-9" x="2018" y="1653" width="23" height="10"/>
+    <SubTexture name="WomkongStone" x="1798" y="2023" width="23" height="23"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6fcfc2391bc1ba9881816e704081354c:1/1$ -->
+<TextureAtlas imagePath="Loading.atf">
+    <SubTexture name="GooglePlusSignInBackground" x="0" y="1875" width="370" height="130" frameX="0" frameY="-8" frameWidth="370" frameHeight="144"/>
+    <SubTexture name="LoadingBackground" x="0" y="0" width="2048" height="1536"/>
+    <SubTexture name="LoadingPeakLogo" x="0" y="1538" width="670" height="335"/>
+    <SubTexture name="LoadingText" x="372" y="1958" width="702" height="70"/>
+    <SubTexture name="ProgressBarLoading" x="412" y="1875" width="28" height="60"/>
+    <SubTexture name="ProgressBarLoadingBase" x="372" y="1875" width="38" height="81"/>
+</TextureAtlas>
